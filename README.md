@@ -4,7 +4,7 @@
 
 [![SO-ARM 102](assets/images/photos/so-arm-102-live.jpg)](assets/video/so-arm-102-preview.mp4)
 
-**🎥 [Watch the preview video](assets/video/so-arm-102-preview.mp4)**
+**🎥 [Watch the preview video](assets/video/so-arm-102-preview.mp4)** · **🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 **An open-source 6-DOF leader + follower robot arm kit for teleoperation and imitation learning,
 designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
@@ -15,6 +15,8 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 [![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
+
+> Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 </div>
 
@@ -79,6 +81,8 @@ hold and work on a part, or do any task that needs two hands.
 ---
 
 ## 🚀 Build it in four steps
+
+Prefer a ready kit? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 ### 1. Print the parts
 
