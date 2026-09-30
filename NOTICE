@@ -1,0 +1,35 @@
+SO-ARM 102
+Copyright (c) 2026 Robonine
+
+See LICENSING.md for the licence map.
+
+
+===============================================================================
+Design lineage
+===============================================================================
+
+TheRobotStudio - SO-ARM100 / SO-ARM101
+    https://github.com/TheRobotStudio/SO-ARM100
+    Licensed under Apache-2.0.
+
+    SO-ARM 102 keeps the joint layout of SO-ARM101 so that it stays compatible
+    with LeRobot. All parts in models/ are new Robonine designs. No upstream
+    geometry files are redistributed here.
+
+Robonine - SO-ARM100/101 Parallel Gripper
+    https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper
+
+    The follower gripper (RB9.01.062.* parts) is a revision of this gripper.
+
+
+===============================================================================
+Referenced but NOT redistributed
+===============================================================================
+
+Hugging Face LeRobot
+    https://github.com/huggingface/lerobot
+    Software used to calibrate, teleoperate and train the arm.
+
+FEETECH STS series servos and tools
+    https://www.feetechrc.com
+    Servo firmware and configuration tools are not part of this repository.

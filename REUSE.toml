@@ -1,0 +1,26 @@
+# Machine-readable licence map (REUSE Specification 3.3).
+# The LAST matching [[annotations]] block wins, so blocks go general -> specific.
+# Human-readable version: LICENSING.md.
+
+version = 1
+SPDX-PackageName = "SO-ARM 102"
+SPDX-PackageSupplier = "Robonine <https://robonine.com>"
+SPDX-PackageDownloadLocation = "https://github.com/roboninecom/SO-ARM-102"
+
+# 1. Catch-all: documentation, images, PDFs.
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# 2. Software and configuration.
+[[annotations]]
+path = [".github/**", ".pre-commit-config.yaml", ".gitignore", ".gitattributes"]
+SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
+SPDX-License-Identifier = "Apache-2.0"
+
+# 3. Hardware.
+[[annotations]]
+path = ["models/step/**", "models/stl/**"]
+SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
+SPDX-License-Identifier = "CERN-OHL-P-2.0"
