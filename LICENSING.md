@@ -51,6 +51,7 @@ SPDX-License-Identifier: CERN-OHL-P-2.0
 README.md, CONTRIBUTING.md, LICENSING.md, CLAUDE.md, NOTICE
 docs/             *.md, *.pdf
 assets/images/    *.jpg
+assets/video/     *.mp4, *.gif
 every other README.md in the repository
 ```
 

@@ -2,7 +2,9 @@
 
 <div align="center">
 
-![SO-ARM 102 leader and follower](assets/images/renders/leader-follower-on-table.jpg)
+[![SO-ARM 102](assets/images/photos/so-arm-102-live.jpg)](assets/video/so-arm-102-preview.mp4)
+
+**🎥 [Watch the preview video](assets/video/so-arm-102-preview.mp4)**
 
 **An open-source 6-DOF leader + follower robot arm kit for teleoperation and imitation learning,
 designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
@@ -39,12 +41,40 @@ The arm keeps the SO-ARM 101 joint layout, so it works with
 
 ---
 
-## 📸 Gallery
+## 🎥 Preview
+
+<div align="center">
+
+[![SO-ARM 102 preview](assets/video/so-arm-102-preview.gif)](assets/video/so-arm-102-preview.mp4)
+
+*Click for the full video, 21 s*
+
+</div>
+
+---
+
+## 🤝 Configurations
+
+### Single-arm: one leader + one follower
+
+The standard kit. Move the leader by hand, and the follower repeats the motion.
+Use it for teleoperation and for recording demonstrations for imitation learning.
+
+![One leader and one follower](assets/images/renders/config-single-arm.jpg)
+
+### Bimanual: two leaders + two followers
+
+Two kits side by side. Each hand drives its own leader, so the followers can pass objects,
+hold and work on a part, or do any task that needs two hands.
+
+![Two leaders and two followers](assets/images/renders/config-dual-arm.jpg)
+
+### The two arms
 
 | Follower | Leader |
 |:-:|:-:|
 | ![Follower arm](assets/images/renders/follower.jpg) | ![Leader arm](assets/images/renders/leader.jpg) |
-| ![Follower arm, side view](assets/images/renders/follower-side.jpg) | ![Leader arm, side view](assets/images/renders/leader-side.jpg) |
+| Parallel gripper, wrist camera, 12 V | Handle with trigger, 5 V |
 
 ---
 
@@ -100,7 +130,9 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 │   ├── assembly-guide.md    # Step list with parts and fasteners
 │   ├── specifications.md    # Geometry, servos, measured results vs SO-ARM 101
 │   └── SO-ARM102_assembly_A5_v0.6.pdf
-├── assets/images/           # Renders, booklet pages, test photos
+├── assets/
+│   ├── images/              # Photos, renders, booklet pages, test photos
+│   └── video/               # Preview video and GIF
 ├── LICENSING.md             # Which licence covers which file
 └── NOTICE                   # Third-party attribution
 ```
@@ -109,7 +141,7 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 
 ## ⚠️ Known issues
 
-This is the first public release. A full test build by an external engineer found the following.
+This is the first public release. An independent test build found the following.
 They are being fixed and will land in the next release.
 
 1. **Two models are reported missing from the release set.** One is known: the camera holder ships as STL only, without a STEP source.
@@ -147,12 +179,17 @@ See [LICENSING.md](LICENSING.md) and [REUSE.toml](REUSE.toml) for the file-by-fi
 
 ---
 
-## 👥 Engineering team
+## 👥 Team
 
 | Name | Role | Contact |
 |------|------|---------|
-| **Alan Subin** | Design Engineer | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
-| **Boris Kotov** | Software and Test Engineer | [Telegram](https://t.me/bkotov) |
+| **Alan Subin** | Design Engineer: mechanical design, CAD, assembly booklet | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
+| **Boris Kotov** | Software and Test Engineer: prototypes, printing, test rigs | [Telegram](https://t.me/bkotov) |
+| **Nikita Bragin** | Project Manager | [Telegram](https://t.me/branikita) · [GitHub](https://github.com/brnikita) |
+| **Mikhail Chistiakov** | Industrial Designer: look and form of the arm | [Telegram](https://t.me/brrryska) |
+| **Mikhail Zhmaylo** | Structural Engineer: stiffness models, design changes to cut deflection | [Telegram](https://t.me/mikhail_zhmaylo) |
+| **Vladislav Eremenko** | Structural Engineer: strength and thermal analysis, topology optimisation | [Telegram](https://t.me/v1ad_eremenko) |
+| **Vladimir Osipov** | Tester and Consultant: independent test build | [Telegram](https://t.me/punarinta) · [GitHub](https://github.com/punarinta) |
 
 <div align="center">
 
