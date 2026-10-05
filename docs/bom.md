@@ -14,7 +14,7 @@ Printed parts are listed separately in [printing.md](printing.md).
 | Elbow flex | 3 | STS3250 | STS3215 |
 | Wrist flex | 4 | STS3235 | STS3215 |
 | Wrist roll | 5 | STS3215, 1:345 | STS3215 |
-| Gripper or trigger | 6 | STS3215 | STS3215 |
+| Gripper / Trigger | 6 | STS3215 | STS3215 |
 
 Totals: 8 × STS3215, 2 × STS3235, 2 × STS3250. All are Feetech TTL serial bus servos.
 
@@ -35,7 +35,7 @@ Servo horns and the M3 × 6 horn screws come with the servos.
 | Power supply 5 V DC | 1 | Leader |
 | USB-C cable, 1.5 m | 2 | One per controller |
 | USB camera, 1080p | 1 | Wrist camera on the follower gripper. The prototype used an OV2735 module. |
-| Servo cables | — | Come with the servos. Check the lengths before closing each joint. |
+| Servo cables | 12 | Come with the servos. Pay attention during assembly where to put 4 long cables from STS3250 packing. |
 
 ## Mechanical parts
 
@@ -70,3 +70,4 @@ Black fasteners match the look of the renders but are not required.
 
 - Hex key 1.5 mm for M2 screws
 - Hex key 2 mm for M3 screws
+- Phillips PH1 screwdriver for servo horn screws
