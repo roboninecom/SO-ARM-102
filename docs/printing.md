@@ -78,7 +78,7 @@ Quantities are for one complete kit: one follower and one leader.
 | RB9.01.062.030 | Gear rack | 2 |
 | RB9.01.062.040 | Gear for gripper | 1 |
 | RB9.01.062.100 | Nail | 2 |
-| RB9.01.060.075 | Camera holder (STL only) | 1 |
+| RB9.01.062.075 | Camera holder | 1 |
 | RB9.01.062.090 | Camera spacer | 1 |
 | SO102.02.100 | Board holder follower | 1 |
 | SO102.02.100-01 | Board cap follower | 1 |
