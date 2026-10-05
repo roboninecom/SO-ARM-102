@@ -12,5 +12,3 @@ Both folders use the same split:
 - `leader/` holds the handle, trigger, wrist roll and the leader board case.
 
 Part numbers, quantities and print settings are in [docs/printing.md](../docs/printing.md).
-
-`RB9.01.060.075 Camera holder` exists as STL only. Its STEP source will follow in the next release.
