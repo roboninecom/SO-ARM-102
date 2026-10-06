@@ -215,11 +215,11 @@ See [LICENSING.md](LICENSING.md) and [REUSE.toml](REUSE.toml) for the file-by-fi
 |------|------|---------|
 | **Alan Subin** | Design Engineer: mechanical design, CAD, assembly booklet | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
 | **Boris Kotov** | Software and Test Engineer: prototypes, printing, test rigs | [Telegram](https://t.me/bkotov) |
-| **Nikita Bragin** | Project Manager | [Telegram](https://t.me/branikita) · [GitHub](https://github.com/brnikita) |
+| **Nikita Bragin** | Project Manager | [LinkedIn](https://www.linkedin.com/in/nikita-bragin-82296b29/) |
 | **Mikhail Chistiakov** | Industrial Designer: look and form of the arm | [Telegram](https://t.me/brrryska) |
 | **Mikhail Zhmaylo** | Structural Engineer: stiffness models, design changes to cut deflection | [Telegram](https://t.me/mikhail_zhmaylo) |
 | **Vladislav Eremenko** | Structural Engineer: strength and thermal analysis, topology optimisation | [Telegram](https://t.me/v1ad_eremenko) |
-| **Vladimir Osipov** | Tester and Consultant: independent test build | [Telegram](https://t.me/punarinta) · [GitHub](https://github.com/punarinta) |
+| **Vladimir Osipov** | Tester and Consultant: independent test build | [LinkedIn](https://www.linkedin.com/in/vladimirosipov/) |
 
 <div align="center">
 
