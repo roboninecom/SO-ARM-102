@@ -1,0 +1,230 @@
+{
+  "version": 1,
+  "collision": "adaptive_boxes",
+  "links": {
+    "base_link": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        },
+        "Body2": {
+          "mass_kg": 0.105
+        },
+        "Body3": {
+          "mode": "printed"
+        },
+        "Body4": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "link1_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        },
+        "Body2": {
+          "mass_kg": 0.07
+        },
+        "Body3": {
+          "mode": "printed"
+        },
+        "Body4": {
+          "mode": "printed"
+        },
+        "Body5": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "link2_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        },
+        "Body2": {
+          "mode": "printed"
+        },
+        "Body3": {
+          "mode": "printed"
+        },
+        "Body4": {
+          "mass_kg": 0.03478394967388114
+        },
+        "Body5": {
+          "mass_kg": 0.035216050326118874
+        },
+        "Body6": {
+          "mode": "printed"
+        },
+        "Body7": {
+          "mode": "printed"
+        },
+        "Body8": {
+          "mode": "printed"
+        },
+        "Body9": {
+          "mass_kg": 0.03521653231391063
+        },
+        "Body10": {
+          "mode": "printed"
+        },
+        "Body11": {
+          "mode": "printed"
+        },
+        "Body12": {
+          "mass_kg": 0.03478346768608938
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "link3_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        },
+        "Body2": {
+          "mode": "printed"
+        },
+        "Body3": {
+          "mode": "printed"
+        },
+        "Body4": {
+          "mass_kg": 0.03530694295996929
+        },
+        "Body5": {
+          "mode": "printed"
+        },
+        "Body6": {
+          "mode": "printed"
+        },
+        "Body7": {
+          "mass_kg": 0.034693057040030714
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "link4_1": {
+      "bodies": {
+        "Body1": {
+          "mass_kg": 0.07
+        },
+        "Body2": {
+          "mode": "printed"
+        },
+        "Body3": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "link5_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        },
+        "Body2": {
+          "mode": "printed"
+        },
+        "Body3": {
+          "mode": "printed"
+        },
+        "Body4": {
+          "mass_kg": 0.07
+        },
+        "Body5": {
+          "mode": "printed"
+        },
+        "Body6": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "clamp1_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    },
+    "clamp2_1": {
+      "bodies": {
+        "Body1": {
+          "mode": "printed"
+        }
+      },
+      "collision": "adaptive_boxes",
+      "box_fit": {
+        "max_boxes_per_body": 32,
+        "target_fill": 0.65,
+        "min_size_mm": 1,
+        "padding_mm": 0.05,
+        "body_names": []
+      }
+    }
+  },
+  "print_defaults": {
+    "material": "PLA",
+    "density_kg_m3": 1240,
+    "infill": 0.3,
+    "perimeters": 6,
+    "extrusion_width_mm": 0.4,
+    "layer_height_mm": 0.2,
+    "top_layers": 6,
+    "bottom_layers": 6,
+    "print_axis": "z"
+  }
+}

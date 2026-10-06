@@ -125,6 +125,26 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 
 ---
 
+## URDF export
+
+The current standalone export is in [`simulation/urdf/`](simulation/urdf/):
+[URDF](simulation/urdf/so_arm_102.urdf) · [Xacro](simulation/urdf/so_arm_102.xacro).
+Keep `meshes/` beside the description files; mesh paths are relative to this folder.
+
+- **Visuals:** STL meshes. **Collisions:** fitted, independently rotated boxes on all eight links.
+- **Mass estimate:** PLA, 30% infill, 6 perimeters, 6 top/bottom layers,
+  0.2 mm layer height, and **0.40 mm extrusion width**. These are simulation
+  assumptions; use [the printing guide](docs/printing.md) for fabrication settings.
+- **Hardware masses:** six motors at 70 g each; base bearing at 105 g.
+  Total estimated model mass: **0.889 kg**.
+- **Gripper:** `clamp2` mimics `clamp1` with multiplier `-1`.
+
+[Export settings](simulation/urdf/export_settings.json) and
+[mass properties](simulation/urdf/mass_properties.json) record the assumptions.
+Geometry and inertia checks are recorded in
+
+---
+
 ## 📁 Repository structure
 
 ```
