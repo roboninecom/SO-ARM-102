@@ -86,13 +86,19 @@ Prefer a ready kit? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm1
 
 ### 1. Print the parts
 
-All parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
+Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
+The supplied 3MF plate layouts use a 256 × 256 mm bed.
 
+- 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](models/3mf/)
+  — [leader](models/3mf/SO102_leader.3mf), [follower arm](models/3mf/SO102_follower.3mf),
+  [follower gripper and board case](models/3mf/SO102_follower_gripper_box.3mf)
+- Project contents and printer profiles: [models/README.md](models/README.md)
 - STL files, ready to slice: [`models/stl/`](models/stl/)
 - STEP sources: [`models/step/`](models/step/)
 - Material, settings and part quantities: [docs/printing.md](docs/printing.md)
 
-The slicer estimates about 500 g of filament and 21 h of printing for the arm parts at the default settings.
+The earlier test-arm settings gave slicer estimates of about 500 g of filament and 21 h
+for the arm parts, excluding the gripper. Re-slice the 3MF projects for current estimates.
 
 ### 2. Buy the hardware
 
@@ -119,10 +125,31 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 
 ---
 
+## URDF export
+
+The current standalone export is in [`simulation/urdf/`](simulation/urdf/):
+[URDF](simulation/urdf/so_arm_102.urdf) · [Xacro](simulation/urdf/so_arm_102.xacro).
+Keep `meshes/` beside the description files; mesh paths are relative to this folder.
+
+- **Visuals:** STL meshes. **Collisions:** fitted, independently rotated boxes on all eight links.
+- **Mass estimate:** PLA, 30% infill, 6 perimeters, 6 top/bottom layers,
+  0.2 mm layer height, and **0.40 mm extrusion width**. These are simulation
+  assumptions; use [the printing guide](docs/printing.md) for fabrication settings.
+- **Hardware masses:** six motors at 70 g each; base bearing at 105 g.
+  Total estimated model mass: **0.889 kg**.
+- **Gripper:** `clamp2` mimics `clamp1` with multiplier `-1`.
+
+[Export settings](simulation/urdf/export_settings.json) and
+[mass properties](simulation/urdf/mass_properties.json) record the assumptions.
+Geometry and inertia checks are recorded in
+
+---
+
 ## 📁 Repository structure
 
 ```
 ├── models/
+│   ├── 3mf/                 # Slicer projects: leader, follower, gripper and board case
 │   ├── stl/                 # Print-ready meshes
 │   │   ├── common/          #   parts used by both arms
 │   │   ├── follower/        #   parallel gripper, camera mount, board case
@@ -148,13 +175,12 @@ The arm uses the LeRobot SO-101 leader/follower workflow.
 This is the first public release. An independent test build found the following.
 They are being fixed and will land in the next release.
 
-1. **Two models are reported missing from the release set.** One is known: the camera holder ships as STL only, without a STEP source.
-2. **No slicer project files yet.** Supports and part orientation have to be set by hand. 3MF files are planned.
-3. **M2 screws are hard to reach in several places.** Expect to fight a few of them.
-4. **The gripper clamps run tight on carbon rods.** The clamp bores are sized for 6.1 mm. Rod diameters vary between suppliers, so check the fit before assembly.
-5. **Check the servo cable lengths** before closing each joint, especially from the base to the shoulder.
-6. **The assembly order is awkward in two places** of the booklet. Read two steps ahead before fastening.
-7. **Leader joints can feel loose.** Adding 8 × 2 mm rubber O-rings between each servo and its horn gives the leader smooth, silent friction. Use two per servo on joints 1–4 and one on joints 5–6.
+1. **Two models are reported missing from the release set.** One is known: the camera holder still lacks a STEP source.
+2. **M2 screws are hard to reach in several places.** Expect to fight a few of them.
+3. **The gripper clamps run tight on carbon rods.** The clamp bores are sized for 6.1 mm. Rod diameters vary between suppliers, so check the fit before assembly.
+4. **Check the servo cable lengths** before closing each joint, especially from the base to the shoulder.
+5. **The assembly order is awkward in two places** of the booklet. Read two steps ahead before fastening.
+6. **Leader joints can feel loose.** Adding 8 × 2 mm rubber O-rings between each servo and its horn gives the leader smooth, silent friction. Use two per servo on joints 1–4 and one on joints 5–6.
 
 Found something else? Please [open an issue](https://github.com/roboninecom/SO-ARM-102/issues).
 
@@ -189,11 +215,11 @@ See [LICENSING.md](LICENSING.md) and [REUSE.toml](REUSE.toml) for the file-by-fi
 |------|------|---------|
 | **Alan Subin** | Design Engineer: mechanical design, CAD, assembly booklet | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
 | **Boris Kotov** | Software and Test Engineer: prototypes, printing, test rigs | [Telegram](https://t.me/bkotov) |
-| **Nikita Bragin** | Project Manager | [Telegram](https://t.me/branikita) · [GitHub](https://github.com/brnikita) |
+| **Nikita Bragin** | Project Manager | [LinkedIn](https://www.linkedin.com/in/nikita-bragin-82296b29/) |
 | **Mikhail Chistiakov** | Industrial Designer: look and form of the arm | [Telegram](https://t.me/brrryska) |
 | **Mikhail Zhmaylo** | Structural Engineer: stiffness models, design changes to cut deflection | [Telegram](https://t.me/mikhail_zhmaylo) |
 | **Vladislav Eremenko** | Structural Engineer: strength and thermal analysis, topology optimisation | [Telegram](https://t.me/v1ad_eremenko) |
-| **Vladimir Osipov** | Tester and Consultant: independent test build | [Telegram](https://t.me/punarinta) · [GitHub](https://github.com/punarinta) |
+| **Vladimir Osipov** | Tester and Consultant: independent test build | [LinkedIn](https://www.linkedin.com/in/vladimirosipov/) |
 
 <div align="center">
 

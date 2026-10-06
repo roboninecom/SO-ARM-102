@@ -21,6 +21,6 @@ SPDX-License-Identifier = "Apache-2.0"
 
 # 3. Hardware.
 [[annotations]]
-path = ["models/step/**", "models/stl/**"]
+path = ["models/step/**", "models/stl/**", "models/3mf/**"]
 SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
 SPDX-License-Identifier = "CERN-OHL-P-2.0"

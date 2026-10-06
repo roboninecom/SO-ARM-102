@@ -1,0 +1,320 @@
+{
+  "links": 8,
+  "joints": 7,
+  "meshes": 8,
+  "total_triangles": 62064,
+  "total_export_mass_kg": 0.8885166973035256,
+  "printed_bodies": 29,
+  "base_bearing_mass_kg": 0.105,
+  "print_perimeters": 6,
+  "print_top_layers": 6,
+  "print_bottom_layers": 6,
+  "motor_bodies": 9,
+  "motors": 6,
+  "motor_mass_kg_each": 0.07,
+  "total_motor_mass_kg": 0.42,
+  "inertial_tensors_positive_and_physical": true,
+  "CAD_unchanged": true,
+  "joint_zero_within_limits": true,
+  "world_mesh_alignment_checked": true,
+  "mesh_bounds": [
+    {
+      "link": "base_link",
+      "triangles": 8956,
+      "cad_mesh_bounds_max_error_mm": 3.8146973774244586e-07
+    },
+    {
+      "link": "link1_1",
+      "triangles": 10578,
+      "cad_mesh_bounds_max_error_mm": 0.029594421386613945
+    },
+    {
+      "link": "link2_1",
+      "triangles": 17612,
+      "cad_mesh_bounds_max_error_mm": 0.0002773284917025054
+    },
+    {
+      "link": "link3_1",
+      "triangles": 10592,
+      "cad_mesh_bounds_max_error_mm": 0.004730289746616989
+    },
+    {
+      "link": "link4_1",
+      "triangles": 5304,
+      "cad_mesh_bounds_max_error_mm": 1.0255029547767691e-05
+    },
+    {
+      "link": "link5_1",
+      "triangles": 6318,
+      "cad_mesh_bounds_max_error_mm": 8.36195260256467e-06
+    },
+    {
+      "link": "clamp1_1",
+      "triangles": 1352,
+      "cad_mesh_bounds_max_error_mm": 1.442831443210224e-05
+    },
+    {
+      "link": "clamp2_1",
+      "triangles": 1352,
+      "cad_mesh_bounds_max_error_mm": 1.3687082522917393e-05
+    }
+  ],
+  "collision_geometry": "adaptive_boxes",
+  "collision_meshes": 0,
+  "output_layout": "standalone",
+  "mesh_references_resolve": true,
+  "manual_clamp_mimic_preserved": true,
+  "mimic_travel_limits_compatible": true,
+  "collision_boxes": 848,
+  "collision_box_links": {
+    "base_link": 104,
+    "link1_1": 129,
+    "link2_1": 258,
+    "link3_1": 129,
+    "link4_1": 65,
+    "link5_1": 99,
+    "clamp1_1": 32,
+    "clamp2_1": 32
+  },
+  "collision_coverage_checks": [
+    {
+      "link": "base_link",
+      "body": "Body1",
+      "sample_count": 23236,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "base_link",
+      "body": "Body2",
+      "sample_count": 6832,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "base_link",
+      "body": "Body3",
+      "sample_count": 3916,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "base_link",
+      "body": "Body4",
+      "sample_count": 11498,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link1_1",
+      "body": "Body1",
+      "sample_count": 4578,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link1_1",
+      "body": "Body2",
+      "sample_count": 4140,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link1_1",
+      "body": "Body3",
+      "sample_count": 11446,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link1_1",
+      "body": "Body4",
+      "sample_count": 26642,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link1_1",
+      "body": "Body5",
+      "sample_count": 6018,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body1",
+      "sample_count": 27737,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body2",
+      "sample_count": 4658,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body3",
+      "sample_count": 4578,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body4",
+      "sample_count": 2738,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body5",
+      "sample_count": 4088,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body6",
+      "sample_count": 27737,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body7",
+      "sample_count": 608,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body8",
+      "sample_count": 608,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body9",
+      "sample_count": 2824,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body10",
+      "sample_count": 4658,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body11",
+      "sample_count": 4578,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link2_1",
+      "body": "Body12",
+      "sample_count": 3422,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body1",
+      "sample_count": 19860,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body2",
+      "sample_count": 18803,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body3",
+      "sample_count": 608,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body4",
+      "sample_count": 2620,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body5",
+      "sample_count": 4658,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body6",
+      "sample_count": 4578,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link3_1",
+      "body": "Body7",
+      "sample_count": 2628,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link4_1",
+      "body": "Body1",
+      "sample_count": 4544,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link4_1",
+      "body": "Body2",
+      "sample_count": 17795,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link4_1",
+      "body": "Body3",
+      "sample_count": 4498,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body1",
+      "sample_count": 306,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body2",
+      "sample_count": 306,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body3",
+      "sample_count": 5090,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body4",
+      "sample_count": 4160,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body5",
+      "sample_count": 9974,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "link5_1",
+      "body": "Body6",
+      "sample_count": 12576,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "clamp1_1",
+      "body": "Body1",
+      "sample_count": 7134,
+      "uncovered_samples": 0
+    },
+    {
+      "link": "clamp2_1",
+      "body": "Body1",
+      "sample_count": 7134,
+      "uncovered_samples": 0
+    }
+  ],
+  "source_body_partitions_checked": true,
+  "adaptive_box_padding_mm": 0.05,
+  "serialized_boxes_match_fusion": true,
+  "export_descriptions_synchronized": true,
+  "independently_oriented_fragments": true
+}
