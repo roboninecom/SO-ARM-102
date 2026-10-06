@@ -20,6 +20,7 @@ The copies at the root are the ones GitHub's licence detection reads.
 ```
 models/step/    *.STEP
 models/stl/     *.stl
+models/3mf/     *.3mf (geometry and slicer projects)
 ```
 
 `models/README.md` is documentation and falls under CC-BY-4.0.

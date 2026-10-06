@@ -3,15 +3,17 @@ repos:
     rev: v4.6.0
     hooks:
       - id: trailing-whitespace
-        exclude: '\.(stl|STL|STEP|step|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
+        exclude: '\.(stl|STL|STEP|step|3mf|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
       - id: end-of-file-fixer
-        exclude: '\.(stl|STL|STEP|step|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
+        exclude: '\.(stl|STL|STEP|step|3mf|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
       - id: mixed-line-ending
         args: ['--fix=lf']
-        exclude: '\.(stl|STL|STEP|step|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
+        exclude: '\.(stl|STL|STEP|step|3mf|pdf)$|^LICENSES/|^NOTICE$|-LICENSE\.txt$'
       - id: check-yaml
       - id: check-added-large-files
         args: ['--maxkb=5120']
+        # The leader slicer project is larger than the default 5 MB limit.
+        exclude: '^models/3mf/SO102_leader\.3mf$'
       - id: check-merge-conflict
       - id: check-case-conflict
 
