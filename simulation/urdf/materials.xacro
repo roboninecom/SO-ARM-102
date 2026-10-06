@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="so_arm_102_pre_for_urdf_v5">
+  <material name="silver">
+    <color rgba="0.700 0.700 0.700 1.000" />
+  </material>
+</robot>
