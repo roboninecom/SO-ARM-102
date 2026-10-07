@@ -6,7 +6,7 @@
 
 **🎥 [Watch the preview video](assets/video/so-arm-102-preview.mp4)** · **🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**An open-source 6-DOF leader + follower robot arm kit for teleoperation and imitation learning,
+**An open-source leader + follower robot arm kit with 5 degrees of freedom plus a gripper for teleoperation and imitation learning,
 designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
