@@ -102,7 +102,11 @@ for the arm parts, excluding the gripper. Re-slice the 3MF projects for current 
 
 ### 2. Buy the hardware
 
-Servos, bearings, electronics and fasteners: [docs/bom.md](docs/bom.md).
+Source the servos, controllers, power supplies, camera, bearings, rods, clamps,
+fasteners and printing materials from the [full BOM with purchase links](docs/bom.md#where-to-buy).
+The tables include product pages and clearly labelled searches for standard hardware,
+with quantities for one leader + follower kit. Check sizes, pack quantities and power supply
+connectors before ordering. Prefer a complete set? [Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/).
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
