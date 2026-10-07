@@ -16,6 +16,9 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
+**DIY component budget: ~$629 per leader + follower kit; ~$684 with printing material.**
+[Itemised BOM, purchase links and cost assumptions](docs/bom.md#estimated-cost-for-one-leader--follower-kit).
+
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 </div>
@@ -101,6 +104,11 @@ The earlier test-arm settings gave slicer estimates of about 500 g of filament a
 for the arm parts, excluding the gripper. Re-slice the 3MF projects for current estimates.
 
 ### 2. Buy the hardware
+
+**Estimated component cost: ~$629 for one leader + follower kit, or ~$684 including printing material.**
+Buying the example full packs and filament spools from scratch is about **$760**.
+These USD estimates combine supplier prices and labelled budget allowances; shipping, taxes,
+tools, a computer and a printer are excluded. See the [itemised costs and assumptions](docs/bom.md#estimated-cost-for-one-leader--follower-kit).
 
 Source the servos, controllers, power supplies, camera, bearings, rods, clamps,
 fasteners and printing materials from the [full BOM with purchase links](docs/bom.md#where-to-buy).
