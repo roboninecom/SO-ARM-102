@@ -9,24 +9,24 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 | Joint | ID | Follower | Leader |
 |---|:-:|---|---|
-| Base rotation | 1 | STS3235 | STS3215, 1:191 |
-| Shoulder lift | 2 | STS3250 | STS3215, 1:191 |
-| Elbow flex | 3 | STS3250 | STS3215, 1:191 |
-| Wrist flex | 4 | STS3235 | STS3215, 1:191 |
-| Wrist roll | 5 | STS3215, 1:345 | STS3215, 1:191 |
-| Gripper / Trigger | 6 | STS3215, 1:191 | STS3215, 1:191 |
+| Base rotation | 1 | ST-3235-С001 | ST-3215-C044, 1:191 |
+| Shoulder lift | 2 | ST-3250-С002 | ST-3215-C044, 1:191 |
+| Elbow flex | 3 | ST-3250-С002 | ST-3215-C044, 1:191 |
+| Wrist flex | 4 | ST-3235-С001 | ST-3215-C044, 1:191 |
+| Wrist roll | 5 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
+| Gripper / Trigger | 6 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
 
-Totals: 8 × STS3215, 2 × STS3235, 2 × STS3250. All are Feetech TTL serial bus servos.
+Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V. All are Feetech TTL serial bus servos.
 
 | Servo | Qty | Purchase link | Selection | Unit price (USD) | Kit cost (USD) |
 |---|---|---|---|---|---|
-| STS3215 | 8 | [Robotopian](https://robotopian.com/products/feetech-sts3215-servo) · [Feetech specifications](https://www.feetechrc.com/525603.html) | 2 follower servos and 6 leader servos. Select ST-3215-C018 (12V30KG). Select 1:345 for the wrist roll. | $26.00 | $208.00 |
-| STS3235 | 2 | [ThanksBuyer](https://www.thanksbuyer.com/products/feetech-sts3235-servo-12v-30kg-360-degree-all-metal-serial-servo-dual-axis-ttl-bus-servo-for-robots) | 12V TTL version for follower joints 1 and 4. | $48.02 | $96.04 |
-| STS3250 | 2 | [Robotopian](https://robotopian.com/products/feetech-sts3250-servo-motor) | 12V TTL version for follower joints 2 and 3. Confirm horns and long cables are included. | $97.00 | $194.00 |
+| STS3215 | 6 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | 7.4V TTL version for leader servos. Select ST-3215-C044 (7.4V). | $13.89 | $83.34 |
+| STS3215 | 2 | [Alibaba](https://www.alibaba.com/product-detail/6pcs-12V-30KG-1-345-STS3215_1601900233170.html) | 12V TTL version for follower joints 5 and 6. Select ST-3215-C049 (12V30KG). | $14.70 | $29.40 |
+| STS3235 | 2 | [Alibaba](https://www.alibaba.com/product-detail/FEETECH-STS3235-12V-30KG-TTL-Dual_1601910640629.html) | 12V TTL version for follower joints 1 and 4. | $40.79 | $81.58 |
+| STS3250 | 2 | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3250-12V-50kg-Servo-High_1601711893549.html) | 12V TTL version for follower joints 2 and 3. | $44.65 | $89.30 |
 
 - **Follower, 12V.** STS3250 is a 50 kg·cm brushless servo at 75 RPM. It drives the two joints that carry the most load.
   STS3235 is a 30 kg·cm servo with lower backlash than the STS3215.
-- **Follower joints 5 and 6** can also take an STS3235. The gripper servo can be the faster 1:191 STS3215, because the gripper torque is limited in software anyway.
 - **Leader, 5V.** The leader servos are only read, never loaded. You can use a passive STS3215 (ST-3215-C066) without motor and gearbox **only** for leader arm.
 - Servo horns and the M3 × 6 horn screws come with the servos.
 
