@@ -16,6 +16,9 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
+**DIY budget: ~$414 for components, or ~$469 including printing material.**
+[BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
+
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 </div>
@@ -102,7 +105,9 @@ for the arm parts, excluding the gripper. Re-slice the 3MF projects for current 
 
 ### 2. Buy the hardware
 
-Servos, bearings, electronics and fasteners: [docs/bom.md](docs/bom.md).
+Source the components from the [BOM summary](#bill-of-materials) and
+[full BOM with purchase links](docs/bom.md). Budget **$414.21** for components,
+or **$469.19** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
@@ -122,6 +127,29 @@ Tools: hex keys 1.5 mm (M2 screws) and 2 mm (M3 screws).
 
 Servo IDs, calibration and lessons: **[lab.robonine.com](https://lab.robonine.com)**.
 The arm uses the LeRobot SO-101 leader/follower workflow.
+
+---
+
+## Bill of materials
+
+Quantities and reference costs for **one leader + one follower**:
+
+| Category | Kit contents | Estimated cost (USD) |
+|---|---|---:|
+| Servos | 8 × STS3215, 2 × STS3235, 2 × STS3250 | $283.62 |
+| Electronics | 2 controllers, 2 power supplies, 2 USB cables, 1 camera; servo cables included | $75.97 |
+| Mechanical parts | 4 bearings, 2 steel guide rods, 4 table clamps | $40.76 |
+| Fasteners | Screws and nuts; servo horn screws included with servos | $13.86 |
+| **Components subtotal** | | **$414.21** |
+| Printing material | 1 kg PET-CF17 + 0.25 kg PETG allowance | $54.98 |
+| **Total with printing material** | | **$469.19** |
+
+Buying the listed full packs and filament spools from scratch costs about **$545.17**,
+including unused spares. Shipping, taxes, tools, a computer and a printer are excluded;
+optional O-rings are extra. Confirm supplier prices, variants and minimum order quantities
+before ordering. Re-slice the 3MF projects to check filament consumption.
+
+[Full BOM, purchase links and cost assumptions](docs/bom.md#estimated-kit-cost).
 
 ---
 
