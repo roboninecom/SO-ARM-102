@@ -3,6 +3,30 @@
 Quantities are for one complete kit: one follower arm and one leader arm.
 Printed parts are listed separately in [printing.md](printing.md).
 
+## Estimated kit cost
+
+**One leader + one follower: $414.21 in components, or $469.19 including printing material.**
+
+| Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
+|---|---:|---:|
+| Servos (12) | $283.62 | $283.62 |
+| Electronics, camera, power supplies and USB cables | $75.97 | $75.97 |
+| Bearings, steel guide rods and table clamps | $40.76 | $55.88 |
+| Fasteners (servo horn screws included with servos) | $13.86 | $59.72 |
+| **Components subtotal** | **$414.21** | **$475.19** |
+| Printing material: 1 kg PET-CF17 + 0.25 kg PETG | $54.98 | $69.98 |
+| **Total with printing material** | **$469.19** | **$545.17** |
+
+Estimates use the reference prices listed below, with each line rounded to cents.
+They are not new supplier quotes: confirm the selected variants, minimum order
+quantities and prices before ordering. Shipping, taxes, tools, a computer, a printer,
+electricity and assembly labour are excluded. Optional O-rings add $0.72 in parts
+used, or $6.00 for a pack of 100; tools add about $10.00 if needed.
+
+The full-pack column includes unused spares, two 0.5 kg PET-CF17 spools and one
+1 kg PETG spool. Printing quantities are budget allowances; re-slice the supplied
+3MF projects for your settings. Rod costs use steel; carbon tubes are an alternative.
+
 ![Kit hardware](../assets/images/assembly/hardware.jpg)
 
 ## Servos
@@ -38,7 +62,7 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 | Waveshare Bus Servo Adapter | 1 | Leader controller | [Waveshare Adapter (A)](https://www.waveshare.com/bus-servo-adapter-a.htm) | $4.99 | $4.99 |
 | Power supply 12V DC | 1 | Follower. 60W / 5A or more recommended. The arm peaked at 3.3A under a 300g load. Match the HAT's connector (5.5x2.5mm). | [Amazon search](https://www.amazon.com/s?k=12V+5A+power+supply+5.5+2.5mm) | ~$20.00 | $20.00 |
 | Power supply 5V DC | 1 | Leader. Match the Adapter's connector (5.5x2.1mm). | [Amazon search](https://www.amazon.com/s?k=5V+power+supply+5.5+2.1mm) | ~$10.00 | $10.00 |
-| USB-C cable, 1.5 m | 2 | One per controller. Choose a data cable, not a charging-only cable. | [Amazon search](https://www.amazon.com/s?k=USB+A+to+USB+C+data+cable+1.5m) | ~$7.00 / 2 | $14.00 |
+| USB-C cable, 1.5 m | 2 | One per controller. Choose a data cable, not a charging-only cable. | [Amazon search](https://www.amazon.com/s?k=USB+A+to+USB+C+data+cable+1.5m) | ~$7.00 / 2 | $7.00 |
 | USB camera, 1080p | 1 | Wrist camera on the follower gripper. The prototype used an OV2735 module. Check module dimensions and mounting holes against the camera holder. | [Waveshare OV2735](https://www.waveshare.com/ov2735-2mp-usb-camera-a.htm) | $14.99 | $14.99 |
 | Servo cables | 12 | Come with the servos. Pay attention during assembly where to put 4 long cables from STS3250 packing. | Included with the [servos](#servos); [Amazon search for spares](https://www.amazon.com/s?k=Feetech+STS3215+TTL+servo+cable) | Included | $0.00 |
 
