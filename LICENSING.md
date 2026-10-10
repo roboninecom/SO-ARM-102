@@ -9,7 +9,7 @@ Every file in this repository is covered by exactly one of them.
 |---|---|---|
 | Hardware designs (CAD, manufacturable geometry) | CERN-OHL-P-2.0 | [`HARDWARE-LICENSE.txt`](HARDWARE-LICENSE.txt) |
 | Software (configuration, CI) | Apache-2.0 | [`SOFTWARE-LICENSE.txt`](SOFTWARE-LICENSE.txt) |
-| Documentation, renders and photographs | CC-BY-4.0 | [`DOCS-LICENSE.txt`](DOCS-LICENSE.txt) |
+| Documentation, renders, photographs and simulation assets | CC-BY-4.0 | [`DOCS-LICENSE.txt`](DOCS-LICENSE.txt) |
 
 The machine-readable version of this map is [`REUSE.toml`](REUSE.toml).
 `LICENSES/` holds the same three texts under their SPDX names, as the REUSE Specification requires.
@@ -46,15 +46,21 @@ SPDX-License-Identifier: CERN-OHL-P-2.0
 .github/    .pre-commit-config.yaml    .gitignore    .gitattributes
 ```
 
-## 3. Documentation: CC-BY-4.0
+## 3. Documentation and simulation assets: CC-BY-4.0
 
 ```
 README.md, CONTRIBUTING.md, LICENSING.md, CLAUDE.md, NOTICE
 docs/             *.md, *.pdf
 assets/images/    *.jpg
 assets/video/     *.mp4, *.gif
+simulation/       all files, including URDF/Xacro descriptions, meshes and export metadata
 every other README.md in the repository
 ```
+
+All files under `simulation/` are licensed under CC-BY-4.0. This includes the
+robot descriptions in `simulation/urdf/` and their referenced STL meshes in
+`simulation/urdf/meshes/`. The fabrication designs under `models/` remain
+licensed under CERN-OHL-P-2.0 as described above.
 
 Attribution for reuse: "Robonine, SO-ARM 102, https://github.com/roboninecom/SO-ARM-102, CC BY 4.0".
 
