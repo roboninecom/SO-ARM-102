@@ -24,3 +24,9 @@ SPDX-License-Identifier = "Apache-2.0"
 path = ["models/step/**", "models/stl/**", "models/3mf/**"]
 SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
 SPDX-License-Identifier = "CERN-OHL-P-2.0"
+
+# 4. Simulation assets: explicit annotation matching the existing catch-all.
+[[annotations]]
+path = "simulation/**"
+SPDX-FileCopyrightText = "Copyright (c) 2026 Robonine"
+SPDX-License-Identifier = "CC-BY-4.0"
