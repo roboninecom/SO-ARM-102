@@ -24,7 +24,7 @@
 <a id="rules"></a>
 ## القواعد
 
-- `models/step/` هو مصدر الحقيقة. كل STEP لديه STL بنفس الاسم الأساسي في نفس المجلد الفرعي (`common/`، `follower/`، `leader/`). `RB9.01.060.075 Camera holder` هو STL بدون STEP.
+- `models/step/` هو مصدر الحقيقة. كل STEP لديه STL بنفس الاسم الأساسي في نفس المجلد الفرعي (`common/`، `follower/`، `leader/`).
 - تظهر أرقام الأجزاء (`SO102.02.xxx`, `RB9.01.06x.xxx`) في `docs/printing.md` و `docs/bom.md` و `docs/assembly-guide.md`. إعادة تسمية أو إضافة جزء يعني تحديث جميع الثلاثة.
 - تلخص وثيقة " README " البرامج والطباعة والمواصفات المتعلقة بالغرض.
 - كل ملف جديد يجب أن يكون مغطى من `REUSE.toml`. CI ينفذ `pre-commit run --all-files`، بما في ذلك `reuse lint`.

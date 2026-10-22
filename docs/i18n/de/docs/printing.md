@@ -12,11 +12,13 @@
 <a id="printing-the-parts"></a>
 # Teile drucken
 
+> Revision prüfen: Das Greifer-3MF bezeichnet die Klemmbacken als `RB9.01.062.024`, die aktuelle STEP/STL-Teileliste als `RB9.01.062.025`. Prüfen Sie die Geometrie vor dem Druck; die Namen allein belegen keinen Unterschied der Netze.
+
 Jeder gedruckte Teil des SO-ARM 102-Baukastens ist in [`../models/stl/`](../../../../models/stl) Die editierbaren CAD Quellen mit den gleichen Namen sind in [`../models/step/`](../../../../models/step).
 
-- `common/` enthält die Teile, die beide Roboterarme verwenden.Drucken Sie die aufgeführte Menge einmal aus; sie deckt bereits zwei Roboterarme ab.
-- `follower/` hält den Parallelgreifer, die Kamerahalterung und das Follower Robot Arm Board Case.
-- `leader/` hält den Griff, Abzug, Handgelenkrolle und die Leiter Roboter Arm Board Case.
+- `common/` — Gemeinsame Teile einschließlich Controllergehäuse.
+- `follower/` — Parallelgreifer und Kamerahalterung.
+- `leader/` — Griff, Abzug und Handgelenkrotation.
 
 Alle Teile passen auf eine 180 × 180 mm 3D-Druckerbauplatte.Das größte Teil, die Basis, ist 160 × 112.5 mm.
 
@@ -27,7 +29,7 @@ Alle Teile passen auf eine 180 × 180 mm 3D-Druckerbauplatte.Das größte Teil, 
 
 | Einbauort | Material | Grund |
 |---|---|---|
-| Armglieder, Sockel, Servomotorhalter | PET-CF, wenn möglich geglüht | Steifste und hitzebeständigste Option, getestet in der Nähe von warmen Servomotoren |
+| Armglieder und Servohalter | PET-CF, wenn möglich geglüht | Steifste und hitzebeständigste Option, getestet in der Nähe von warmen Servomotoren |
 | Greiferklemmen, Abdeckungen, Leiter Roboterarmgriff und Auslöser | PETG oder PET-CF | Härter gegen Stöße |
 
 Der Prototyp wurde in **Fiberon PET-CF17** gedruckt. In unseren Filamenttests reduzierte das Glühen die PET-CF17-Ablenkung nach einer Stunde bei 65–70 °C von 3.4 mm auf 0.3 mm. Das Glühen macht das Teil auch brüchiger, daher sollten keine Teile geglüht werden, die Stöße empfangen. Details: [Auswahl eines Filament für Roboterroboterarme](https://robonine.com/choosing-filament-for-robotic-arm-applications/).
@@ -42,18 +44,16 @@ Die [3MF Projekte](../models/README.md#3mf-slicer-projects) enthalten gespeicher
 | Projekt | Gespeichertes Filamentprofil | Schichthöhe | Wände | Obere / untere Schichten | Füllung | Gewicht | Dauer |
 |---|---|---|:-:|:-:|---|:-:|:-:|
 | [Leader-Arm](../../../../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % Gyroid | 457 gr | 23 h |
-| [Nachfolger Roboterarm](../../../../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % Kubik | 583 gr | 23 h |
-| [Follower Roboterarm-Greifer und Platinenkoffer](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % Kubik | 131 gr | 6,5 h |
+| [Nachfolger Roboterarm](../../../../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % Kubik | 394 gr | 15,5 h |
+| [Greifer und Basis des Followers](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % Kubik | 287 gr | 14 h |
 
-Mit diesen Einstellungen benötigen Sie: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
+Mit diesen Einstellungen benötigen Sie: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
 
 Alle drei speichern ein **Bambu Lab A1, 0.4 mm Düsenprofil**auf einer**256 × 256 mm** 3D-Druckerbauplatte. Einzelne Teile passen immer noch auf eine 180 × 180 mm 3D-Druckerbauplatte, aber die mitgelieferten Layouts müssen für diese Größe auf mehrere Platten aufgeteilt werden. Automatische Baum-Unterstützungen sind der globale Standard; einige Teile haben Unterstützungsüberschreibungen, manuelle Unterstützungseinstellungen oder Unterstützungsblocker.
 
-Drucken Sie jedes Projekt einmal für ein vollständiges Kit und anschließend **einen zusätzlichen Kabelclip**: Die Projekte enthalten insgesamt zwei, während die Teileliste drei vorsieht.
-
-| Leader Roboterarm-Layout | Follower Roboterarmgreifer und Board Case Layout |
-|:-:|:-:|
-| ![Leader Roboterarm Schneidemaschine Layout](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower Roboterarm Greifer und Platinen-Gehäuse Schneidemaschine Layout](../../../../assets/images/3d%20print/gripper_3dprint.png) |
+| Leader Roboterarm-Layout | Follower-Arme | Greifer und Basis des Followers |
+|:-:|:-:|:-:|
+| ![Leader Roboterarm Schneidemaschine Layout](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower-Arme](../../../../assets/images/3d%20print/follower_3dprint_layout.png) | ![Greifer und Basis des Followers](../../../../assets/images/3d%20print/gripper_3dprint.png) |
 
 <a id="test-arm-slicer-settings"></a>
 ## Test-Roboterarm Slicer Einstellungen
@@ -93,22 +93,23 @@ Die Angaben beziehen sich auf ein komplettes Kit: einen Roboterarm und einen Lei
 | SO102.02.080 | Oberarm links | 2 |
 | SO102.02.080-01 | Oberarm rechts | 2 |
 | SO102.02.090 | Handgelenkhalter | 2 |
-| SO102.02.130 | Kabelclip | 3 |
+| SO102.02.110 | Platinenhalter Leader | 2 |
+| SO102.02.110-01 | Platinenabdeckung Leader | 2 |
+| SO102.02.130 | Kabelclip | 4 |
 
 <a id="follower-only"></a>
 ### Roboterarm nur für Nachfolger
 
 | Teilenummer | Name | Anzahl |
 |---|---|:-:|
-| RB9.01.062.011 | Hauptrahmen (D6.1) | 1 |
-| RB9.01.062.024 | Klemmbacke (D6.1) | 2 |
+| RB9.01.062.012 | Hauptrahmen (D6.1) | 1 |
+| RB9.01.062.025 | Klemmbacke (D6.1) | 2 |
 | RB9.01.062.030 | Zahnstange | 2 |
 | RB9.01.062.040 | Greiferzahnrad | 1 |
+| RB9.01.062.050 | Unterlegscheibe | 2 |
 | RB9.01.062.100 | Stift | 2 |
 | RB9.01.062.075 | Kamerahalter | 1 |
 | RB9.01.062.090 | Kameraabstandshalter | 1 |
-| SO102.02.100 | Platinenhalter Follower | 1 |
-| SO102.02.100-01 | Platinenabdeckung Follower | 1 |
 
 `(D6.1)` bedeutet, dass die Stangenbohrungen für 6.1 mm dimensioniert sind.Siehe die bekannten Probleme in der Haupt README, wenn der Greifer eng läuft.
 
@@ -120,8 +121,6 @@ Die Angaben beziehen sich auf ein komplettes Kit: einen Roboterarm und einen Lei
 | — | SO102-Handle | 1 |
 | — | SO102 Trigger | 1 |
 | — | SO102 Handgelenkrolle | 1 |
-| SO102.02.110 | Platinenhalter Leader | 1 |
-| SO102.02.110-01 | Platinenabdeckung Leader | 1 |
 
 <a id="about-the-stl-files"></a>
 ## Über die STL-Dateien

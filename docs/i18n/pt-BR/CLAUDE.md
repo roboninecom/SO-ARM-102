@@ -22,7 +22,7 @@ Hardware aberto: o SO-ARM 102 braço robô líder + braço robô seguidor braço
 <a id="rules"></a>
 ## Regras
 
-- `models/step/` é a fonte da verdade. Cada STEP tem um STL com o mesmo nome de base na mesma subpasta (`common/`, `follower/`, `leader/`). `RB9.01.060.075 Camera holder` é aquele STL sem um STEP.
+- `models/step/` é a fonte da verdade. Cada STEP tem um STL com o mesmo nome de base na mesma subpasta (`common/`, `follower/`, `leader/`).
 - Os números de peça (`SO102.02.xxx`, `RB9.01.06x.xxx`) aparecem em `docs/printing.md`, `docs/bom.md` e `docs/assembly-guide.md`.Renomear ou adicionar uma peça significa atualizar todos os três.
 - O README resume bom, impressão e especificações de propósito. Mantenha os números consistentes.
 - Cada novo arquivo deve ser coberto por `REUSE.toml`. CI executa `pre-commit run --all-files`, incluindo `reuse lint`.

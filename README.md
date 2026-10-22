@@ -16,7 +16,7 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](SOFTWARE-LICENSE.txt)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](DOCS-LICENSE.txt)
-[![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
@@ -97,6 +97,8 @@ Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
 The supplied 3MF plate layouts use a 256 × 256 mm bed.
 
 - 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](models/3mf/)
+  — [leader](models/3mf/SO102_leader.3mf), [follower arms](models/3mf/SO102_follower_arms.3mf),
+  [Follower gripper and base](models/3mf/SO102_follower_gripper_base.3mf)
 - Project contents and printer profiles: [models/README.md](models/README.md)
 - STL files, ready to slice: [`models/stl/`](models/stl/)
 - STEP sources: [`models/step/`](models/step/)
@@ -110,7 +112,7 @@ or **$373.97** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
-| Follower | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| Follower | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | Leader | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **The leader runs on 5 V and the follower on 12 V.** Do not swap the power supplies.
@@ -140,9 +142,9 @@ Quantities and reference costs for **one leader + one follower**:
 | [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.50 |
 | [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
 | [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.24 |
-| **Components subtotal** | | **$383.12** |
+| **Components subtotal** | | **$340.22** |
 | [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allowance | $33.75 |
-| **Total with printing material** | | **$416.87** |
+| **Total with printing material** | | **$373.97** |
 
 Buying the example full packs and filament spools from scratch costs about **$435**,
 including unused spares. These are reference estimates, not new supplier quotes.
@@ -180,9 +182,9 @@ Geometry and inertia checks are recorded in [export_verification.json](simulatio
 ├── models/
 │   ├── 3mf/                 # Slicer projects: leader, follower, gripper and board case
 │   ├── stl/                 # Print-ready meshes
-│   │   ├── common/          #   parts used by both arms
-│   │   ├── follower/        #   parallel gripper, camera mount, board case
-│   │   └── leader/          #   handle, trigger, wrist roll, board case
+│   │   ├── common/          # Shared parts, including controller cases
+│   │   ├── follower/        # Parallel gripper and camera mount
+│   │   └── leader/          # Handle, trigger and wrist roll
 │   └── step/                # CAD sources, same layout as stl/
 ├── docs/
 │   ├── printing.md          # Material, slicer settings, quantities
@@ -201,10 +203,9 @@ Geometry and inertia checks are recorded in [export_verification.json](simulatio
 
 ## ⚠️ Known issues
 
-This is the first public release. An independent test build found the following.
-They are being fixed and will land in the next release.
+Build notes from independent testing; check these when assembling.
 
-1. **Two models are reported missing from the release set.** One is known: the camera holder still lacks a STEP source.
+1. **Assembly documentation lags behind the hardware.** The booklet still shows the HAT controller and older gripper parts. Follow the revision warning in the assembly guide.
 2. **M2 screws are hard to reach in several places.** Expect to fight a few of them.
 3. **The gripper clamps run tight on carbon rods.** The clamp bores are sized for 6.1 mm. Rod diameters vary between suppliers, so check the fit before assembly.
 4. **Check the servo cable lengths** before closing each joint, especially from the base to the shoulder.

@@ -17,21 +17,21 @@
 <a id="estimated-kit-cost"></a>
 ## 予測キットコスト
 
-**１本のリーダーロボットアーム＋１本のフォローアーム： $404 コンポーネントにも $444 印刷材料も含めて
+**１本のリーダーロボットアーム＋１本のフォローアーム： $340 コンポーネントにも $374 印刷材料も含めて
 
 | 分類 | 使用量コスト（米ドル） | フルパック/スプールを購入 (USD) |
 |---|---:|---:|
-| サーバ (12 pcs) | $283.62 | $283.62 |
-| エレクトロニクス、カメラ、電源 | $71.50 | $71.50 |
-| 軸受，鋼製ガイドロッド，テーブルクランプ | $37.76 | $49.7 |
-| 締結部品 | $11.21 | $32.9 |
-| **部品小計** | **$404.09** | **$437.7** |
-| 印刷材料: 0.6 kg PET-CF17 + 0.6 kg PETG | $39.59 | $66.0 |
-| **印刷材料込み合計** | **$443.68** | **$503.7** |
+| サーバ (12 pcs) | $240.72 | $240.72 |
+| エレクトロニクス、カメラ、電源 | $50.50 | $50.50 |
+| 軸受，鋼製ガイドロッド，テーブルクランプ | $37.76 | $49.70 |
+| 締結部品 | $11.24 | $28.60 |
+| **部品小計** | **$340.22** | **$368.82** |
+| 印刷材料: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
+| **印刷材料込み合計** | **$373.97** | **$434.82** |
 
 **Total (USD)** 列はキット1つに必要な数量のコストであり、既存の各行総額の後ろにある参考オファーを使用しています。スクリューは含まれていますが、価格は $0です。代替カーボンチューブは合計から除外されます。推定値は下記の参考価格を使用しており、各行はセントに丸められています。これらは新しいサプライヤーの提案ではありません:選択したバリエーション、最小注文数量と価格を確認してください。輸送、税金、ツール、コンピュータ、プリンタ、電気、組立労働は除外されています。
 
-フルパックコラムには未使用のスペア、1 kg PET-CF 17 スプールと1 kg PETG スプールが含まれています。印刷量は予算許容量です。3D プリンタスライサーを使って提供された 3MF プロジェクトを設定に合わせて再スライスしてください。ロッドコストは鋼鉄を使用します。カーボンチューブは代替品です。
+フルパックコラムには未使用のスペア、0.5 kg PET-CF17 スプールと1 kg PETG スプールが含まれています。印刷量は予算許容量です。3D プリンタスライサーを使って提供された 3MF プロジェクトを設定に合わせて再スライスしてください。ロッドコストは鋼鉄を使用します。カーボンチューブは代替品です。
 
 ![キットハードウェア](../../../../assets/images/assembly/hardware.jpg)
 
@@ -40,25 +40,25 @@
 
 | 関節 | ID | フォロワー | リーダー |
 |---|:-:|---|---|
-| ベース回転 | 1 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| 肩の上下動 | 2 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| 肘の屈曲 | 3 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| 手首の屈曲 | 4 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| 手首の回転 | 5 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
-| グリッパー / トリガー | 6 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
+| ベース回転 | 1 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| 肩の上下動 | 2 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| 肘の屈曲 | 3 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| 手首の屈曲 | 4 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| 手首の回転 | 5 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
+| グリッパー / トリガー | 6 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
 
 合計：6 × STS3215 7.4V、2 × STS3215 12V、2 × STS3235 12V、2 × STS3250 12V。すべて Feetech TTL シリアルバスサーボです。
 
 | サーボ | 数量 | 選択 | Aliexpress リンク | 単価 (USD) | Alibaba リンク | 単価 (USD) | 合計 (USD) |
 |---|---|---|---|---|---|---|---|
-| STS3215 | 6 | 7.4V TTL リーダーロボットアームサーボモーター用のバージョンです。 ST-3215-C044 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | $13.89 | $83.34 |
+| STS3215 | 6 | 7.4V TTL リーダーロボットアームサーボモーター用のバージョンです。 ST-3215-C066 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Feetech-SO-ARM101-LeRobot-Open-Source_1601636174153.html) | $6.74 | $40.44 |
 | STS3215 | 2 | フォローロボットのアーム関節 5 と 6 用のバージョン 12V TTL。 ST-3215-C049 (12V30KG) を選択してください。 | [Aliexpress](https://www.aliexpress.us/item/3256811832699316.html) | $55.8 から 2pcs | [Alibaba](https://www.alibaba.com/product-detail/6pcs-12V-30KG-1-345-STS3215_1601900233170.html) | $14.70 | $29.40 |
 | STS3235 | 2 | 12V TTL フォローロボットアームジョイント用のバージョン 1 そして 4. | [Aliexpress](https://www.aliexpress.us/item/3256810213842277.html) | $63 | [Alibaba](https://www.alibaba.com/product-detail/FEETECH-STS3235-12V-30KG-TTL-Dual_1601910640629.html) | $40.79 | $81.58 |
 | STS3250 | 2 | 12V TTL フォローロボットアームジョイント用のバージョン 2 そして 3. | [Aliexpress](https://www.aliexpress.us/item/3256811995148799.html) | $126.4 から 2pcs | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3250-12V-50kg-Servo-High_1601711893549.html) | $44.65 | $89.30 |
-| **合計** |  |  |  |  |  |  | **$283.62** |
+| **合計** |  |  |  |  |  |  | **$240.72** |
 
 - **ロボットアームの追従者 12V.** STS3250 それは 50 kg１０ｃｍブラシレスサーボモータ 75 RPM最大の負荷を受ける２つの関節を駆動する STS3235 それは 30 kgまた，サーボモータの回転速度は１００〜２００ｒｐｍ／ｓである。 STS3215.
-- リーダーロボットアーム 5Vリーダーロボットアームサーボモーターは読み込みのみで、負荷されません。 STS3215 こんにちはST-3215-C066また，モータとギヤボックスの無いリーダロボットアームを開発した。
+- **リーダー、5V。** サーボは位置の読み取り専用で、負荷をかけません。モーターとギアボックスのないパッシブ型 ST-3215-C066 は、リーダーアームにのみ使用できます。
 - サーボホーンと M3 × 6 ホーンネジは サーボモーターに付属してる
 
 <a id="electronics"></a>
@@ -66,13 +66,12 @@
 
 | 品目 | 数量 | 備考 | 米国で購入 | 単価（米国） | 米国で購入 | 単価（米国） | EUで購入 | 単価（EU） | 合計 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waveshare Bus Servo Driver HAT | 1 | フォロワーのコントローラー | [Amazon](https://www.amazon.com/Serial-Bus-Servo-Driver-Board/dp/B0D83QMQ4N) | $26.60 | [Aliexpress](https://www.aliexpress.us/item/3256809887200297.html) | $28.90 | [Amazon EU](https://www.amazon.fr/-/en/Waveshare-Bus-Servo-Driver-Integrates/dp/B0D5VF6CK3/) | €30.00 | $26.60 |
-| Waveshare Bus Servo Adapter | 1 | リーダーのコントローラー | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $7.40 |
-| 電源 12V DC (12V 5A 電源 5.5 2.5mm) | 1 | フォロワー用。60W / 5A 以上を推奨します。300g の負荷でアームの最大電流は 3.3A でした。HAT のコネクター寸法（5.5x2.5mm）を合わせてください。 | [Amazon](https://www.amazon.com/Universal-100-240V-5-5x2-5mm-Compatible-Aquarium/dp/B0F8974RZR/) | $9.00 | [Aliexpress](https://www.aliexpress.us/item/3256812479836615.html) | $8.40 | [Amazon EU](https://www.amazon.fr/Qilomor-12V-5A-Charger-Universal/dp/B0H8PB93M4/) | €12.00 | $8.40 |
+| Waveshare Bus Servo Adapter | 2 | サーボコントローラー | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $14.80 |
+| 電源 12V DC (12V 5A 電源 5.5 2.1mm) | 1 | フォロワー用。60W / 5A 以上を推奨します。300g の負荷でアームの最大電流は 3.3A でした。Adapter のコネクター寸法（5.5x2.1mm）を合わせてください。 | [Amazon](https://www.amazon.com/Power-Supply-Adapter-5-5x2-1-2-5mm/dp/B0C3CJF313/) | $10.00 | [Aliexpress](https://www.aliexpress.us/item/3256812113231032.html) | $6.60 | [Amazon EU](https://www.amazon.fr/-/en/zstg-Universal-Power-Supply-Connector/dp/B0GTLSRM91/) | €12.00 | $6.60 |
 | 電源 5V DC (5V 2A 電源 5.5 2.1mm) | 1 | リーダー用。アダプターのコネクター寸法（5.5x2.1mm）を合わせてください。 | [Amazon](https://www.amazon.com/MTDZKJG-Adapter-100V-240V-Transformer-Security/dp/B0BZP65GRW/) | $6.20 | [Aliexpress](https://www.aliexpress.us/item/3256812479558626.html) | $4.10 | [Amazon EU](https://www.amazon.fr/5V-2A-Supply-DC-Adapter/dp/B0GDXFRYJS/) | €11.00 | $4.10 |
 | USB-Cケーブル、1.5 m (USB A から USB C データケーブル 1.5m) | 2 | コントローラごとに一つ 充電用のケーブルではなく データケーブルを選んでください | [Amazon](https://www.amazon.com/Data-Cable-1-5ft-10Gbps-Transfer/dp/B0FMJTHRCM/) | $6.00 | [Aliexpress](https://www.aliexpress.us/item/3256812299430938.html) | $3.00 | [Amazon EU](https://www.amazon.fr/-/en/10Gbps-Transfer-Charging-Samsung-External/dp/B0DHZ1R8FQ/) | €7.00 | $6.00 |
 | USB カメラ (OV2735, 1080P USB カメラモジュール, 2MP 1920x1080, UVC カメラ, 2.8 または 3.0 mm レンズ) | 1 | フォローロボットアームグリップの手首カメラ。プロトタイプは OV2735 モジュールを使用しました。モジュールサイズとカメラホルダーに対する取付穴を確認してください。 | [Amazon](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/) | $19.00 | [Aliexpress](https://www.aliexpress.us/item/3256804452094739.html) | $26.10 | [Amazon EU](https://www.amazon.fr/InnoMaker-Raspberry-Compatible-Windows-Android/dp/B0CNCSFQC1/) | €21.00 | $19.00 |
-| **合計** |  |  |  |  |  |  |  |  | **$71.50** |
+| **合計** |  |  |  |  |  |  |  |  | **$50.50** |
 
 <a id="mechanical-parts"></a>
 ## 機械部品
@@ -95,15 +94,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 六角穴付きボルト | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |
 | M2 × 8 六角穴付きボルト | DIN 912 | 12 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY7L8YJ/) | $6.60 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZKVDN/) | €7.00 / 60 | $0.49 |
-| M3 × 10 皿ねじ | DIN 7991 | 60 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.44 |
+| M3 × 10 皿ねじ | DIN 7991 | 62 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.59 |
 | M3 × 16 皿ねじ | DIN 7991 | 36 | [Amazon](https://www.amazon.com/Skweawert-40-Pcs-M3x16mm-countersunk/dp/B0D7MY32JZ/) | $6.20 / 40 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY138MGY/) | €8.00 / 60 | $2.95 |
-| M4 × 8 皿ねじ | DIN 7991 | 2 | [Amazon](https://www.amazon.com/100Pcs-M4x8mm-Stainless-Socket-Countersunk/dp/B0FPG3MYZY/) | $6.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.30 / 50 | [Amazon EU](https://www.amazon.fr/-/en/DTGN-M4-0-7x8mm-Screws-Stainless-Countersunk/dp/B0CQ1M4457/) | €6.70 / 100 | $0.12 |
 | M3 × 4 止めねじ | DIN 913 | 4 | [Amazon](https://www.amazon.com/Generic-Bathroom-Fixtures-Furniture-Project/dp/B0H8DPZJPQ/) | $4.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256805653005840.html) | $2.10 / 10 | [Amazon EU](https://www.amazon.fr/-/en/MIETONG-Hex-Socket-Grub-Screws/dp/B0FSKLJR93/) | €6.00 / 20 | $0.31 |
 | M2 六角ナット | DIN 934 | 12 | [Amazon](https://www.amazon.com/1-10Pcs-M1-M20-Stainless-Steel-Loose/dp/B0GVMQ3VD5/) | $3.50 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC5QKH9/) | €6.00 / 20 | $0.42 |
 | M3 六角ナット | DIN 934 | 36 | [Amazon](https://www.amazon.com/FOCMKEAS-Stainless-Hexagon-Fasteners-Hardware/dp/B0CR7WL4D6/) | $3.70 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.00 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC7PD4Q/) | €6.30 / 50 | $1.44 |
 | M3 × 6 フィリップスヘッドねじ | サーボ付属品 | 16 | サーボに付属します。 | — | — | — | — | — | — |
 | 自在ねじ 2 × 6 | サーボ付属品 | 20 | サーボに付属します。 | — | — | — | — | — | — |
-| **合計** |  |  |  |  |  |  |  |  | **$11.21** |
+| **合計** |  |  |  |  |  |  |  |  | **$11.24** |
 
 黒色のファスナーはレンダリングに合うが必要ではない。
 
@@ -112,9 +110,9 @@
 
 | 材料 | 用途 | 購入リンク | 価格 / 予算 (USD) | 合計 (USD) |
 |---|---|---|---|---:|
-| Fiberon PET-CF17 | ロボットアームリンク，ベースおよびサーボモータホルダーの試験材料 | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
-| PETG または PET-CF | グリップクランプ，カバー，リーダーロボットアームハンドル，トリガー | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $12.60 (0.6 kg) |
-| **合計** |  |  |  | **$39.59** |
+| Fiberon PET-CF17 | アームのリンクとサーボホルダー | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $18.00 (0.4 kg) |
+| PETG または PET-CF | グリップクランプ，カバー，リーダーロボットアームハンドル，トリガー | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $15.75 (0.75 kg) |
+| **合計** |  |  |  | **$33.75** |
 
 使用する [印刷ガイド](printing.md) 3Dプリンタのスライサーを使って また切り取ります 3MF プリンタのフィラメント量と設定を決めるプロジェクト
 

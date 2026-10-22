@@ -12,7 +12,11 @@
 <a id="assembly-guide"></a>
 # Assembly guide
 
-This guide follows the printed booklet [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) page by page. Print the booklet on A5 landscape if you prefer paper.
+> Legacy guide: the booklet and illustrations show the earlier HAT hardware. The v0.2.0 BOM and printing guide use Bus Servo Adapters on both arms, revised gripper parts and different fasteners. Do not use the old gripper or controller steps as instructions for the revised parts; an updated assembly booklet is pending.
+
+This guide follows the printed booklet
+[SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) page by page.
+Print the booklet on A5 landscape if you prefer paper.
 
 Before you start:
 
@@ -30,7 +34,9 @@ Before you start:
 <a id="reading-the-illustrations"></a>
 ### Reading the illustrations
 
-Beige highlights mark new parts; grey parts are already assembled. The part thumbnail and quantity show what to add. The numbered circle is the assembly step; the dots show progress. Part numbers, fastener sizes and servo IDs are the same in every language.
+Beige highlights mark new parts; grey parts are already assembled. The part thumbnail
+and quantity show what to add. The numbered circle is the assembly step; the dots show
+progress. Part numbers, fastener sizes and servo IDs are the same in every language.
 
 <a id="assembly-sequence"></a>
 ### Assembly sequence
@@ -44,7 +50,8 @@ Beige highlights mark new parts; grey parts are already assembled. The part thum
 <a id="servo-ids"></a>
 ## Servo IDs
 
-Set each servo ID before it goes into the arm. Tools for setting IDs and calibrating are at [lab.robonine.com](https://lab.robonine.com).
+Set each servo ID before it goes into the arm. Tools for setting IDs and calibrating are at
+[lab.robonine.com](https://lab.robonine.com).
 
 ![Servo IDs](../../../../assets/images/assembly/servo-ids.jpg)
 
@@ -60,7 +67,8 @@ Set each servo ID before it goes into the arm. Tools for setting IDs and calibra
 <a id="0-servo-horns"></a>
 ## 0. Servo horns
 
-Mount one horn with an M3 × 6 screw on servo ID 1. Servos ID 2, 3 and 4 get a horn on both sides. Horn screws come with the servos.
+Mount one horn with an M3 × 6 screw on servo ID 1.
+Servos ID 2, 3 and 4 get a horn on both sides. Horn screws come with the servos.
 
 If you add O-rings to the leader, put them between the servo and the horn now. Getting this order wrong can jam the ring between the servo shell and the horn.
 
@@ -88,7 +96,7 @@ Repeat these steps for both arms.
 | ![Step 1](../../../../assets/images/assembly/steps/shared-01.jpg) | ![Step 2](../../../../assets/images/assembly/steps/shared-02.jpg) | ![Step 3](../../../../assets/images/assembly/steps/shared-03.jpg) |
 | ![Step 4](../../../../assets/images/assembly/steps/shared-04.jpg) | ![Step 5](../../../../assets/images/assembly/steps/shared-05.jpg) | ![Step 6](../../../../assets/images/assembly/steps/shared-06.jpg) |
 | ![Step 7](../../../../assets/images/assembly/steps/shared-07.jpg) | ![Step 8](../../../../assets/images/assembly/steps/shared-08.jpg) | ![Step 9](../../../../assets/images/assembly/steps/shared-09.jpg) |
-| ![Step 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Step 11](../../../../assets/images/assembly/steps/shared-11.jpg) |  |
+| ![Step 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Step 11](../../../../assets/images/assembly/steps/shared-11.jpg) | |
 
 Check that each servo cable reaches the next joint with some slack before you close the joint.
 
@@ -104,7 +112,9 @@ Check that each servo cable reaches the next joint with some slack before you cl
 | 5 | Snap the rods into the main frame | — |
 | 6 | Push the clamps to their outer stops, insert the servo | 3 × 2×6 self-tapping |
 
-Tighten the set screws from the horn side towards the gear, so no gap opens between them. Before step 6, move servo ID 6 to its minimum position, so the gripper closes fully and opens to the full 85 mm. Slide both clamps along the rods by hand before closing up. They should move freely without binding.
+Tighten the set screws from the horn side towards the gear, so no gap opens between them.
+Before step 6, move servo ID 6 to its minimum position, so the gripper closes fully and opens to the full 85 mm.
+Slide both clamps along the rods by hand before closing up. They should move freely without binding.
 
 | | | |
 |:-:|:-:|:-:|
@@ -116,7 +126,7 @@ Tighten the set screws from the horn side towards the gear, so no gap opens betw
 
 | Step | Parts | Fasteners |
 |:-:|---|---|
-| 1 | RB9.01.060.075 Camera holder | 4 × M3×10 |
+| 1 | RB9.01.062.075 Camera holder | 4 × M3×10 |
 | 2 | Gripper assembly onto the wrist | 4 × 2×6 self-tapping |
 | 3 | RB9.01.062.090 Camera spacer, USB camera | 4 × M2×8, 4 × M2 nut |
 | 4 | SO102.02.100 Board holder follower, Waveshare Bus Servo Driver HAT | 4 × M2×8, 4 × M2 nut |
@@ -125,7 +135,7 @@ Tighten the set screws from the horn side towards the gear, so no gap opens betw
 | | | |
 |:-:|:-:|:-:|
 | ![Follower 1](../../../../assets/images/assembly/steps/follower-01.jpg) | ![Follower 2](../../../../assets/images/assembly/steps/follower-02.jpg) | ![Follower 3](../../../../assets/images/assembly/steps/follower-03.jpg) |
-| ![Follower 4](../../../../assets/images/assembly/steps/follower-04.jpg) | ![Follower 5](../../../../assets/images/assembly/steps/follower-05.jpg) |  |
+| ![Follower 4](../../../../assets/images/assembly/steps/follower-04.jpg) | ![Follower 5](../../../../assets/images/assembly/steps/follower-05.jpg) | |
 
 <a id="leader-14"></a>
 ## Leader 1–4

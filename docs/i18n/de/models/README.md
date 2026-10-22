@@ -16,13 +16,13 @@
 |---|---|
 | `3mf/` | Bambu Studio Projekte mit gespeicherten Plattenlayouts, Ausrichtung und Stützeinstellungen |
 | `stl/` | Druckfertige Netze, binär STL, Millimeter |
-| `step/` | CAD Quellen, ein Solid pro Datei |
+| `step/` | CAD-Einzelteile und Baugruppen |
 
 Die Ordner `stl/` und `step/` verwenden die gleiche Aufteilung:
 
-- `common/` enthält die Teile, die beide Roboterarme verwenden.Die Mengen in der Drucktabelle decken den gesamten Bausatz ab.
-- `follower/` hält den Parallelgreifer, die Kamerahalterung und das Follower Robot Arm Board Case.
-- `leader/` hält den Griff, Abzug, Handgelenkrolle und die Leiter Roboter Arm Board Case.
+- `common/` — Gemeinsame Teile einschließlich Controllergehäuse.
+- `follower/` — Parallelgreifer und Kamerahalterung.
+- `leader/` — Griff, Abzug und Handgelenkrotation.
 
 <a id="3mf-slicer-projects"></a>
 ## 3MF Slicer-Projekte
@@ -30,8 +30,8 @@ Die Ordner `stl/` und `step/` verwenden die gleiche Aufteilung:
 | Projekt | Inhalt | Gespeichertes Filamentprofil |
 |---|---|---|
 | [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | Ein Führer Roboterarm: Roboterarmteile, Griff, Abzug, Handgelenkrolle und Brettfall | Bambu PETG-CF |
-| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | Roboterarmteile eines Anhängerroboterarms | Fiberon PET-CF17 |
-| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Follower Roboterarmgreifer, Kamerahalter und Abstandshalter sowie Board-Gehäuse | Bambu PETG-CF |
+| [SO102_follower_arms.3mf](../../../../models/3mf/SO102_follower_arms.3mf) | Roboterarmteile eines Anhängerroboterarms | Fiberon PET-CF17 |
+| [SO102_follower_gripper_base.3mf](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Greifer und Basis des Followers; Gemeinsame Teile einschließlich Controllergehäuse | Bambu PETG-CF |
 
 Öffnen Sie diese Dateien als Projekte in **Bambu Studio**, um die gespeicherten Einstellungen beizubehalten. Alle drei verwenden das Düsenprofil **Bambu Lab A1, 0.4 mm und jeweils eine Platte **256 × 256 mm**. Wählen Sie vor dem Schneiden Drucker, Düse und Filament aus. Für eine kleinere 3D-Druckerbauplatte teilen Sie die Teile auf zusätzliche Platten auf, wobei ihre Orientierungen und Stützeinstellungen beibehalten werden.
 

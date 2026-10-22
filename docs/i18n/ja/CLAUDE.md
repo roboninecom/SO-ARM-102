@@ -22,7 +22,7 @@
 <a id="rules"></a>
 ## 規則
 
-- `models/step/` は真実のソースです。STEP には同じサブフォルダ (`common/`, `follower/`, `leader/`) に同じベース名を持つ STL があります。`RB9.01.060.075 Camera holder` は STEP がない STL です。
+- `models/step/` は真実のソースです。STEP には同じサブフォルダ (`common/`, `follower/`, `leader/`) に同じベース名を持つ STL があります。
 - パーツ番号 (`SO102.02.xxx`, `RB9.01.06x.xxx`) は `docs/printing.md`, `docs/bom.md`, `docs/assembly-guide.md` に表示されます。パーツの名前を変更するか追加すると、それらすべてがアップデートされます。
 - README は目的に応じて bom、印刷および仕様をまとめています。数字を一貫させてください。
 - 新しいファイルは必ず `REUSE.toml`. CIが走る `pre-commit run --all-files`それは `reuse lint`.

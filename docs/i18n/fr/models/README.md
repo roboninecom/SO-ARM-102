@@ -16,13 +16,13 @@
 |---|---|
 | `3mf/` | Bambu Studio projets avec des configurations de plaques, d'orientation et de support sauvegardées |
 | `stl/` | Maillages prêts à imprimer, binaire STL, millimètres |
-| `step/` | CAD sources, un solide par fichier |
+| `step/` | Pièces et assemblages CAO |
 
 Les dossiers `stl/` et `step/` utilisent la même division:
 
-- `common/` contient les pièces utilisées par les deux bras robotiques.Les quantités dans le tableau d'impression couvrent tout le kit.
-- `follower/` contient la pince parallèle, le support de caméra et le boîtier du bras robotique.
-- `leader/` tient la poignée, la gâchette, le rouleau de poignet et le boîtier du bras robot leader.
+- `common/` — Pièces communes, dont les boîtiers de contrôleur.
+- `follower/` — Pince parallèle et support de caméra.
+- `leader/` — Poignée, gâchette et rotation du poignet.
 
 <a id="3mf-slicer-projects"></a>
 ## 3MF projets de slicer
@@ -30,8 +30,8 @@ Les dossiers `stl/` et `step/` utilisent la même division:
 | Projet | Contenu | Profil de filament enregistré |
 |---|---|---|
 | [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | Un bras robotique leader: pièces de bras robot, poignée, déclencheur, rouleau de poignet et boîtier | Bambu PETG-CF |
-| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | Pièces de bras robotique d'un bras robotique | Fiberon PET-CF17 |
-| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Pince de bras robotique Follower, support de caméra et entretoise, et étui pour carte | Bambu PETG-CF |
+| [SO102_follower_arms.3mf](../../../../models/3mf/SO102_follower_arms.3mf) | Pièces de bras robotique d'un bras robotique | Fiberon PET-CF17 |
+| [SO102_follower_gripper_base.3mf](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Pince et base du suiveur; Pièces communes, dont les boîtiers de contrôleur | Bambu PETG-CF |
 
 Ouvrez ces fichiers en tant que projets dans **Bambu Studio**pour conserver les paramètres enregistrés. Tous trois utilisent le profil de buse**Bambu Lab A1, 0.4 mm et une plaque **256 × 256 mm chacune. Sélectionnez votre imprimante, votre buse et votre filament avant de couper. Pour une petite plaque de construction d'imprimante 3D, divisez les pièces sur des plaques supplémentaires tout en préservant leurs orientations et leurs paramètres de support.
 

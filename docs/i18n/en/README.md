@@ -16,15 +16,20 @@
 
 [![SO-ARM 102](../../../assets/images/photos/so-arm-102-live.jpg)](../../../assets/video/so-arm-102-preview.mp4)
 
-**🎥 [Watch the preview video](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
+**🎥 [Watch the preview video](../../../assets/video/so-arm-102-preview.mp4)** · **🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**An open-source leader + follower robot arm kit with 5 degrees of freedom plus a gripper for teleoperation and imitation learning, designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
+**An open-source leader + follower robot arm kit with 5 degrees of freedom plus a gripper for teleoperation and imitation learning,
+designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
 
-[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
+[![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
+[![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
+[![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY budget: ~$404 for components, or ~$444 including printing material.** [BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
+**DIY budget: ~$340 for components, or ~$374 including printing material.**
+[BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
 
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
@@ -35,7 +40,7 @@
 <a id="-what-changed-against-so-arm-101"></a>
 ## ✨ What changed against SO-ARM 101
 
-|  | SO-ARM 101 | SO-ARM 102 |
+| | SO-ARM 101 | SO-ARM 102 |
 |---|---|---|
 | Gripper | Angular jaw | Parallel gripper, 85 mm span |
 | Frame material | PLA | PET-CF (Fiberon PET-CF17 tested) |
@@ -46,9 +51,11 @@
 | Shoulder and elbow speed | 45 RPM (STS3215) | **75 RPM (STS3250)** |
 | Noise at 1 m | 70 dB | **60 dB** |
 
-¹ Both arms built with printed servo dummies, so the frame is compared, not the motors. Full results and test conditions are in [docs/specifications.md](docs/specifications.md).
+¹ Both arms built with printed servo dummies, so the frame is compared, not the motors.
+Full results and test conditions are in [docs/specifications.md](docs/specifications.md).
 
-The arm keeps the SO-ARM 101 joint layout, so it works with [Hugging Face LeRobot](https://github.com/huggingface/lerobot) datasets and policies.
+The arm keeps the SO-ARM 101 joint layout, so it works with
+[Hugging Face LeRobot](https://github.com/huggingface/lerobot) datasets and policies.
 
 ---
 
@@ -71,14 +78,16 @@ The arm keeps the SO-ARM 101 joint layout, so it works with [Hugging Face LeRobo
 <a id="single-arm-one-leader--one-follower"></a>
 ### Single-arm: one leader + one follower
 
-The standard kit. Move the leader by hand, and the follower repeats the motion. Use it for teleoperation and for recording demonstrations for imitation learning.
+The standard kit. Move the leader by hand, and the follower repeats the motion.
+Use it for teleoperation and for recording demonstrations for imitation learning.
 
 ![One leader and one follower](../../../assets/images/renders/config-single-arm.jpg)
 
 <a id="bimanual-two-leaders--two-followers"></a>
 ### Bimanual: two leaders + two followers
 
-Two kits side by side. Each hand drives its own leader, so the followers can pass objects, hold and work on a part, or do any task that needs two hands.
+Two kits side by side. Each hand drives its own leader, so the followers can pass objects,
+hold and work on a part, or do any task that needs two hands.
 
 ![Two leaders and two followers](../../../assets/images/renders/config-dual-arm.jpg)
 
@@ -100,24 +109,27 @@ Prefer a ready kit? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm1
 <a id="1-print-the-parts"></a>
 ### 1. Print the parts
 
-Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long. The supplied 3MF plate layouts use a 256 × 256 mm bed.
+Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
+The supplied 3MF plate layouts use a 256 × 256 mm bed.
 
-- 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](../../../models/3mf) — [leader](../../../models/3mf/SO102_leader.3mf), [follower arm](../../../models/3mf/SO102_follower.3mf), [follower gripper and board case](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](../../../models/3mf)
+  — [leader](../../../models/3mf/SO102_leader.3mf), [follower arms](../../../models/3mf/SO102_follower_arms.3mf),
+  [Follower gripper and base](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - Project contents and printer profiles: [models/README.md](models/README.md)
 - STL files, ready to slice: [`models/stl/`](../../../models/stl)
 - STEP sources: [`models/step/`](../../../models/step)
 - Material, settings and part quantities: [docs/printing.md](docs/printing.md)
 
-The earlier test-arm settings gave slicer estimates of about 500 g of filament and 21 h for the arm parts, excluding the gripper. Re-slice the 3MF projects for current estimates.
-
 <a id="2-buy-the-hardware"></a>
 ### 2. Buy the hardware
 
-Source the components from the [BOM summary](#bill-of-materials) and [full BOM with purchase links](docs/bom.md). Budget **$404.09**for components, or**$443.68** including printing material, before shipping and taxes.
+Source the components from the [BOM summary](#bill-of-materials) and
+[full BOM with purchase links](docs/bom.md). Budget **$340.22** for components,
+or **$373.97** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
-| Follower | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| Follower | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | Leader | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **The leader runs on 5 V and the follower on 12 V.** Do not swap the power supplies.
@@ -146,15 +158,19 @@ Quantities and reference costs for **one leader + one follower**:
 
 | Category / purchase links | Kit contents | Total (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $71.50 |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.50 |
 | [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
-| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.21 |
-| **Components subtotal** |  | **$404.09** |
-| [Printing material](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG allowance | $39.59 |
-| **Total with printing material** |  | **$443.68** |
+| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.24 |
+| **Components subtotal** | | **$340.22** |
+| [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allowance | $33.75 |
+| **Total with printing material** | | **$373.97** |
 
-Buying the example full packs and filament spools from scratch costs about **$504**, including unused spares. These are reference estimates, not new supplier quotes. Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded. Confirm supplier prices, variants and minimum order quantities before ordering; re-slice the 3MF projects to check filament consumption.
+Buying the example full packs and filament spools from scratch costs about **$435**,
+including unused spares. These are reference estimates, not new supplier quotes.
+Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded.
+Confirm supplier prices, variants and minimum order quantities before ordering;
+re-slice the 3MF projects to check filament consumption.
 
 [Full BOM, purchase links and cost assumptions](docs/bom.md#estimated-kit-cost).
 
@@ -163,14 +179,21 @@ Buying the example full packs and filament spools from scratch costs about **$50
 <a id="urdf-export"></a>
 ## URDF export
 
-The current standalone export is in [`simulation/urdf/`](../../../simulation/urdf): [URDF](../../../simulation/urdf/so_arm_102.urdf) · [Xacro](../../../simulation/urdf/so_arm_102.xacro). Keep `meshes/` beside the description files; mesh paths are relative to this folder.
+The current standalone export is in [`simulation/urdf/`](../../../simulation/urdf):
+[URDF](../../../simulation/urdf/so_arm_102.urdf) · [Xacro](../../../simulation/urdf/so_arm_102.xacro).
+Keep `meshes/` beside the description files; mesh paths are relative to this folder.
 
-- **Visuals:**STL meshes.**Collisions:** fitted, independently rotated boxes on all eight links.
-- **Mass estimate:**PLA, 30% infill, 6 perimeters, 6 top/bottom layers, 0.2 mm layer height, and**0.40 mm extrusion width**. These are simulation assumptions; use [the printing guide](docs/printing.md) for fabrication settings.
-- **Hardware masses:**six motors at 70 g each; base bearing at 105 g. Total estimated model mass:**0.889 kg**.
+- **Visuals:** STL meshes. **Collisions:** fitted, independently rotated boxes on all eight links.
+- **Mass estimate:** PLA, 30% infill, 6 perimeters, 6 top/bottom layers,
+  0.2 mm layer height, and **0.40 mm extrusion width**. These are simulation
+  assumptions; use [the printing guide](docs/printing.md) for fabrication settings.
+- **Hardware masses:** six motors at 70 g each; base bearing at 105 g.
+  Total estimated model mass: **0.889 kg**.
 - **Gripper:** `clamp2` mimics `clamp1` with multiplier `-1`.
 
-[Export settings](../../../simulation/urdf/export_settings.json) and [mass properties](../../../simulation/urdf/mass_properties.json) record the assumptions. Geometry and inertia checks are recorded in [export_verification.json](../../../simulation/urdf/export_verification.json).
+[Export settings](../../../simulation/urdf/export_settings.json) and
+[mass properties](../../../simulation/urdf/mass_properties.json) record the assumptions.
+Geometry and inertia checks are recorded in [export_verification.json](../../../simulation/urdf/export_verification.json).
 
 ---
 
@@ -181,9 +204,9 @@ The current standalone export is in [`simulation/urdf/`](../../../simulation/urd
 ├── models/
 │   ├── 3mf/                 # Slicer projects: leader, follower, gripper and board case
 │   ├── stl/                 # Print-ready meshes
-│   │   ├── common/          #   parts used by both arms
-│   │   ├── follower/        #   parallel gripper, camera mount, board case
-│   │   └── leader/          #   handle, trigger, wrist roll, board case
+│   │   ├── common/          # Shared parts, including controller cases
+│   │   ├── follower/        # Parallel gripper and camera mount
+│   │   └── leader/          # Handle, trigger and wrist roll
 │   └── step/                # CAD sources, same layout as stl/
 ├── docs/
 │   ├── printing.md          # Material, slicer settings, quantities
@@ -203,9 +226,9 @@ The current standalone export is in [`simulation/urdf/`](../../../simulation/urd
 <a id="-known-issues"></a>
 ## ⚠️ Known issues
 
-This is the first public release. An independent test build found the following. They are being fixed and will land in the next release.
+Build notes from independent testing; check these when assembling.
 
-1. **Two models are reported missing from the release set.** One is known: the camera holder still lacks a STEP source.
+1. **Assembly documentation lags behind the hardware.** The booklet still shows the HAT controller and older gripper parts. Follow the revision warning in the assembly guide.
 2. **M2 screws are hard to reach in several places.** Expect to fight a few of them.
 3. **The gripper clamps run tight on carbon rods.** The clamp bores are sized for 6.1 mm. Rod diameters vary between suppliers, so check the fit before assembly.
 4. **Check the servo cable lengths** before closing each joint, especially from the base to the shoulder.

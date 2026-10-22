@@ -16,13 +16,13 @@
 |---|---|
 | `3mf/` | Bambu Studio proyectos con configuraciones guardadas de diseño de placa, orientación y soporte |
 | `stl/` | Mallas listas para imprimir, binario STL, milímetros |
-| `step/` | CAD fuentes, un sólido por archivo |
+| `step/` | Piezas y conjuntos CAD |
 
 Las carpetas `stl/` y `step/` utilizan la misma división:
 
-- `common/` Las cantidades en la tabla de impresión cubren todo el kit, por lo que no es necesario realizar una copia.
-- `follower/` contiene la pinza paralela, el soporte de cámara y la caja de placa del brazo robot seguidor.
-- `leader/` sostiene el mango, gatillo, rollo de muñeca y la caja del tablero del brazo robot líder.
+- `common/` — Piezas comunes, incluidas las cajas de los controladores.
+- `follower/` — Pinza paralela y soporte de cámara.
+- `leader/` — Mango, gatillo y giro de muñeca.
 
 <a id="3mf-slicer-projects"></a>
 ## 3MF proyectos de slicer
@@ -30,8 +30,8 @@ Las carpetas `stl/` y `step/` utilizan la misma división:
 | Proyecto | Contenido | Perfil de filamento guardado |
 |---|---|---|
 | [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | Un brazo robot líder: piezas de brazo robot, manija, gatillo, rollo de muñeca y caja de tablero | Bambu PETG-CF |
-| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | Piezas del brazo robot de un brazo robot seguidor | Fiberon PET-CF17 |
-| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Pinza del brazo robot seguidor, soporte de cámara y espaciador, y caja de la placa | Bambu PETG-CF |
+| [SO102_follower_arms.3mf](../../../../models/3mf/SO102_follower_arms.3mf) | Piezas del brazo robot de un brazo robot seguidor | Fiberon PET-CF17 |
+| [SO102_follower_gripper_base.3mf](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Pinza y base del seguidor; Piezas comunes, incluidas las cajas de los controladores | Bambu PETG-CF |
 
 Abra estos archivos como proyectos en **Bambu Studio**para conservar los ajustes guardados. Los tres usan el perfil de boquilla**Bambu Lab A1, 0.4 mm**y una placa**256 × 256 mm** cada uno. Seleccione su impresora, boquilla y filamento antes de cortar. Para una placa de construcción de impresora 3D más pequeña, divida las piezas en placas adicionales mientras preserva sus orientaciones y ajustes de soporte.
 

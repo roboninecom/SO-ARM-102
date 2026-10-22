@@ -20,11 +20,11 @@
 
 **Un kit de brazo robótico líder + brazo robótico seguidor de código abierto con 5 grados de libertad más una pinza para teleoperación y aprendizaje por imitación, diseñado por [Robonine](https://robonine.com) como sucesor más rígido y rápido del SO-ARM 101.**
 
-[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**Presupuesto de bricolaje: ~$404 para componentes, o ~$444 incluyendo material de impresión.** [Resumen del BOM](#bill-of-materials) · [Costos detallados y enlaces de compra](docs/bom.md#estimated-kit-cost)
+**Presupuesto de bricolaje: ~$340 para componentes, o ~$374 incluyendo material de impresión.** [Resumen del BOM](#bill-of-materials) · [Costos detallados y enlaces de compra](docs/bom.md#estimated-kit-cost)
 
 > ¿Prefieres no obtener las piezas e imprimirlas tú mismo? **[Compra el kit SO-ARM 102](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
@@ -102,22 +102,21 @@ Cada mano controla su propio brazo robot líder, por lo que los seguidores puede
 
 Las piezas individuales se ajustan a una placa de construcción de impresora 3D 180 × 180 mm. La parte más grande tiene 160 mm largo. Los diseños de placa 3MF suministrados utilizan una placa de construcción de impresora 3D 256 × 256 mm.
 
-- 3MF proyectos slicer con configuraciones de orientación y soporte guardadas: [`models/3mf/`](../../../models/3mf) — [brazo robot líder](../../../models/3mf/SO102_leader.3mf), [brazo robot seguidor](../../../models/3mf/SO102_follower.3mf), [pinza del brazo robot seguidor y caja de la placa](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 3MF proyectos slicer con configuraciones de orientación y soporte guardadas: [`models/3mf/`](../../../models/3mf) — [brazo robot líder](../../../models/3mf/SO102_leader.3mf), [brazo robot seguidor](../../../models/3mf/SO102_follower_arms.3mf), [Pinza y base del seguidor](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - Contenido del proyecto y perfiles de impresora: [models/README.md](models/README.md)
 - STL archivos, listos para cortar: [`models/stl/`](../../../models/stl)
 - STEP sources: [`models/step/`](../../../models/step)
 - Material, ajustes y cantidades de piezas: [docs/printing.md](docs/printing.md)
 
-Las configuraciones anteriores del brazo robot de prueba dieron estimaciones de cortador de alrededor de 500 g de filamento y 21 h para las partes del brazo robot, excluyendo la pinza.Reparte nuevamente usando el cortador de impresión 3D los 3MF proyectos para estimaciones actuales.
 
 <a id="2-buy-the-hardware"></a>
 ### 2. Comprar el hardware
 
-Obtenga los componentes del [resumen de la lista de materiales](#bill-of-materials) y [lista completa con enlaces de compra](docs/bom.md). Presupuesto **$404.09**para componentes, o**$443.68** incluyendo material de impresión, antes del envío e impuestos.
+Obtenga los componentes del [resumen de la lista de materiales](#bill-of-materials) y [lista completa con enlaces de compra](docs/bom.md). Presupuesto **$340.22**para componentes, o**$373.97** incluyendo material de impresión, antes del envío e impuestos.
 
 | Brazo | Servos | Controlador | Alimentación |
 |---|---|---|---|
-| Brazo seguidor | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| Brazo seguidor | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | Brazo líder | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **El brazo líder funciona a 5 V y el brazo seguidor a 12 V.** No intercambie las fuentes de alimentación.
@@ -146,15 +145,15 @@ Cantidades y costos de referencia para **un brazo robot líder + un brazo robot 
 
 | Categoría / enlaces de compra | Contenido del kit | Total (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [Electrónica](docs/bom.md#electronics) | 2 controladores, 2 fuentes de alimentación, 2 cables USB, 1 cámara de muñeca | $71.50 |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [Electrónica](docs/bom.md#electronics) | 2 controladores, 2 fuentes de alimentación, 2 cables USB, 1 cámara de muñeca | $50.50 |
 | [Piezas mecánicas](docs/bom.md#mechanical-parts) | 4 rodamientos, 2 barras guía de acero, 4 abrazaderas de mesa | $37.76 |
-| [Elementos de fijación](docs/bom.md#fasteners) | Tornillos y tuercas; tornillos especificados del juego del servomotor incluidos | $11.21 |
-| **Subtotal de componentes** |  | **$404.09** |
-| [Material de impresión](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG asignación | $39.59 |
-| **Total con material de impresión** |  | **$443.68** |
+| [Elementos de fijación](docs/bom.md#fasteners) | Tornillos y tuercas; tornillos especificados del juego del servomotor incluidos | $11.24 |
+| **Subtotal de componentes** |  | **$340.22** |
+| [Material de impresión](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG asignación | $33.75 |
+| **Total con material de impresión** |  | **$373.97** |
 
-Comprar el ejemplo de paquetes completos y carretes de filamentos desde cero cuesta alrededor de **$504**, incluyendo repuestos no utilizados. Estas son estimaciones de referencia, no nuevas cotizaciones de proveedores. El envío, los impuestos, las herramientas, una computadora, una impresora, la electricidad y el trabajo de montaje están excluidos. Confirme los precios del proveedor, las variantes y las cantidades mínimas de pedido antes de realizar el pedido; corte nuevamente con el cortador de impresión 3D los 3MF proyectos para verificar el consumo de filamento.
+Comprar el ejemplo de paquetes completos y carretes de filamentos desde cero cuesta alrededor de **$435**, incluyendo repuestos no utilizados. Estas son estimaciones de referencia, no nuevas cotizaciones de proveedores. El envío, los impuestos, las herramientas, una computadora, una impresora, la electricidad y el trabajo de montaje están excluidos. Confirme los precios del proveedor, las variantes y las cantidades mínimas de pedido antes de realizar el pedido; corte nuevamente con el cortador de impresión 3D los 3MF proyectos para verificar el consumo de filamento.
 
 [BOM completo, enlaces de compra y supuestos de costo](docs/bom.md#estimated-kit-cost).
 
@@ -181,9 +180,9 @@ La exportación independiente actual está en [`simulation/urdf/`](../../../simu
 ├── models/
 │   ├── 3mf/                 # Proyectos de la rebanadora: brazo robot líder, brazo robot seguidor, pinza y caja del tablero
 │   ├── stl/                 # Mallas listas para imprimir
-│   │   ├── common/          #   partes utilizadas por ambos brazos robóticos
-│   │   ├── follower/        # Pinza paralela, soporte de cámara, caja del tablero
-│   │   └── leader/          #   mango, gatillo, rollo de muñeca, caja de tablero
+│   │   ├── common/          # Piezas comunes, incluidas las cajas de los controladores
+│   │   ├── follower/        # Pinza paralela y soporte de cámara
+│   │   └── leader/          # Mango, gatillo y giro de muñeca
 │   └── step/                # CAD fuentes, mismo diseño que stl/
 ├── docs/
 │   ├── printing.md          # Material, ajustes de la rebanadora, cantidades
@@ -203,9 +202,9 @@ La exportación independiente actual está en [`simulation/urdf/`](../../../simu
 <a id="-known-issues"></a>
 ## Problemas conocidos
 
-Esta es la primera versión pública. Una compilación de prueba independiente encontró los siguientes errores, que se están corrigiendo y llegarán en la próxima versión.
+Notas de montaje de pruebas independientes; revíselas al montar.
 
-1. **Se informa que faltan dos modelos del set de lanzamiento.** Uno se conoce: el soporte de la cámara todavía carece de una fuente STEP.
+1. **La documentación de montaje está desactualizada.** El folleto aún muestra el controlador HAT y piezas antiguas de la pinza. Consulte la advertencia de revisión en la guía de montaje.
 2. **M2 tornillos son difíciles de alcanzar en varios lugares.** Espere luchar contra algunos de ellos.
 3. **Las abrazaderas de la pinza funcionan bien en varillas de carbono.** Los orificios de las abrazaderas tienen un tamaño para 6.1 mm.Los diámetros de las varillas varían entre los proveedores, así que compruebe el ajuste antes del montaje.
 4. **Compruebe las longitudes de cable del servomotor** antes de cerrar cada junta, especialmente desde la base hasta el hombro.
