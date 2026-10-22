@@ -72,7 +72,7 @@ Reach was computed from 100,000 random poses within the joint limits, with no se
 | Horizontal tip error from base backlash, *calculated* | ±2.96 mm | ±1.85 mm | −37.5 % |
 | Repeatability | — | about 0.1 mm | |
 | Noise at 1 m | 70 dB | 60 dB | −10 dB |
-| Rated payload | 250 g | 300 g | |
+| Rated payload | 150 g | 300 g | |
 
 ¹ Both arms were built with printed servo dummies in joints 2, 3 and 4, so only the frame is compared.
 SO-ARM 101 printed in PLA, SO-ARM 102 in Fiberon PET-CF17 at 25 % infill.
