@@ -19,7 +19,7 @@ All parts fit a 180 × 180 mm bed. The largest part, the base, is 160 × 112.5 m
 
 | Where | Material | Why |
 |---|---|---|
-| Arm links, base, servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
+| Arm links, servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
 | Gripper clamps, covers, leader handle and trigger | PETG or PET-CF | Tougher against knocks |
 
 The prototype was printed in **Fiberon PET-CF17**. In our filament tests, annealing cut PET-CF17
@@ -38,22 +38,19 @@ printer and filament, then slice and review the support preview.
 | Project | Saved filament profile | Layer height | Walls | Top / bottom layers | Infill | Weight | Time |
 |---|---|---|:-:|:-:|---|:-:|:-:|
 | [Leader](../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % gyroid | 457 gr | 23 h |
-| [Follower arm](../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 583 gr | 23 h |
-| [Follower gripper and board case](../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 131 gr | 6,5 h |
+| [Follower arms](../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 394 gr | 15,5 h |
+| [Follower gripper and base](../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 287 gr | 14 h |
 
-With these settings you will need: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
+With these settings you will need: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
 
 All three save a **Bambu Lab A1, 0.4 mm nozzle** profile on a **256 × 256 mm** bed.
 Individual parts still fit a 180 × 180 mm bed, but the supplied layouts need to be split
 across more plates for that size. Automatic tree supports are the global default;
 some parts have support overrides, manual support settings or support blockers.
 
-Print each project once for one complete kit, then print **one extra cable snap**:
-the projects contain two in total, while the part list calls for three.
-
-| Leader layout | Follower gripper and board case layout |
-|:-:|:-:|
-| ![Leader slicer layout](../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower gripper and board case slicer layout](../assets/images/3d%20print/gripper_3dprint.png) |
+| Leader layout | Follower arms layout | Follower gripper and base layout |
+|:-:|:-:|:-:|
+| ![Leader slicer layout](../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower arms slicer layout](../assets/images/3d%20print/follower_3dprint_layout.png) | ![Follower gripper and board case slicer layout](../assets/images/3d%20print/gripper_3dprint.png) |
 
 ## Test-arm slicer settings
 
@@ -96,21 +93,22 @@ Quantities are for one complete kit: one follower and one leader.
 | SO102.02.080 | Upper arm left | 2 |
 | SO102.02.080-01 | Upper arm right | 2 |
 | SO102.02.090 | Wrist holder | 2 |
-| SO102.02.130 | Cable snap | 3 |
+| SO102.02.110 | Board holder leader | 2 |
+| SO102.02.110-01 | Board cap leader | 2 |
+| SO102.02.130 | Cable snap | 4 |
 
 ### Follower only
 
 | Part number | Name | Qty |
 |---|---|:-:|
-| RB9.01.062.011 | Main frame (D6.1) | 1 |
-| RB9.01.062.024 | Clamp (D6.1) | 2 |
+| RB9.01.062.012 | Main frame (D6.1) | 1 |
+| RB9.01.062.025 | Clamp (D6.1) | 2 |
 | RB9.01.062.030 | Gear rack | 2 |
 | RB9.01.062.040 | Gear for gripper | 1 |
-| RB9.01.062.100 | Nail | 2 |
+| RB9.01.062.050 | Washer | 2 |
 | RB9.01.062.075 | Camera holder | 1 |
 | RB9.01.062.090 | Camera spacer | 1 |
-| SO102.02.100 | Board holder follower | 1 |
-| SO102.02.100-01 | Board cap follower | 1 |
+| RB9.01.062.100 | Nail | 2 |
 
 `(D6.1)` means the rod bores are sized for 6.1 mm. See the known issues in the main README if the gripper runs tight.
 
@@ -121,8 +119,6 @@ Quantities are for one complete kit: one follower and one leader.
 | — | SO102 Handle | 1 |
 | — | SO102 Trigger | 1 |
 | — | SO102 Wrist roll | 1 |
-| SO102.02.110 | Board holder leader | 1 |
-| SO102.02.110-01 | Board cap leader | 1 |
 
 ## About the STL files
 

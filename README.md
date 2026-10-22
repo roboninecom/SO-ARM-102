@@ -20,7 +20,7 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY budget: ~$404 for components, or ~$444 including printing material.**
+**DIY budget: ~$340 for components, or ~$374 including printing material.**
 [BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
 
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
@@ -97,21 +97,16 @@ Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
 The supplied 3MF plate layouts use a 256 × 256 mm bed.
 
 - 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](models/3mf/)
-  — [leader](models/3mf/SO102_leader.3mf), [follower arm](models/3mf/SO102_follower.3mf),
-  [follower gripper and board case](models/3mf/SO102_follower_gripper_box.3mf)
 - Project contents and printer profiles: [models/README.md](models/README.md)
 - STL files, ready to slice: [`models/stl/`](models/stl/)
 - STEP sources: [`models/step/`](models/step/)
 - Material, settings and part quantities: [docs/printing.md](docs/printing.md)
 
-The earlier test-arm settings gave slicer estimates of about 500 g of filament and 21 h
-for the arm parts, excluding the gripper. Re-slice the 3MF projects for current estimates.
-
 ### 2. Buy the hardware
 
 Source the components from the [BOM summary](#bill-of-materials) and
-[full BOM with purchase links](docs/bom.md). Budget **$404.09** for components,
-or **$443.68** including printing material, before shipping and taxes.
+[full BOM with purchase links](docs/bom.md). Budget **$340.22** for components,
+or **$373.97** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
@@ -141,15 +136,15 @@ Quantities and reference costs for **one leader + one follower**:
 
 | Category / purchase links | Kit contents | Total (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $71.50 |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.50 |
 | [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
-| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.21 |
-| **Components subtotal** | | **$404.09** |
-| [Printing material](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG allowance | $39.59 |
-| **Total with printing material** | | **$443.68** |
+| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.24 |
+| **Components subtotal** | | **$383.12** |
+| [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allowance | $33.75 |
+| **Total with printing material** | | **$416.87** |
 
-Buying the example full packs and filament spools from scratch costs about **$504**,
+Buying the example full packs and filament spools from scratch costs about **$435**,
 including unused spares. These are reference estimates, not new supplier quotes.
 Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded.
 Confirm supplier prices, variants and minimum order quantities before ordering;
