@@ -20,11 +20,11 @@
 
 **Ein quelloffenes Roboterarm-Kit mit einem Leader- und einem Follower-Arm, 5 Freiheitsgraden und einem Greifer für Teleoperation und Imitationslernen. Entwickelt von [Robonine](https://robonine.com) als steiferer und schnellerer Nachfolger des SO-ARM 101.**
 
-[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY-Budget: ~$404 für Komponenten oder ~$444 inklusive Druckmaterial.** [Stücklistenzusammenfassung](#bill-of-materials) · [Einzelkosten und Kauflinks](docs/bom.md#estimated-kit-cost)
+**DIY-Budget: ~$340 für Komponenten oder ~$374 inklusive Druckmaterial.** [Stücklistenzusammenfassung](#bill-of-materials) · [Einzelkosten und Kauflinks](docs/bom.md#estimated-kit-cost)
 
 > Möchten Sie die Teile lieber nicht selbst beschaffen und drucken? **[Kaufen Sie das SO-ARM 102 Kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
@@ -102,22 +102,21 @@ Bevorzugen Sie ein fertiges Kit? **[Kaufen Sie das SO-ARM 102-Kit](https://robon
 
 Die einzelnen Teile passen auf eine 180 × 180 mm 3D-Druckerbauplatte. Das größte Teil ist 160 mm lang, die mitgelieferten 3MF Plattenlayouts verwenden eine 256 × 256 mm 3D-Druckerbauplatte.
 
-- 3MF Slicer-Projekte mit gespeicherten Orientierungs- und Stützeinstellungen: [`models/3mf/`](../../../models/3mf) — [führender Roboterarm](../../../models/3mf/SO102_leader.3mf), [Nachfolgerroboterarm](../../../models/3mf/SO102_follower.3mf), [Greifer und Platinenkasten des Nachfolgerroboterarms](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 3MF Slicer-Projekte mit gespeicherten Orientierungs- und Stützeinstellungen: [`models/3mf/`](../../../models/3mf) — [führender Roboterarm](../../../models/3mf/SO102_leader.3mf), [Nachfolgerroboterarm](../../../models/3mf/SO102_follower_arms.3mf), [Greifer und Basis des Followers](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - Projektinhalte und Druckerprofile: [models/README.md](models/README.md)
 - STL Dateien, bereit zum Schneiden: [`models/stl/`](../../../models/stl)
 - STEP sources: [`models/step/`](../../../models/step)
 - Material, Einstellungen und Teilemengen: [docs/printing.md](docs/printing.md)
 
-Die früheren Test-Roboterarmeinstellungen gaben Schätzungen von etwa 500 g für Filament und 21 h für Roboterarmteile, ohne den Greifer.Schneiden Sie die 3MF Projekte erneut mit dem 3D-Druck-Slicer für aktuelle Schätzungen.
 
 <a id="2-buy-the-hardware"></a>
 ### 2. Hardware kaufen
 
-Beziehen Sie die Komponenten aus der [BOM-Zusammenfassung](#bill-of-materials) und [vollständige BOM mit Kauflinks](docs/bom.md).Budget **$404.09**für Komponenten oder**$443.68** inklusive Druckmaterial, vor Versand und Steuern.
+Beziehen Sie die Komponenten aus der [BOM-Zusammenfassung](#bill-of-materials) und [vollständige BOM mit Kauflinks](docs/bom.md).Budget **$340.22**für Komponenten oder**$373.97** inklusive Druckmaterial, vor Versand und Steuern.
 
 | Arm | Servos | Controller | Stromversorgung |
 |---|---|---|---|
-| Follower-Arm | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| Follower-Arm | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | Leader-Arm | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **Der Leader-Arm wird mit 5 V betrieben, der Follower-Arm mit 12 V.** Vertauschen Sie die Netzteile nicht.
@@ -146,15 +145,15 @@ Mengen und Referenzkosten für **einen Leader Roboterarm + einen Follower Robote
 
 | Kategorie / Kauflinks | Lieferumfang | Gesamt (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [Elektronik](docs/bom.md#electronics) | 2 Controller, 2 Netzteile, 2 USB-Kabel, 1 Handgelenkkamera | $71.50 |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [Elektronik](docs/bom.md#electronics) | 2 Controller, 2 Netzteile, 2 USB-Kabel, 1 Handgelenkkamera | $50.50 |
 | [Mechanische Teile](docs/bom.md#mechanical-parts) | 4 Lager, 2 Stahlführungsstäbe, 4 Tischklemmen | $37.76 |
-| [Befestigungsmittel](docs/bom.md#fasteners) | Schrauben und Muttern; spezifizierte Servomotor-Kit-Schrauben enthalten | $11.21 |
-| **Zwischensumme Bauteile** |  | **$404.09** |
-| [Druckmaterial](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG Zuschuss | $39.59 |
-| **Gesamt mit Druckmaterial** |  | **$443.68** |
+| [Befestigungsmittel](docs/bom.md#fasteners) | Schrauben und Muttern; spezifizierte Servomotor-Kit-Schrauben enthalten | $11.24 |
+| **Zwischensumme Bauteile** |  | **$340.22** |
+| [Druckmaterial](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG Zuschuss | $33.75 |
+| **Gesamt mit Druckmaterial** |  | **$373.97** |
 
-Der Kauf der Beispiel-Vollpacks und Filament-Spulen von Grund auf neu kostet etwa **$504**, einschließlich unbenutzter Ersatzteile. Dies sind Richtschätzungen, keine neuen Lieferantenangebote. Versandkosten, Steuern, Werkzeuge, Computer, Drucker, Strom und Montageleistungen sind ausgeschlossen. Bestätigen Sie Lieferantenpreise, Varianten und Mindestbestellmengen vor der Bestellung; schneiden Sie die 3MF Projekte erneut mit dem 3D-Druck-Schneider, um den Filamentverbrauch zu überprüfen.
+Der Kauf der Beispiel-Vollpacks und Filament-Spulen von Grund auf neu kostet etwa **$435**, einschließlich unbenutzter Ersatzteile. Dies sind Richtschätzungen, keine neuen Lieferantenangebote. Versandkosten, Steuern, Werkzeuge, Computer, Drucker, Strom und Montageleistungen sind ausgeschlossen. Bestätigen Sie Lieferantenpreise, Varianten und Mindestbestellmengen vor der Bestellung; schneiden Sie die 3MF Projekte erneut mit dem 3D-Druck-Schneider, um den Filamentverbrauch zu überprüfen.
 
 [Vollständige Stückliste, Kauflinks und Kostenannahmen](docs/bom.md#estimated-kit-cost).
 
@@ -181,9 +180,9 @@ Der aktuelle Standalone-Export befindet sich in [`simulation/urdf/`](../../../si
 ├── models/
 │   ├── 3mf/                 # Slicer-Projekte: Leader Roboterarm, Follower Roboterarm, Greifer und Board Case
 │   ├── stl/                 # Druckfertige Netze
-│   │   ├── common/          # Teile, die von beiden Roboterarmen verwendet werden
-│   │   ├── follower/        #   Parallelgreifer, Kamerahalterung, Boardgehäuse
-│   │   └── leader/          #   Handgriff, Abzug, Handgelenkrolle, Brett-Kasten
+│   │   ├── common/          # Gemeinsame Teile einschließlich Controllergehäuse
+│   │   ├── follower/        # Parallelgreifer und Kamerahalterung
+│   │   └── leader/          # Griff, Abzug und Handgelenkrotation
 │   └── step/                # CAD Quellen, gleiches Layout wie stl/
 ├── docs/
 │   ├── printing.md          # Material, Schneideinstellungen, Mengen
@@ -203,9 +202,9 @@ Der aktuelle Standalone-Export befindet sich in [`simulation/urdf/`](../../../si
 <a id="-known-issues"></a>
 ## Bekannte Probleme
 
-Dies ist die erste öffentliche Veröffentlichung. Ein unabhängiger Test-Build hat folgende Fehler gefunden, die derzeit behoben werden und im nächsten Release erscheinen werden.
+Hinweise aus unabhängigen Testaufbauten; beim Zusammenbau beachten.
 
-1. **Zwei Modelle fehlen laut Bericht aus dem Release-Set.** Eins ist bekannt: Der Kamerahalter hat noch keine STEP Quelle.
+1. **Die Montageunterlagen sind veraltet.** Das Heft zeigt noch den HAT-Controller und alte Greiferteile. Beachten Sie den Revisionshinweis in der Montageanleitung.
 2. **M2 Schrauben sind an mehreren Stellen schwer zu erreichen.** Erwarte, dass du gegen einige von ihnen kämpfen musst.
 3. **Die Greiferklemmen laufen fest auf Carbonstäben.** Die Klemmbohrungen sind für 6.1 mm dimensioniert.Stangendurchmesser variieren je nach Hersteller, überprüfen Sie daher vor der Montage die Passform.
 4. **Überprüfen Sie die Kabellängen der Servomotoren**, bevor Sie jede Verbindung schließen, insbesondere von der Basis bis zur Schulter.

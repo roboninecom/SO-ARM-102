@@ -12,11 +12,13 @@
 <a id="printing-the-parts"></a>
 # Impression des pièces
 
+> Vérifiez la révision : le 3MF de la pince nomme les mâchoires `RB9.01.062.024`, alors que la liste STEP/STL actuelle utilise `RB9.01.062.025`. Vérifiez la géométrie avant impression ; les noms seuls ne prouvent pas que les maillages diffèrent.
+
 Chaque partie imprimée du kit SO-ARM 102 est dans [`../models/stl/`](../../../../models/stl).Les CAD sources modifiables avec les mêmes noms sont dans [`../models/step/`](../../../../models/step).
 
-- `common/` contient les pièces utilisées par les deux bras robotiques. Imprimez une seule fois la quantité indiquée. Elle couvre déjà deux bras robotiques.
-- `follower/` contient la pince parallèle, le support de caméra et le boîtier du bras robotique.
-- `leader/` tient la poignée, la gâchette, le rouleau de poignet et le boîtier du bras robot leader.
+- `common/` — Pièces communes, dont les boîtiers de contrôleur.
+- `follower/` — Pince parallèle et support de caméra.
+- `leader/` — Poignée, gâchette et rotation du poignet.
 
 Toutes les pièces s'adaptent à une plaque de construction d'imprimante 3D 180 × 180 mm La plus grande partie, la base, mesure 160 × 112.5 mm.
 
@@ -27,7 +29,7 @@ Toutes les pièces s'adaptent à une plaque de construction d'imprimante 3D 180 
 
 | Emplacement | Matériau | Raison |
 |---|---|---|
-| Mailles de bras, base, supports de servomoteur | PET-CF, recuit si possible | Option la plus rigide et résistante à la chaleur testée près de servomoteurs chauds |
+| Segments du bras et supports de servos | PET-CF, recuit si possible | Option la plus rigide et résistante à la chaleur testée près de servomoteurs chauds |
 | Pinces de préhension, couvercles, poignée et déclencheur du bras robot leader | PETG ou PET-CF | Plus résistant contre les chocs |
 
 Le prototype a été imprimé en **Fiberon PET-CF17**. Dans nos tests de filament, le recuit réduit la déviation du PET-CF17 après une heure à 65–70 °C de 3.4 mm à 0.3 mm. Le recuit rend également la pièce plus fragile, alors ne recuitez pas les pièces qui subissent des impacts. Détails: [Choisir un filament pour les bras robotiques](https://robonine.com/choosing-filament-for-robotic-arm-applications/).
@@ -42,18 +44,16 @@ Les [3MF projets](../models/README.md#3mf-slicer-projects) incluent des orientat
 | Projet | Profil de filament enregistré | Hauteur de couche | Parois | Couches supérieures / inférieures | Remplissage | Masse | Durée |
 |---|---|---|:-:|:-:|---|:-:|:-:|
 | [Bras leader](../../../../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % gyroïde | 457 gr | 23 h |
-| [Bras robotique de suivi](../../../../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubiques | 583 gr | 23 h |
-| [Préhenseur de bras robotique Follower et boîtier de carte](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubiques | 131 gr | 6,5 h |
+| [Bras robotique de suivi](../../../../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubiques | 394 gr | 15,5 h |
+| [Pince et base du suiveur](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubiques | 287 gr | 14 h |
 
-Avec ces paramètres, vous aurez besoin de: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
+Avec ces paramètres, vous aurez besoin de: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
 
 Tous les trois enregistrent un profil de buse **Bambu Lab A1, 0.4 mm**sur une plaque de construction d'imprimante 3D**256 × 256 mm**. Les pièces individuelles s'adaptent toujours à une plaque de construction d'imprimante 3D 180 × 180 mm, mais les dispositions fournies doivent être réparties sur plusieurs plaques pour cette taille.Les supports automatiques d'arbre sont la valeur par défaut globale; certaines pièces ont des remplacements de support, des paramètres de support manuels ou des bloqueurs de support.
 
-Imprimez chaque projet une fois pour obtenir un kit complet, puis imprimez **une attache de câble supplémentaire** : les projets en contiennent deux au total, alors que la liste des pièces en exige trois.
-
-| Disposition du bras robot Leader | Préhenseur de bras robotique Follower et disposition du boîtier |
-|:-:|:-:|
-| ![Aménagement du bras robotique de trancheuse Leader](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Aménagement de la pince du bras robotisé et du trancheur de boîtier de carte](../../../../assets/images/3d%20print/gripper_3dprint.png) |
+| Disposition du bras robot Leader | Bras du suiveur | Pince et base du suiveur |
+|:-:|:-:|:-:|
+| ![Aménagement du bras robotique de trancheuse Leader](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Bras du suiveur](../../../../assets/images/3d%20print/follower_3dprint_layout.png) | ![Pince et base du suiveur](../../../../assets/images/3d%20print/gripper_3dprint.png) |
 
 <a id="test-arm-slicer-settings"></a>
 ## Test-robot arm slicer settings
@@ -93,22 +93,23 @@ Les quantités sont pour un kit complet: un bras robotique de suivi et un bras r
 | SO102.02.080 | Segment supérieur gauche | 2 |
 | SO102.02.080-01 | Segment supérieur droit | 2 |
 | SO102.02.090 | Support de poignet | 2 |
-| SO102.02.130 | Clip de câble | 3 |
+| SO102.02.110 | Support de carte du leader | 2 |
+| SO102.02.110-01 | Couvercle de carte du leader | 2 |
+| SO102.02.130 | Clip de câble | 4 |
 
 <a id="follower-only"></a>
 ### Bras robotique de suivi seulement
 
 | Référence | Nom | Qté |
 |---|---|:-:|
-| RB9.01.062.011 | Châssis principal (D6.1) | 1 |
-| RB9.01.062.024 | Mâchoire (D6.1) | 2 |
+| RB9.01.062.012 | Châssis principal (D6.1) | 1 |
+| RB9.01.062.025 | Mâchoire (D6.1) | 2 |
 | RB9.01.062.030 | Crémaillère | 2 |
 | RB9.01.062.040 | Pignon de la pince | 1 |
+| RB9.01.062.050 | Rondelle | 2 |
 | RB9.01.062.100 | Goupille | 2 |
 | RB9.01.062.075 | Support de caméra | 1 |
 | RB9.01.062.090 | Entretoise de caméra | 1 |
-| SO102.02.100 | Support de carte du suiveur | 1 |
-| SO102.02.100-01 | Couvercle de carte du suiveur | 1 |
 
 `(D6.1)` signifie que les alésages des tiges sont dimensionnés pour 6.1 mm.Voir les problèmes connus dans le README principal si la pince fonctionne serrée.
 
@@ -120,8 +121,6 @@ Les quantités sont pour un kit complet: un bras robotique de suivi et un bras r
 | — | Gestionnaire SO102 | 1 |
 | — | Déclencheur SO102 | 1 |
 | — | SO102 Rouleau de poignet | 1 |
-| SO102.02.110 | Support de carte du leader | 1 |
-| SO102.02.110-01 | Couvercle de carte du leader | 1 |
 
 <a id="about-the-stl-files"></a>
 ## À propos des fichiers STL

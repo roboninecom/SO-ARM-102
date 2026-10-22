@@ -4,12 +4,14 @@
 [English](i18n/en/docs/printing.md) · [Русский](i18n/ru/docs/printing.md) · [Español](i18n/es/docs/printing.md) · [Français](i18n/fr/docs/printing.md) · [Deutsch](i18n/de/docs/printing.md) · [Português (Brasil)](i18n/pt-BR/docs/printing.md) · [简体中文](i18n/zh-CN/docs/printing.md) · [日本語](i18n/ja/docs/printing.md) · [हिन्दी](i18n/hi/docs/printing.md) · [العربية](i18n/ar/docs/printing.md)
 <!-- /documentation-languages -->
 
+> Revision check: the gripper 3MF labels its clamps `RB9.01.062.024`, while the current STEP/STL part list uses `RB9.01.062.025`. Verify the geometry revision before printing; the labels alone do not establish whether the meshes differ.
+
 Every printed part of the SO-ARM 102 kit is in [`../models/stl/`](../models/stl/).
 The editable CAD sources with the same names are in [`../models/step/`](../models/step/).
 
-- `common/` holds the parts both arms use. Print the listed quantity once; it already covers two arms.
-- `follower/` holds the parallel gripper, the camera mount and the follower board case.
-- `leader/` holds the handle, trigger, wrist roll and the leader board case.
+- `common/` — Shared parts, including controller cases.
+- `follower/` — Parallel gripper and camera mount.
+- `leader/` — Handle, trigger and wrist roll.
 
 All parts fit a 180 × 180 mm bed. The largest part, the base, is 160 × 112.5 mm.
 
@@ -19,7 +21,7 @@ All parts fit a 180 × 180 mm bed. The largest part, the base, is 160 × 112.5 m
 
 | Where | Material | Why |
 |---|---|---|
-| Arm links, servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
+| Arm links and servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
 | Gripper clamps, covers, leader handle and trigger | PETG or PET-CF | Tougher against knocks |
 
 The prototype was printed in **Fiberon PET-CF17**. In our filament tests, annealing cut PET-CF17
@@ -48,9 +50,9 @@ Individual parts still fit a 180 × 180 mm bed, but the supplied layouts need to
 across more plates for that size. Automatic tree supports are the global default;
 some parts have support overrides, manual support settings or support blockers.
 
-| Leader layout | Follower arms layout | Follower gripper and base layout |
+| Leader layout | Follower arms | Follower gripper and base |
 |:-:|:-:|:-:|
-| ![Leader slicer layout](../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower arms slicer layout](../assets/images/3d%20print/follower_3dprint_layout.png) | ![Follower gripper and board case slicer layout](../assets/images/3d%20print/gripper_3dprint.png) |
+| ![Leader slicer layout](../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower arms](../assets/images/3d%20print/follower_3dprint_layout.png) | ![Follower gripper and base](../assets/images/3d%20print/gripper_3dprint.png) |
 
 ## Test-arm slicer settings
 

@@ -20,11 +20,11 @@
 
 **Un kit de bras robotique open-source avec un bras robotique leader + un bras robotique suiveur avec 5 degrés de liberté plus une pince pour la téléopération et l'apprentissage par imitation, conçu par [Robonine](https://robonine.com) en tant que successeur plus rigide et plus rapide du SO-ARM 101.**
 
-[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![Status: v0.1 pre-release](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**Budget DIY: ~$404 pour les composants, ou ~$444 y compris le matériel d'impression.** [résumé de la nomenclature](#bill-of-materials) · [coûts détaillés et liens d'achat](docs/bom.md#estimated-kit-cost)
+**Budget DIY: ~$340 pour les composants, ou ~$374 y compris le matériel d'impression.** [résumé de la nomenclature](#bill-of-materials) · [coûts détaillés et liens d'achat](docs/bom.md#estimated-kit-cost)
 
 > Vous préférez ne pas vous procurer les pièces et les imprimer vous-même ? **[Achetez le kit SO-ARM 102](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
@@ -102,22 +102,21 @@ Préférez-vous un kit prêt ? **[Achetez le kit SO-ARM 102](https://robonine.co
 
 Les pièces individuelles s'adaptent à une plaque de construction d'imprimante 3D 180 × 180 mm. La plus grande partie est longue de 160 mm.Les 3MF plans de plaques fournis utilisent une plaque de construction d'imprimante 3D 256 × 256 mm.
 
-- 3MF projets de trancheuse avec des paramètres d'orientation et de support enregistrés: [`models/3mf/`](../../../models/3mf) — [bras robot leader](../../../models/3mf/SO102_leader.3mf), [bras robot suiveur](../../../models/3mf/SO102_follower.3mf), [préhenseur et boîtier du bras robot suivant](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 3MF projets de trancheuse avec des paramètres d'orientation et de support enregistrés: [`models/3mf/`](../../../models/3mf) — [bras robot leader](../../../models/3mf/SO102_leader.3mf), [bras robot suiveur](../../../models/3mf/SO102_follower_arms.3mf), [Pince et base du suiveur](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - Contenu du projet et profils d'imprimante: [models/README.md](models/README.md)
 - STL fichiers, prêts à trancher: [`models/stl/`](../../../models/stl)
 - STEP sources: [`models/step/`](../../../models/step)
 - Matériau, réglages et quantités de pièces: [docs/printing.md](docs/printing.md)
 
-Les réglages précédents du bras robotique de test ont donné des estimations de trancheur d'environ 500 g pour le filament et 21 h pour les pièces du bras robotique, à l'exclusion de la pince.Découpez à nouveau en utilisant le trancheur d'impression 3D les 3MF projets pour les estimations actuelles.
 
 <a id="2-buy-the-hardware"></a>
 ### 2. Acheter le matériel
 
-Recherchez les composants dans [résumé de la nomenclature](#bill-of-materials) et [nomenklature complète avec liens d'achat](docs/bom.md).Budget **$404.09**pour les composants, ou**$443.68** y compris le matériel d'impression, avant expédition et taxes.
+Recherchez les composants dans [résumé de la nomenclature](#bill-of-materials) et [nomenklature complète avec liens d'achat](docs/bom.md).Budget **$340.22**pour les composants, ou**$373.97** y compris le matériel d'impression, avant expédition et taxes.
 
 | Bras | Servomoteurs | Contrôleur | Alimentation |
 |---|---|---|---|
-| Bras suiveur | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| Bras suiveur | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | Bras leader | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **Le bras maître fonctionne sous 5 V et le bras suiveur sous 12 V.** N'intervertissez pas les alimentations.
@@ -146,15 +145,15 @@ Quantités et coûts de référence pour **un bras robot leader + un bras robot 
 
 | Catégorie / liens d'achat | Contenu du kit | Total (USD) |
 |---|---|---:|
-| [Servomoteurs](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [Électronique](docs/bom.md#electronics) | 2 contrôleurs, 2 blocs d'alimentation, 2 câbles USB, 1 caméra au poignet | $71.50 |
+| [Servomoteurs](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [Électronique](docs/bom.md#electronics) | 2 contrôleurs, 2 blocs d'alimentation, 2 câbles USB, 1 caméra au poignet | $50.50 |
 | [Pièces mécaniques](docs/bom.md#mechanical-parts) | 4 roulements, 2 tiges de guidage en acier, 4 pinces de table | $37.76 |
-| [Fixations](docs/bom.md#fasteners) | Vis et écrous; vis spécifiées pour kit servomoteur incluses | $11.21 |
-| **Sous-total des composants** |  | **$404.09** |
-| [Matériel d'impression](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG allocation | $39.59 |
-| **Total avec matériau d’impression** |  | **$443.68** |
+| [Fixations](docs/bom.md#fasteners) | Vis et écrous; vis spécifiées pour kit servomoteur incluses | $11.24 |
+| **Sous-total des composants** |  | **$340.22** |
+| [Matériel d'impression](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allocation | $33.75 |
+| **Total avec matériau d’impression** |  | **$373.97** |
 
-L'achat de l'exemple des paquets complets et des bobines de filament à partir de zéro coûte environ **$504**, y compris les pièces détachées non utilisées. Ce sont des estimations de référence, pas de nouveaux devis fournisseurs. Les frais d'expédition, les taxes, les outils, un ordinateur, une imprimante, l'électricité et la main-d'œuvre d'assemblage sont exclus. Confirmez les prix du fournisseur, les variantes et les quantités minimales de commande avant de commander; coupez à nouveau en utilisant le trancheur d'impression 3D les 3MF projets pour vérifier la consommation de filament.
+L'achat de l'exemple des paquets complets et des bobines de filament à partir de zéro coûte environ **$435**, y compris les pièces détachées non utilisées. Ce sont des estimations de référence, pas de nouveaux devis fournisseurs. Les frais d'expédition, les taxes, les outils, un ordinateur, une imprimante, l'électricité et la main-d'œuvre d'assemblage sont exclus. Confirmez les prix du fournisseur, les variantes et les quantités minimales de commande avant de commander; coupez à nouveau en utilisant le trancheur d'impression 3D les 3MF projets pour vérifier la consommation de filament.
 
 [Nomenclature complète, liens d'achat et hypothèses de coût](docs/bom.md#estimated-kit-cost).
 
@@ -181,9 +180,9 @@ L'exportation autonome actuelle est dans [`simulation/urdf/`](../../../simulatio
 ├── models/
 │   ├── 3mf/                 # Projets de trancheuse: bras robot leader, bras robot disciple, pince et boîtier
 │   ├── stl/                 # Maillages prêts à imprimer
-│   │   ├── common/          # Pièces utilisées par les deux bras robotiques
-│   │   ├── follower/        #   pince parallèle, support de caméra, boîtier de carte
-│   │   └── leader/          #   poignée, déclencheur, rouleau de poignet, étui de carte
+│   │   ├── common/          # Pièces communes, dont les boîtiers de contrôleur
+│   │   ├── follower/        # Pince parallèle et support de caméra
+│   │   └── leader/          # Poignée, gâchette et rotation du poignet
 │   └── step/                # CAD sources, même disposition que stl/
 ├── docs/
 │   ├── printing.md          # Matériau, réglages de trancheuse, quantités
@@ -203,9 +202,9 @@ L'exportation autonome actuelle est dans [`simulation/urdf/`](../../../simulatio
 <a id="-known-issues"></a>
 ## ⚠️ Problèmes connus
 
-Ceci est la première version publique. Une compilation de test indépendante a trouvé les erreurs suivantes, qui sont en cours de correction et seront corrigées dans la prochaine version.
+Remarques issues de tests indépendants ; vérifiez-les au montage.
 
-1. **Deux modèles sont signalés manquants dans le kit de sortie.** Un est connu: le support de l'appareil photo manque toujours d'une source STEP.
+1. **La documentation de montage est en retard sur le matériel.** Le livret montre encore le contrôleur HAT et les anciennes pièces de pince. Consultez l’avertissement de révision dans le guide de montage.
 2. **M2 vis sont difficiles à atteindre dans plusieurs endroits.** Attendez-vous à combattre quelques-uns d'entre eux.
 3. **Les pinces de préhension sont serrées sur les tiges en carbone.** Les trous de serrage sont dimensionnés pour 6.1 mm.Le diamètre des tiges varie selon les fournisseurs, vérifiez donc l'ajustement avant le montage.
 4. **Vérifiez les longueurs de câble du servomoteur** avant de fermer chaque joint, en particulier de la base à l'épaule.

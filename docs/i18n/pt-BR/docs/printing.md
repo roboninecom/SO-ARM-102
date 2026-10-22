@@ -12,11 +12,13 @@
 <a id="printing-the-parts"></a>
 # Impressão das peças
 
+> Confira a revisão: o 3MF da garra identifica as mandíbulas como `RB9.01.062.024`, mas a lista STEP/STL atual usa `RB9.01.062.025`. Verifique a geometria antes de imprimir; os nomes por si só não comprovam diferença entre as malhas.
+
 Cada parte impressa do kit SO-ARM 102 está em [`../models/stl/`](../../../../models/stl).As CAD fontes editáveis com os mesmos nomes estão em [`../models/step/`](../../../../models/step).
 
-- `common/` contém as peças usadas por ambos os braços robóticos. Imprima a quantidade listada uma vez. Ela já cobre dois braços robóticos.
-- `follower/` mantém a garra paralela, o suporte da câmera e a caixa de placa do braço robótico seguidor.
-- `leader/` mantém a alça, o gatilho, o rolo de pulso e a caixa da placa do braço do robô líder.
+- `common/` — Peças comuns, incluindo caixas dos controladores.
+- `follower/` — Garra paralela e suporte da câmera.
+- `leader/` — Punho, gatilho e rotação do pulso.
 
 Todas as peças se encaixam em uma placa de construção de impressora 3D 180 × 180 mm A maior parte, a base, é 160 × 112.5 mm.
 
@@ -27,7 +29,7 @@ Todas as peças se encaixam em uma placa de construção de impressora 3D 180 ×
 
 | Localização | Material | Motivo |
 |---|---|---|
-| Ligações do braço, base, suportes do servomotor | PET-CF, recozido se possível | Opção mais rígida e resistente ao calor testada perto de servomotores quentes |
+| Elos do braço e suportes de servos | PET-CF, recozido se possível | Opção mais rígida e resistente ao calor testada perto de servomotores quentes |
 | Braçadeiras de garra, tampas, punho e gatilho do braço robótico líder | PETG ou PET-CF | Mais resistente contra golpes |
 
 O protótipo foi impresso em **Fiberon PET-CF17**. Em nossos testes de filamento, o recozimento reduziu a deflexão do PET-CF17 após uma hora em 65–70 °C de 3.4 mm para 0.3 mm. O recozimento também torna a peça mais frágil, portanto não recoza peças que sofrem impactos. Detalhes: [Escolhendo um filamento para braços robóticos](https://robonine.com/choosing-filament-for-robotic-arm-applications/).
@@ -42,18 +44,16 @@ Os [3MF projetos](../models/README.md#3mf-slicer-projects) incluem orientações
 | Projeto | Perfil de filamento salvo | Altura da camada | Paredes | Camadas superiores / inferiores | Preenchimento | Peso | Tempo |
 |---|---|---|:-:|:-:|---|:-:|:-:|
 | [Braço líder](../../../../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % de giroide | 457 gr | 23 h |
-| [Braço robótico seguidor](../../../../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cúbicos | 583 gr | 23 h |
-| [Pinça de braço robô seguidor e caixa de placa](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cúbicos | 131 gr | 6,5 h |
+| [Braço robótico seguidor](../../../../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cúbicos | 394 gr | 15,5 h |
+| [Garra e base do seguidor](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cúbicos | 287 gr | 14 h |
 
-Com essas configurações, você precisará de: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
+Com essas configurações, você precisará de: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
 
 Todos os três salvam um perfil de bico **Bambu Lab A1, 0.4 mm**em uma placa de construção de impressora 3D**256 × 256 mm**. Peças individuais ainda se encaixam em uma placa de construção de impressora 3D 180 × 180 mm, mas os layouts fornecidos precisam ser divididos em mais placas para esse tamanho. Suportes de árvore automáticos são o padrão global; algumas peças têm substituições de suporte, configurações manuais de suporte ou bloqueadores de suporte.
 
-Imprima cada projeto uma vez para obter um kit completo e depois imprima **uma presilha de cabo adicional**: os projetos contêm duas no total, mas a lista de peças exige três.
-
-| Layout do braço robótico Leader | Pinça do braço do robô seguidor e layout da caixa de placa |
-|:-:|:-:|
-| ![Layout do cortador de braço robótico líder](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Layout de pinça do braço do robô seguidor e slicer da caixa da placa](../../../../assets/images/3d%20print/gripper_3dprint.png) |
+| Layout do braço robótico Leader | Braços do seguidor | Garra e base do seguidor |
+|:-:|:-:|:-:|
+| ![Layout do cortador de braço robótico líder](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Braços do seguidor](../../../../assets/images/3d%20print/follower_3dprint_layout.png) | ![Garra e base do seguidor](../../../../assets/images/3d%20print/gripper_3dprint.png) |
 
 <a id="test-arm-slicer-settings"></a>
 ## Configurações do slicer de braço robótico de teste
@@ -93,22 +93,23 @@ As quantidades são para um kit completo: um braço de robô seguidor e um braç
 | SO102.02.080 | Elo superior esquerdo | 2 |
 | SO102.02.080-01 | Elo superior direito | 2 |
 | SO102.02.090 | Suporte do punho | 2 |
-| SO102.02.130 | Presilha de cabo | 3 |
+| SO102.02.110 | Suporte da placa do líder | 2 |
+| SO102.02.110-01 | Tampa da placa do líder | 2 |
+| SO102.02.130 | Presilha de cabo | 4 |
 
 <a id="follower-only"></a>
 ### Braço de robô seguidor apenas
 
 | Código da peça | Nome | Qtd. |
 |---|---|:-:|
-| RB9.01.062.011 | Estrutura principal (D6.1) | 1 |
-| RB9.01.062.024 | Mandíbula (D6.1) | 2 |
+| RB9.01.062.012 | Estrutura principal (D6.1) | 1 |
+| RB9.01.062.025 | Mandíbula (D6.1) | 2 |
 | RB9.01.062.030 | Cremalheira | 2 |
 | RB9.01.062.040 | Engrenagem da garra | 1 |
+| RB9.01.062.050 | Arruela | 2 |
 | RB9.01.062.100 | Pino | 2 |
 | RB9.01.062.075 | Suporte da câmera | 1 |
 | RB9.01.062.090 | Espaçador da câmera | 1 |
-| SO102.02.100 | Suporte da placa do seguidor | 1 |
-| SO102.02.100-01 | Tampa da placa do seguidor | 1 |
 
 `(D6.1)` significa que os orifícios da haste são dimensionados para 6.1 mm Veja os problemas conhecidos no README principal se a pinça estiver apertada.
 
@@ -120,8 +121,6 @@ As quantidades são para um kit completo: um braço de robô seguidor e um braç
 | — | Manipulador SO102 | 1 |
 | — | Acionador SO102 | 1 |
 | — | SO102 Rolo de pulso | 1 |
-| SO102.02.110 | Suporte da placa do líder | 1 |
-| SO102.02.110-01 | Tampa da placa do líder | 1 |
 
 <a id="about-the-stl-files"></a>
 ## Sobre os arquivos STL

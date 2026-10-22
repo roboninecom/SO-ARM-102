@@ -16,13 +16,13 @@
 |---|---|
 | `3mf/` | Bambu Studio 项目已保存板材布局、方向和支撑设置 |
 | `stl/` | 打印准备网格,二进制STL,毫米 |
-| `step/` | CAD 源,每个文件一个实体 |
+| `step/` | CAD 零件和装配体 |
 
 `stl/` 和 `step/` 文件夹使用相同的分割:
 
-- `common/` 包含两个机器人臂使用的零件。 打印表中的数量涵盖整个套件。
-- `follower/` 包含平行抓具、摄像头支架和跟踪机器人臂板箱。
-- `leader/` 包含手柄、触发器、手腕滚动和领导机器人臂板箱。
+- `common/` — 共用零件，包括控制器外壳.
+- `follower/` — 平行夹爪和相机支架.
+- `leader/` — 手柄、扳机和腕部旋转件.
 
 <a id="3mf-slicer-projects"></a>
 ## 3MF 切片器项目
@@ -30,8 +30,8 @@
 | 项目 | 内容 | 保存的耗材配置 |
 |---|---|---|
 | [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | 机器人臂:机器人臂部件,手柄,触发器,腕轮和板箱 | Bambu PETG-CF |
-| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | 机器人手臂零部件 | Fiberon PET-CF17 |
-| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | 跟踪机器人臂抓具、相机支架和间距,以及电路板箱 | Bambu PETG-CF |
+| [SO102_follower_arms.3mf](../../../../models/3mf/SO102_follower_arms.3mf) | 机器人手臂零部件 | Fiberon PET-CF17 |
+| [SO102_follower_gripper_base.3mf](../../../../models/3mf/SO102_follower_gripper_base.3mf) | 从动臂夹爪与底座; 共用零件，包括控制器外壳 | Bambu PETG-CF |
 
 将这些文件作为 **Bambu Studio**中的项目打开,以保留已保存的设置。 这三个文件都使用** Bambu Lab A1 、 0.4 mm喷嘴**配置文件和一个**256 × 256 mm** 板。 在切片之前选择您的打印机、喷嘴和丝材。
 

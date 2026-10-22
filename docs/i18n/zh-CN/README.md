@@ -20,11 +20,11 @@
 
 **这是一套开源主从机械臂套件，具有 5 个自由度和一个夹爪，适用于遥操作和模仿学习。由 [Robonine](https://robonine.com) 设计，是 SO-ARM 101 的升级版，结构更坚固，动作更快。**
 
-[![硬件：CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![软件：Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![文件：CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![状态：v0.1预发布版](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![硬件：CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![软件：Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![文件：CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY预算: ~$404 用于组件,或 ~$444 包括印刷材料。** [BOM摘要](#bill-of-materials) · [项目成本和购买链接 ](docs/bom.md#estimated-kit-cost)
+**DIY预算: ~$340 用于组件,或 ~$374 包括印刷材料。** [BOM摘要](#bill-of-materials) · [项目成本和购买链接 ](docs/bom.md#estimated-kit-cost)
 
 > 不想自己采购零件和打印？**[购买 SO-ARM 102 套件](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
 
@@ -102,22 +102,21 @@
 
 单个零件适合 180 × 180 mm 3D 打印机构造板,最大的部件长度为 160 mm。 所提供的 3MF 板布局使用 256 × 256 mm 3D 打印机构造板。
 
-- 3MF 切片机项目,带有保存的方向和支撑设置:[`models/3mf/` ](../../../models/3mf) — [领导机器人臂 ](../../../models/3mf/SO102_leader.3mf) , [跟随机器人臂 ](../../../models/3mf/SO102_follower.3mf) , [跟随机器人臂抓具和板箱 ](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 3MF 切片机项目,带有保存的方向和支撑设置:[`models/3mf/` ](../../../models/3mf) — [领导机器人臂 ](../../../models/3mf/SO102_leader.3mf) , [跟随机器人臂 ](../../../models/3mf/SO102_follower_arms.3mf) , [从动臂夹爪与底座](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - 项目内容和打印机配置文件: [models/README.md ](models/README.md)
 - STL文件,准备切片:[`models/stl/` ](../../../models/stl)
 - STEP来源：[`models/step/`](../../../models/step)
 - 材料、设置和零件数量: [docs/printing.md ](docs/printing.md)
 
-先前的测试机器人臂设置给出了约 500 g 丝材和 21 h 机器人臂部件(不包括抓具)的切片估计值。 再次使用 3D 打印切片器切割 3MF 项目以获得当前估计值。
 
 <a id="2-buy-the-hardware"></a>
 ### 2 。 购买硬件
 
-从[BOM摘要 ](#bill-of-materials)和[带有购买链接的完整 BOM ](docs/bom.md)中获取组件。 预算 **$404.09**用于组件,或**$443.68** 包括印刷材料,运费和税前。
+从[BOM摘要 ](#bill-of-materials)和[带有购买链接的完整 BOM ](docs/bom.md)中获取组件。 预算 **$340.22**用于组件,或**$373.97** 包括印刷材料,运费和税前。
 
 | 机械臂 | 舵机 | 控制器 | 电源 |
 |---|---|---|---|
-| 从臂 | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| 从臂 | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | 主臂 | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **主臂使用 5 V 电源，从臂使用 12 V 电源。** 切勿互换电源。
@@ -146,15 +145,15 @@
 
 | 类别/购买链接 | 套件内容 | 总计 (USD) |
 |---|---|---:|
-| [舵机](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [电子元件](docs/bom.md#electronics) | 2 控制器, 2 电源, 2 USB 线缆, 1 手腕摄像头 | $71.50 |
+| [舵机](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [电子元件](docs/bom.md#electronics) | 2 控制器, 2 电源, 2 USB 线缆, 1 手腕摄像头 | $50.50 |
 | [机械零件](docs/bom.md#mechanical-parts) | 4 轴承, 2 钢制导轨, 4 工作台夹具 | $37.76 |
-| [紧固件](docs/bom.md#fasteners) | 螺丝和螺母;包括指定的伺服电机套件螺丝 | $11.21 |
-| **零部件小计** |  | **$404.09** |
-| [印刷材料 ](docs/bom.md#printing-materials) | 0.6 kg PET-CF17+0.6 kgPETG 补贴 | $39.59 |
-| **含打印材料总计** |  | **$443.68** |
+| [紧固件](docs/bom.md#fasteners) | 螺丝和螺母;包括指定的伺服电机套件螺丝 | $11.24 |
+| **零部件小计** |  | **$340.22** |
+| [印刷材料 ](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG 补贴 | $33.75 |
+| **含打印材料总计** |  | **$373.97** |
 
-从头开始购买完整包装和丝线卷轴的成本约为 **$504**,包括未使用的备件。 这些是参考估计数,不是新供应商报价,不包括运费、税费、工具、电脑、打印机、电力和组装劳动力。 在订购之前请确认供应商价格、变体和最小订单量;使用3D打印切片器再次切割 3MF 项目以检查纤维消耗。
+从头开始购买完整包装和丝线卷轴的成本约为 **$435**,包括未使用的备件。 这些是参考估计数,不是新供应商报价,不包括运费、税费、工具、电脑、打印机、电力和组装劳动力。 在订购之前请确认供应商价格、变体和最小订单量;使用3D打印切片器再次切割 3MF 项目以检查纤维消耗。
 
 [完整的物料清单、购买链接和成本假设 ](docs/bom.md#estimated-kit-cost) 。
 
@@ -181,9 +180,9 @@
 ├── models/
 │   ├── 3mf/                 # 切片机项目:领导者机器人臂,跟随者机器人臂,抓具和板箱
 │   ├── stl/                 # 打印準備網格
-│   │   ├── common/          # 两个机器人臂使用的零件
-│   │   ├── follower/        # 平行夹持器,摄像头安装架,电路板箱
-│   │   └── leader/          # 手柄,触发器,手腕滚动,板箱
+│   │   ├── common/          # 共用零件，包括控制器外壳
+│   │   ├── follower/        # 平行夹爪和相机支架
+│   │   └── leader/          # 手柄、扳机和腕部旋转件
 │   └── step/                # CAD 源代码,与 stl / 相同的布局
 ├── docs/
 │   ├── printing.md          # 材料、切片机设置、数量
@@ -203,9 +202,9 @@
 <a id="-known-issues"></a>
 ## 已知问题
 
-这是第一个公开发布版本。 独立测试构建发现了以下问题,正在修复中,将在下一版本中解决。
+以下是独立测试装配中的注意事项，组装时请检查。
 
-1. **据报道,发布套件中缺少两种型号。** 其中一种已知:相机支架仍然缺乏 STEP 源。
+1. **组装文档落后于硬件。** 手册仍展示 HAT 控制器和旧版夹爪零件。请参阅组装指南中的版本提示。
 2. **M2 螺丝在几个地方很难触及。** 预计会与其中一些人战斗。
 3. **夹持器夹具在碳棒上运行时紧固。** 夹持孔尺寸为 6.1 mm。 杆直径因供应商而异,因此在装配前检查适合性。
 4. ** 在关闭每个接头之前检查伺服电机的电缆长度,特别是从底座到肩部。

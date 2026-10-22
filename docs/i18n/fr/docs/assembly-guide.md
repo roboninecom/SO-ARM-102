@@ -12,6 +12,8 @@
 <a id="assembly-guide"></a>
 # Guide de montage
 
+> Ancien guide : le livret et les illustrations montrent le matériel HAT précédent. La nomenclature et le guide d’impression v0.2.0 utilisent des Bus Servo Adapter sur les deux bras, des pièces de pince révisées et d’autres vis. Ne suivez pas les anciennes étapes de pince ou de contrôleur pour les pièces révisées ; le livret actualisé reste à publier.
+
 Ce guide suit le livret imprimé [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) page par page, imprimé sur A5 paysage si vous préférez du papier.
 
 Avant de commencer :
@@ -116,7 +118,7 @@ Serrez les vis de pression du côté du palonnier vers l'engrenage afin de ne la
 
 | Étape | Pièces | Fixations |
 |:-:|---|---|
-| 1 | RB9.01.060.075 Support pour appareil photo | 4 × M3×10 |
+| 1 | RB9.01.062.075 Support pour appareil photo | 4 × M3×10 |
 | 2 | Montage de la pince sur le poignet | 4 × 2×6 autotaraudeurs |
 | 3 | RB9.01.062.090 Entretoise de caméra, caméra USB | Écrou 4 × M2×8, 4 × M2 |
 | 4 | SO102.02.100 Bras robotique pour porte-cartes, Waveshare Bus Servo Driver HAT | Écrou 4 × M2×8, 4 × M2 |

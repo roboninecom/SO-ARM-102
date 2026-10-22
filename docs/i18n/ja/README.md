@@ -20,11 +20,11 @@
 
 **遠隔操作と模倣学習のための、5 自由度のアームとグリッパーを備えたオープンソースのリーダー＋フォロワー型ロボットアームキットです。[Robonine](https://robonine.com) が SO-ARM 101 の後継機として設計し、剛性と速度を向上させました。**
 
-[![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![ドキュメント: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![状態: v0.1予備リリース](https://img.shields.io/badge/Status-v0.1%20pre--release-orange.svg)](#-known-issues)
+[![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![ドキュメント: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY製作の予算目安：部品のみで ~$404、造形材料を含めて ~$444。** [部品表の概要](#bill-of-materials) · [費用の内訳と購入リンク](docs/bom.md#estimated-kit-cost)
+**DIY製作の予算目安：部品のみで ~$340、造形材料を含めて ~$374。** [部品表の概要](#bill-of-materials) · [費用の内訳と購入リンク](docs/bom.md#estimated-kit-cost)
 
 > 部品調達や造形の手間を省きたい方は、**[SO-ARM 102キットを購入できます](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**。
 
@@ -102,22 +102,21 @@
 
 各部品は 180 × 180 mm の造形ベッドに収まります。最大の部品の長さは 160 mm です。付属の 3MF ファイルのプレート配置は、256 × 256 mm の造形ベッドを想定しています。
 
-- 造形方向とサポート設定を保存した 3MF スライサープロジェクト：[`models/3mf/`](../../../models/3mf) — [リーダーアーム](../../../models/3mf/SO102_leader.3mf)、[フォロワーアーム](../../../models/3mf/SO102_follower.3mf)、[フォロワーのグリッパーと基板ケース](../../../models/3mf/SO102_follower_gripper_box.3mf)
+- 造形方向とサポート設定を保存した 3MF スライサープロジェクト：[`models/3mf/`](../../../models/3mf) — [リーダーアーム](../../../models/3mf/SO102_leader.3mf)、[フォロワーアーム](../../../models/3mf/SO102_follower_arms.3mf)、[フォロワーのグリッパーとベース](../../../models/3mf/SO102_follower_gripper_base.3mf)
 - プロジェクトの内容とプリンタプロファイル: [models/README.md](models/README.md)
 - スライス用の STL ファイル：[`models/stl/`](../../../models/stl)
 - STEP ソース: [`models/step/`](../../../models/step)
 - 材料、設定、部品数量: [docs/printing.md](docs/printing.md)
 
-以前の試験用アーム設定では、グリッパーを除くアーム部品のスライサー推定値はフィラメント約 500 g、印刷時間約 21 h でした。現在の推定値は 3MF プロジェクトを再スライスして確認してください。
 
 <a id="2-buy-the-hardware"></a>
 ### 2. ハードウェアを購入する
 
-部品は、[部品表の概要](#bill-of-materials) と [購入リンク付きの部品表全体](docs/bom.md) を参照して調達してください。予算の目安は部品のみで **$404.09**、造形材料を含めて **$443.68** です。送料と税金は含みません。
+部品は、[部品表の概要](#bill-of-materials) と [購入リンク付きの部品表全体](docs/bom.md) を参照して調達してください。予算の目安は部品のみで **$340.22**、造形材料を含めて **$373.97** です。送料と税金は含みません。
 
 | アーム | サーボ | コントローラー | 電源 |
 |---|---|---|---|
-| フォロワー | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Driver HAT | **12 V** |
+| フォロワー | 2 × STS3235, 2 × STS3250, 2 × STS3215 | Waveshare Bus Servo Adapter | **12 V** |
 | リーダー | 6 × STS3215 | Waveshare Bus Servo Adapter | **5 V** |
 
 > ⚠️ **リーダーアームは 5 V、フォロワーアームは 12 V で動作します。** 電源を取り違えないでください。
@@ -146,15 +145,15 @@ SO-ARM 102 フォロワープラグインと標準の `so101_leader` 型を使�
 
 | カテゴリ/購入リンク | キット内容 | 合計 (USD) |
 |---|---|---:|
-| [サーボ](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $283.62 |
-| [電子部品](docs/bom.md#electronics) | 2 コントローラ、2 電源、2 USBケーブル、1 手首カメラ | $71.50 |
+| [サーボ](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
+| [電子部品](docs/bom.md#electronics) | 2 コントローラ、2 電源、2 USBケーブル、1 手首カメラ | $50.50 |
 | [機械部品](docs/bom.md#mechanical-parts) | 軸受4、鋼製ガイドロッド2、テーブルクランプ4 | $37.76 |
-| [締結部品](docs/bom.md#fasteners) | ねじとナット（指定のサーボキット付属ねじを含む） | $11.21 |
-| **部品小計** |  | **$404.09** |
-| [印刷素材](docs/bom.md#printing-materials) | 0.6 kg PET-CF17 + 0.6 kg PETG 割当 | $39.59 |
-| **印刷材料込み合計** |  | **$443.68** |
+| [締結部品](docs/bom.md#fasteners) | ねじとナット（指定のサーボキット付属ねじを含む） | $11.24 |
+| **部品小計** |  | **$340.22** |
+| [印刷素材](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG 割当 | $33.75 |
+| **印刷材料込み合計** |  | **$373.97** |
 
-掲載例の部品パックとフィラメントのスプールをすべて新規に購入する場合、使用せずに残る予備部品も含めて約 **$504** です。これらは参考見積もりであり、供給元から新たに取得した見積書ではありません。送料、税金、工具、コンピュータ、プリンタ、電気代、組立作業費は含みません。注文前に供給元の価格、製品バリエーション、最低注文数量を確認し、3MF プロジェクトを再スライスしてフィラメント使用量を確認してください。
+掲載例の部品パックとフィラメントのスプールをすべて新規に購入する場合、使用せずに残る予備部品も含めて約 **$435** です。これらは参考見積もりであり、供給元から新たに取得した見積書ではありません。送料、税金、工具、コンピュータ、プリンタ、電気代、組立作業費は含みません。注文前に供給元の価格、製品バリエーション、最低注文数量を確認し、3MF プロジェクトを再スライスしてフィラメント使用量を確認してください。
 
 [部品表の詳細、購入リンク、費用の前提条件](docs/bom.md#estimated-kit-cost)。
 
@@ -181,9 +180,9 @@ SO-ARM 102 フォロワープラグインと標準の `so101_leader` 型を使�
 ├── models/
 │   ├── 3mf/                 # スライサープロジェクト：リーダー、フォロワー、グリッパー、基板ケース
 │   ├── stl/                 # 印刷可能なメッシュ
-│   │   ├── common/          # 両方のロボットアームに使われる部品
-│   │   ├── follower/        # 平行グリッパー、カメラマウント、基板ケース
-│   │   └── leader/          # ハンドル、トリガー、手首ロール、基板ケース
+│   │   ├── common/          # コントローラーケースを含む共通部品
+│   │   ├── follower/        # 平行グリッパーとカメラマウント
+│   │   └── leader/          # ハンドル、トリガー、手首回転部品
 │   └── step/                # CAD ソース、stl/と同じレイアウト
 ├── docs/
 │   ├── printing.md          # 素材、スライサーの設定、量
@@ -203,9 +202,9 @@ SO-ARM 102 フォロワープラグインと標準の `so101_leader` 型を使�
 <a id="-known-issues"></a>
 ## 既知の問題
 
-これは最初の公開リリースです。独立したテストビルドで以下の問題が発見されました。修正中で、次のリリースで解決します。
+独立した組立テストの注意点です。組立時に確認してください。
 
-1. **リリース一式にはモデルが2つ不足しているとの報告があります。** うち1つは判明しており、カメラホルダーの STEP ソースがまだありません。
+1. **組立文書がハードウェアの更新に追いついていません。** 冊子には HAT コントローラーと旧グリッパー部品が掲載されています。組立ガイドの改訂に関する注意を確認してください。
 2. **一部の M2 ねじは工具が届きにくい位置にあります。** 取り付けに手間がかかる箇所があります。
 3. **グリッパーのクランプはカーボンロッド上で動きが固くなります。** クランプの穴は 6.1 mm に合わせてあります。ロッドの直径は供給元により異なるため、組立前に適合を確認してください。
 4. 各関節を閉じる前に、**サーボケーブルの長さを確認してください。** 特にベースから肩までの区間に注意してください。

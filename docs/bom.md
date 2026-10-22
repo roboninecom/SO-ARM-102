@@ -106,7 +106,7 @@ Black fasteners match the look of the renders but are not required.
 
 | Material | Use | Purchase link | Price / budget (USD) | Total (USD) |
 |---|---|---|---|---:|
-| Fiberon PET-CF17 | Tested material for the arm links and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $18.00 (0.4 kg) |
+| Fiberon PET-CF17 | Arm links and servo holders | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $18.00 (0.4 kg) |
 | PETG or PET-CF | Gripper clamps, covers, leader handle and trigger | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $15.75 (0.75 kg) |
 | **Total** | | | | **$33.75** |
 

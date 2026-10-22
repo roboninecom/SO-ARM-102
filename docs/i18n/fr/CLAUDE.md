@@ -22,7 +22,7 @@ Matériel ouvert: le SO-ARM 102 Bras robot leader + bras robot follower bras rob
 <a id="rules"></a>
 ## Règles
 
-- `models/step/` est la source de vérité. Chaque STEP a un STL avec le même nom de base dans le même sous-dossier (`common/`, `follower/`, `leader/`). `RB9.01.060.075 Camera holder` est celui STL sans STEP.
+- `models/step/` est la source de vérité. Chaque STEP a un STL avec le même nom de base dans le même sous-dossier (`common/`, `follower/`, `leader/`).
 - Les numéros de pièce (`SO102.02.xxx`, `RB9.01.06x.xxx`) apparaissent dans `docs/printing.md`, `docs/bom.md` et `docs/assembly-guide.md`.Renommer ou ajouter une pièce signifie mettre à jour les trois.
 - Le README résume les informations sur le bom, l'impression et les spécifications. Gardez les nombres cohérents.
 - Chaque nouveau fichier doit être couvert par `REUSE.toml`. CI exécute `pre-commit run --all-files`, y compris `reuse lint`.

@@ -19,21 +19,21 @@
 <a id="estimated-kit-cost"></a>
 ## التكلفة التقديرية للمجموعة
 
-** ذراع روبوت رئيسي واحد + ذراع روبوت متابعة واحد: $404 في المكونات، أو $444 بما في ذلك مواد الطباعة**.
+** ذراع روبوت رئيسي واحد + ذراع روبوت متابعة واحد: $340 في المكونات، أو $374 بما في ذلك مواد الطباعة**.
 
 | الفئة | تكلفة الكميات المستخدمة (بدولارات الولايات المتحدة) | شراء عبوات كاملة/أسطوانات (بدولارات الولايات المتحدة) |
 |---|---:|---:|
-| سيرفو (12 pcs) | $283.62 | $283.62 |
-| الكترونيات وكاميرات وإمدادات كهربائية | $71.50 | $71.50 |
-| المحامل، قضبان التوجيه الفولاذية وملاصقات الجداول | $37.76 | $49.7 |
-| المثبتات | $11.21 | $32.9 |
-| **المجموع الفرعي للمكونات** | **$404.09** | **$437.7** |
-| مادة الطباعة: 0.6 kg PET-CF 17 + 0.6 kg PETG | $39.59 | $66.0 |
-| **الإجمالي مع مواد الطباعة** | **$443.68** | **$503.7** |
+| سيرفو (12 pcs) | $240.72 | $240.72 |
+| الكترونيات وكاميرات وإمدادات كهربائية | $50.50 | $50.50 |
+| المحامل، قضبان التوجيه الفولاذية وملاصقات الجداول | $37.76 | $49.70 |
+| المثبتات | $11.24 | $28.60 |
+| **المجموع الفرعي للمكونات** | **$340.22** | **$368.82** |
+| مادة الطباعة: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
+| **الإجمالي مع مواد الطباعة** | **$373.97** | **$434.82** |
 
 العمود ** المجموع (بدولارات الولايات المتحدة)** هو تكلفة الكمية اللازمة لمجموعة واحدة، باستخدام العطاء المرجعي خلف مجموع كل سطر قائم (وليس مجموع عروض الموردين). وتبلغ تكلفة المسامير المدرجة $0؛ ويستبعد من المجاميع الأنابيب الكربونية البديلة. وتستخدم التقديرات الأسعار المرجعية المبينة أدناه، مع تقريب كل سطر إلى السنت. وهي ليست عروضا جديدة للموردين: تأكد من المتغيرات المختارة والحد الأدنى لكميات الطلب والأسعار قبل طلبها. ولا يشمل ذلك الشحن والضرائب والأدوات والحاسوب والطابعة والكهرباء وعمل التجميع.
 
-تشمل العلبة الكاملة قطع الغيار غير المستخدمة، 1 kg PET-CF17 spool و1 kg PETG spool. كميات الطباعة هي مخصصات الميزانية؛ شرائح مرة أخرى باستخدام شريحة الطباعة ثلاثية الأبعاد المشاريع 3MF المقدمة لوضعك. تكاليف القضيب تستخدم الفولاذ؛ أنبوب الكربون هو بديل.
+تشمل العلبة الكاملة قطع الغيار غير المستخدمة، 0.5 kg PET-CF17 spool و1 kg PETG spool. كميات الطباعة هي مخصصات الميزانية؛ شرائح مرة أخرى باستخدام شريحة الطباعة ثلاثية الأبعاد المشاريع 3MF المقدمة لوضعك. تكاليف القضيب تستخدم الفولاذ؛ أنبوب الكربون هو بديل.
 
 ![مجموعة معدات](../../../../assets/images/assembly/hardware.jpg)
 
@@ -42,25 +42,25 @@
 
 | المفصل | ID | الذراع التابع | الذراع القائد |
 |---|:-:|---|---|
-| دوران القاعدة | 1 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| رفع الكتف | 2 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| ثني المرفق | 3 | ST-3250-С002 | ST-3215-C044, 1:191 |
-| ثني المعصم | 4 | ST-3235-С001 | ST-3215-C044, 1:191 |
-| دوران المعصم | 5 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
-| القابض / الزناد | 6 | ST-3215-C049, 1:191 | ST-3215-C044, 1:191 |
+| دوران القاعدة | 1 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| رفع الكتف | 2 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| ثني المرفق | 3 | ST-3250-С002 | ST-3215-C066, 1:191 |
+| ثني المعصم | 4 | ST-3235-С001 | ST-3215-C066, 1:191 |
+| دوران المعصم | 5 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
+| القابض / الزناد | 6 | ST-3215-C049, 1:191 | ST-3215-C066, 1:191 |
 
 الإجمالي: 6 × STS3215 7.4V، 2 × STS3215 12V، 2 × STS3235 12V، 2 × STS3250 12V. كلها محركات سيرفو Feetech TTL ذات ناقل تسلسلي.
 
 | محرك سيرفو | الكمية | الاختيار | رابط Aliexpress | سعر الوحدة (USD) | رابط Alibaba | سعر الوحدة (USD) | الإجمالي (USD) |
 |---|---|---|---|---|---|---|---|
-| STS3215 | 6 | 7.4V TTL نسخة للمحركات المساعدة لذراع الروبوت الرائد. اختار ST-3215-C044 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Top-Seller-Low-Cost-Feetech-STS3215_1600999461525.html) | $13.89 | $83.34 |
+| STS3215 | 6 | 7.4V TTL نسخة للمحركات المساعدة لذراع الروبوت الرائد. اختار ST-3215-C066 (7.4V). | [Aliexpress](https://www.aliexpress.us/item/3256811860804361.html) | $32.8 | [Alibaba](https://www.alibaba.com/product-detail/Feetech-SO-ARM101-LeRobot-Open-Source_1601636174153.html) | $6.74 | $40.44 |
 | STS3215 | 2 | صيغة 12V TTL لمفاصل ذراع الروبوت المتتبع 5 و6. اختار ST-3215-C049 (12V30KG). | [Aliexpress](https://www.aliexpress.us/item/3256811832699316.html) | $55.8 لـ 2pcs | [Alibaba](https://www.alibaba.com/product-detail/6pcs-12V-30KG-1-345-STS3215_1601900233170.html) | $14.70 | $29.40 |
 | STS3235 | 2 | صيغة 12V TTL لمفاصل ذراع الروبوت المتتبع 1 و4. | [Aliexpress](https://www.aliexpress.us/item/3256810213842277.html) | $63 | [Alibaba](https://www.alibaba.com/product-detail/FEETECH-STS3235-12V-30KG-TTL-Dual_1601910640629.html) | $40.79 | $81.58 |
 | STS3250 | 2 | صيغة 12V TTL لمفاصل ذراع الروبوت المتتبع 2 و3. | [Aliexpress](https://www.aliexpress.us/item/3256811995148799.html) | $126.4 لـ 2pcs | [Alibaba](https://www.alibaba.com/product-detail/Feetech-STS3250-12V-50kg-Servo-High_1601711893549.html) | $44.65 | $89.30 |
-| **الإجمالي** |  |  |  |  |  |  | **$283.62** |
+| **الإجمالي** |  |  |  |  |  |  | **$240.72** |
 
 - ** الذراع الروبوتية التالية، 12V.** STS3250 هو محرك خدمة بدون فرش 50 kg × سم عند 75 RPM، وهو يقود المفصلين اللذين يحملان أكبر قدر من الحمولة. STS3235 هو محرك خدمة بحجم 30 kg × سم مع حركة عكسية أقل من STS3215.
-- **ذراع الروبوت القيادي، 5V.**محركات سيرفو ذراع الروبوت القيادي تقرأ فقط، ولا تحمل أبدا. يمكنك استخدام STS3215 (ST-3215-C066) سلبي بدون محرك وعجلة نقل** فقط** لذرع الروبوت القيادي.
+- **ذراع الروبوت القيادي، 5V.**محركات سيرفو ذراع الروبوت القيادي تقرأ فقط، ولا تحمل أبدا. يمكنك استخدام ST-3215-C066 سلبي بدون محرك وعجلة نقل** فقط** لذرع الروبوت القيادي.
 - تتوفر مع محركات السيرفو قرون سيرفو و M3 × 6 مسمار سيرفو.
 
 <a id="electronics"></a>
@@ -68,13 +68,12 @@
 
 | العنصر | الكمية | ملاحظات | الشراء في الولايات المتحدة | تكلفة الوحدة (الولايات المتحدة) | الشراء في الولايات المتحدة | تكلفة الوحدة (الولايات المتحدة) | الشراء في الاتحاد الأوروبي | تكلفة الوحدة (الاتحاد الأوروبي) | الإجمالي (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Waveshare Bus Servo Driver HAT | 1 | وحدة تحكم الذراع التابع | [Amazon](https://www.amazon.com/Serial-Bus-Servo-Driver-Board/dp/B0D83QMQ4N) | $26.60 | [Aliexpress](https://www.aliexpress.us/item/3256809887200297.html) | $28.90 | [Amazon EU](https://www.amazon.fr/-/en/Waveshare-Bus-Servo-Driver-Integrates/dp/B0D5VF6CK3/) | €30.00 | $26.60 |
-| Waveshare Bus Servo Adapter | 1 | وحدة تحكم الذراع القائد | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $7.40 |
-| إمداد الطاقة 12V DC (12V 5A إمداد الطاقة 5.5 2.5mm) | 1 | للذراع التابعة. يوصى بمزوّد بقدرة 60W / 5A أو أكثر. بلغ تيار الذراع ذروته عند 3.3A تحت حمل 300g. تأكد من مطابقة موصل لوحة HAT (5.5x2.5mm). | [Amazon](https://www.amazon.com/Universal-100-240V-5-5x2-5mm-Compatible-Aquarium/dp/B0F8974RZR/) | $9.00 | [Aliexpress](https://www.aliexpress.us/item/3256812479836615.html) | $8.40 | [Amazon EU](https://www.amazon.fr/Qilomor-12V-5A-Charger-Universal/dp/B0H8PB93M4/) | €12.00 | $8.40 |
+| Waveshare Bus Servo Adapter | 2 | متحكم السيرفو | [Amazon](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP/) | $13.00 | [Aliexpress](https://www.aliexpress.us/item/3256810343532716.html) | $7.40 | [Amazon EU](https://www.amazon.fr/-/en/Serial-Integrates-Control-Circuit-Support/dp/B0CJBKQ8LJ/) | €11.90 | $14.80 |
+| إمداد الطاقة 12V DC (12V 5A إمداد الطاقة 5.5 2.1mm) | 1 | للذراع التابعة. يوصى بمزوّد بقدرة 60W / 5A أو أكثر. بلغ تيار الذراع ذروته عند 3.3A تحت حمل 300g. تأكد من مطابقة موصل لوحة Adapter (5.5x2.1mm). | [Amazon](https://www.amazon.com/Power-Supply-Adapter-5-5x2-1-2-5mm/dp/B0C3CJF313/) | $10.00 | [Aliexpress](https://www.aliexpress.us/item/3256812113231032.html) | $6.60 | [Amazon EU](https://www.amazon.fr/-/en/zstg-Universal-Power-Supply-Connector/dp/B0GTLSRM91/) | €12.00 | $6.60 |
 | إمداد الطاقة 5V DC (5V 2A إمداد الطاقة 5.5 2.1mm) | 1 | ذراع الروبوت القائد. توافق موصل المُعدّل (5.5x2.1mm). | [Amazon](https://www.amazon.com/MTDZKJG-Adapter-100V-240V-Transformer-Security/dp/B0BZP65GRW/) | $6.20 | [Aliexpress](https://www.aliexpress.us/item/3256812479558626.html) | $4.10 | [Amazon EU](https://www.amazon.fr/5V-2A-Supply-DC-Adapter/dp/B0GDXFRYJS/) | €11.00 | $4.10 |
 | كابل USB-C، 1.5 متر (كابل بيانات USB A إلى USB C 1.5 متر) | 2 | واحد لكل جهاز تحكم اختار كابل بيانات وليس كابل شحن فقط | [Amazon](https://www.amazon.com/Data-Cable-1-5ft-10Gbps-Transfer/dp/B0FMJTHRCM/) | $6.00 | [Aliexpress](https://www.aliexpress.us/item/3256812299430938.html) | $3.00 | [Amazon EU](https://www.amazon.fr/-/en/10Gbps-Transfer-Charging-Samsung-External/dp/B0DHZ1R8FQ/) | €7.00 | $6.00 |
 | آلة تصوير USB (OV2735، 1080P USB Camera Module, 2 MP 1920x1080, UVC camera, 2.8 or 3.0 mm lens) | 1 | كاميرا اليد على ذراع الروبوت المتتبع. استخدم النموذج الأولي وحدة OV2735. تحقق من أبعاد الوحدة وثقوب التثبيت ضد حامل الكاميرا. | [Amazon](https://www.amazon.com/innomaker-Computer-Raspberry-Support-Windows/dp/B0CNCSFQC1/) | $19.00 | [Aliexpress](https://www.aliexpress.us/item/3256804452094739.html) | $26.10 | [Amazon EU](https://www.amazon.fr/InnoMaker-Raspberry-Compatible-Windows-Android/dp/B0CNCSFQC1/) | €21.00 | $19.00 |
-| **الإجمالي** |  |  |  |  |  |  |  |  | **$71.50** |
+| **الإجمالي** |  |  |  |  |  |  |  |  | **$50.50** |
 
 <a id="mechanical-parts"></a>
 ## الأجزاء الميكانيكية
@@ -97,15 +96,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 برأس أسطواني | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |
 | M2 × 8 برأس أسطواني | DIN 912 | 12 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY7L8YJ/) | $6.60 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZKVDN/) | €7.00 / 60 | $0.49 |
-| M3 × 10 برأس غاطس | DIN 7991 | 60 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.44 |
+| M3 × 10 برأس غاطس | DIN 7991 | 62 | [Amazon](https://www.amazon.com/M3-0-5-Socket-Screws-Alloy-Threaded/dp/B08HNF3J3D/) | $9.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY12R93P/) | €8.00 / 60 | $4.59 |
 | M3 × 16 برأس غاطس | DIN 7991 | 36 | [Amazon](https://www.amazon.com/Skweawert-40-Pcs-M3x16mm-countersunk/dp/B0D7MY32JZ/) | $6.20 / 40 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.10 / 50 | [Amazon EU](https://www.amazon.fr/-/en/Mbsomnus-Countersunk-Stainless-Mechanical-Furniture/dp/B0DY138MGY/) | €8.00 / 60 | $2.95 |
-| M4 × 8 برأس غاطس | DIN 7991 | 2 | [Amazon](https://www.amazon.com/100Pcs-M4x8mm-Stainless-Socket-Countersunk/dp/B0FPG3MYZY/) | $6.00 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $4.30 / 50 | [Amazon EU](https://www.amazon.fr/-/en/DTGN-M4-0-7x8mm-Screws-Stainless-Countersunk/dp/B0CQ1M4457/) | €6.70 / 100 | $0.12 |
 | M3 × 4 برغي تثبيت | DIN 913 | 4 | [Amazon](https://www.amazon.com/Generic-Bathroom-Fixtures-Furniture-Project/dp/B0H8DPZJPQ/) | $4.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256805653005840.html) | $2.10 / 10 | [Amazon EU](https://www.amazon.fr/-/en/MIETONG-Hex-Socket-Grub-Screws/dp/B0FSKLJR93/) | €6.00 / 20 | $0.31 |
 | صامولة سداسية M2 | DIN 934 | 12 | [Amazon](https://www.amazon.com/1-10Pcs-M1-M20-Stainless-Steel-Loose/dp/B0GVMQ3VD5/) | $3.50 / 100 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.10 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC5QKH9/) | €6.00 / 20 | $0.42 |
 | صامولة سداسية M3 | DIN 934 | 36 | [Amazon](https://www.amazon.com/FOCMKEAS-Stainless-Hexagon-Fasteners-Hardware/dp/B0CR7WL4D6/) | $3.70 / 50 | [Aliexpress](https://www.aliexpress.us/item/3256812621986317.html) | $4.00 / 100 | [Amazon EU](https://www.amazon.fr/-/en/PRORAJE-Stainless-Steel-Hexagonal-Diameter/dp/B0GVC7PD4Q/) | €6.30 / 50 | $1.44 |
 | M3 × 6 مسمار رأس فيليبس | من طقم السيرفو | 16 | مرفق مع محركات السيرفو. | — | — | — | — | — | — |
 | مسمار ذاتي الملء 2 × 6 | من طقم السيرفو | 20 | مرفق مع محركات السيرفو. | — | — | — | — | — | — |
-| **الإجمالي** |  |  |  |  |  |  |  |  | **$11.21** |
+| **الإجمالي** |  |  |  |  |  |  |  |  | **$11.24** |
 
 وتتماشى الملحقات السوداء مع مظهر الجص ولكنها غير مطلوبة.
 
@@ -114,9 +112,9 @@
 
 | المادة | الاستخدام | رابط الشراء | السعر / الميزانية (USD) | الإجمالي (USD) |
 |---|---|---|---|---:|
-| Fiberon PET-CF17 | مادة مختبرة لوصلات الذراع الروبوتية وقواعدها ومثبتات محركات الخدمة | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $26.99 (0.6 kg) |
-| PETG أو PET-CF | صمامات، وأغطية، ومقبض الذراع الروبوتي الرئيسي، والزناد | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $12.60 (0.6 kg) |
-| **الإجمالي** |  |  |  | **$39.59** |
+| Fiberon PET-CF17 | وصلات الذراع وحوامل السيرفو | [Polymaker](https://shop.polymaker.com/products/fiberon-pet-cf17) | $44.99 / 1 kg | $18.00 (0.4 kg) |
+| PETG أو PET-CF | صمامات، وأغطية، ومقبض الذراع الروبوتي الرئيسي، والزناد | [Amazon](https://www.amazon.com/Bambu-Printer-Filament-1-75mm-Spool/dp/B0GS568LQ1/) | PETG: $21.00 / 1 kg | $15.75 (0.75 kg) |
+| **الإجمالي** |  |  |  | **$33.75** |
 
 استخدم [دليل الطباعة](printing.md) وقطع مرة أخرى باستخدام شريحة الطباعة الثلاثية الأبعاد المشاريع 3MF المقدمة لتحديد كمية الفتيل لطابعتك وإعداداتها.
 

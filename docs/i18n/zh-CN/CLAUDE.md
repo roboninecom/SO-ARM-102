@@ -22,7 +22,7 @@ Claude Code 在此仓库工作时的指导。
 <a id="rules"></a>
 ## 规则
 
-- `models/step/` 是真理的来源。 每个 STEP 在同一个子文件夹(`common/`, `follower/`, `leader/`)中都有一个具有相同基名的 STL 。 `RB9.01.060.075 Camera holder` 是没有 STEP 的 STL。
+- `models/step/` 是真理的来源。 每个 STEP 在同一个子文件夹(`common/`, `follower/`, `leader/`)中都有一个具有相同基名的 STL 。
 - 零件编号(`SO102.02.xxx`, `RB9.01.06x.xxx`)出现在 `docs/printing.md`、`docs/bom.md` 和 `docs/assembly-guide.md` 中。 重命名或添加一个零件意味着更新所有三个。
 - README 总结了 bom、打印和规格的目的。 保持数字一致。
 - 每个新文件必须由 `REUSE.toml` 覆盖。 CI 运行 `pre-commit run --all-files` , 包括 `reuse lint` 。

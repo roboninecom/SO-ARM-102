@@ -12,6 +12,8 @@
 <a id="assembly-guide"></a>
 # Guia de montagem
 
+> Guia antigo: o livreto e as ilustrações mostram o hardware HAT anterior. A BOM e o guia de impressão v0.2.0 usam Bus Servo Adapter nos dois braços, peças da garra revisadas e outros parafusos. Não use as etapas antigas da garra ou do controlador para as peças revisadas; o livreto atualizado ainda está pendente.
+
 Este guia segue o livreto impresso [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) página por página.Imprima o livreto em A5 horizontal se preferir papel.
 
 Antes de começar:
@@ -116,7 +118,7 @@ Aperte os parafusos de fixação do lado do braço do servo em direção à engr
 
 | Etapa | Peças | Fixadores |
 |:-:|---|---|
-| 1 | RB9.01.060.075 Suporte para câmera | 4 × M3×10 |
+| 1 | RB9.01.062.075 Suporte para câmera | 4 × M3×10 |
 | 2 | Conjunto do prendedor no pulso | 4 × 2×6 auto-roscante |
 | 3 | RB9.01.062.090 Espaçador de câmera, câmera USB | Porca 4 × M2×8, 4 × M2 |
 | 4 | SO102.02.100 Braço de robô seguidor do suporte da placa, Waveshare Bus Servo Driver HAT | Porca 4 × M2×8, 4 × M2 |

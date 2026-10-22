@@ -12,6 +12,8 @@
 <a id="assembly-guide"></a>
 # Montageanleitung
 
+> Veraltete Anleitung: Heft und Abbildungen zeigen die frühere HAT-Hardware. Stückliste und Druckanleitung für v0.2.0 verwenden Bus Servo Adapter an beiden Armen, überarbeitete Greiferteile und andere Schrauben. Die alten Greifer- und Controller-Schritte gelten nicht für die überarbeiteten Teile; ein aktualisiertes Montageheft steht noch aus.
+
 Diese Anleitung folgt der gedruckten Broschüre [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) Seite für Seite und druckt die Broschüre auf A5 Querformat aus, wenn Sie Papier bevorzugen.
 
 Vor dem Beginn:
@@ -116,7 +118,7 @@ Ziehen Sie die Gewindestifte von der Seite des Servohorns in Richtung Zahnrad fe
 
 | Schritt | Teile | Befestigungsmittel |
 |:-:|---|---|
-| 1 | RB9.01.060.075 Kamerahalter | 4 × M3×10 |
+| 1 | RB9.01.062.075 Kamerahalter | 4 × M3×10 |
 | 2 | Greifermontage am Handgelenk | 4 × 2×6 selbstschneidend |
 | 3 | RB9.01.062.090 Kamera-Abstandshalter, USB-Kamera | 4 × M2×8, 4 × M2 Mutter |
 | 4 | SO102.02.100 Roboterarm für Bretthalter, Waveshare Bus Servo Driver HAT | 4 × M2×8, 4 × M2 Mutter |

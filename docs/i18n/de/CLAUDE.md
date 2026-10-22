@@ -22,7 +22,7 @@ Open Hardware: der SO-ARM 102 Leader Roboterarm + Follower Roboterarm Roboterarm
 <a id="rules"></a>
 ## Regeln
 
-- `models/step/` ist die Quelle der Wahrheit. Jedes STEP hat ein STL mit dem gleichen Basisnamen im selben Unterordner (`common/`, `follower/`, `leader/`). `RB9.01.060.075 Camera holder` ist das STL ohne STEP.
+- `models/step/` ist die Quelle der Wahrheit. Jedes STEP hat ein STL mit dem gleichen Basisnamen im selben Unterordner (`common/`, `follower/`, `leader/`).
 - Teilenummern (`SO102.02.xxx`, `RB9.01.06x.xxx`) erscheinen in `docs/printing.md`, `docs/bom.md` und `docs/assembly-guide.md`.Wenn Sie ein Teil umbenennen oder hinzufügen, werden alle drei aktualisiert.
 - Die README fasst Bom, Druck und Spezifikationen absichtlich zusammen. Halten Sie die Zahlen konsistent.
 - Jede neue Datei muss von `REUSE.toml` abgedeckt werden. CI läuft `pre-commit run --all-files`, einschließlich `reuse lint`.

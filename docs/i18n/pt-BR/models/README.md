@@ -16,13 +16,13 @@
 |---|---|
 | `3mf/` | Bambu Studio projetos com layouts de placa salvos, orientação e configurações de suporte |
 | `stl/` | Malhas prontas para impressão, binário STL, milímetros |
-| `step/` | CAD fontes, um sólido por arquivo |
+| `step/` | Peças e conjuntos CAD |
 
 As pastas `stl/` e `step/` usam a mesma divisão:
 
-- `common/` contém as peças usadas por ambos os braços robóticos.As quantidades na tabela de impressão cobrem todo o kit.
-- `follower/` mantém a garra paralela, o suporte da câmera e a caixa de placa do braço robótico seguidor.
-- `leader/` mantém a alça, o gatilho, o rolo de pulso e a caixa da placa do braço do robô líder.
+- `common/` — Peças comuns, incluindo caixas dos controladores.
+- `follower/` — Garra paralela e suporte da câmera.
+- `leader/` — Punho, gatilho e rotação do pulso.
 
 <a id="3mf-slicer-projects"></a>
 ## 3MF projetos de slicer
@@ -30,8 +30,8 @@ As pastas `stl/` e `step/` usam a mesma divisão:
 | Projeto | Conteúdo | Perfil de filamento salvo |
 |---|---|---|
 | [SO102_leader.3mf](../../../../models/3mf/SO102_leader.3mf) | Um braço de robô líder: peças do braço do robô, punho, gatilho, rolo do pulso e caso da placa | Bambu PETG-CF |
-| [SO102_follower.3mf](../../../../models/3mf/SO102_follower.3mf) | Peças do braço robótico de um seguidor robot arm | Fiberon PET-CF17 |
-| [SO102_follower_gripper_box.3mf](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Prendedor do braço do robô seguidor, suporte da câmera e espaçador, e caixa de placa | Bambu PETG-CF |
+| [SO102_follower_arms.3mf](../../../../models/3mf/SO102_follower_arms.3mf) | Peças do braço robótico de um seguidor robot arm | Fiberon PET-CF17 |
+| [SO102_follower_gripper_base.3mf](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Garra e base do seguidor; Peças comuns, incluindo caixas dos controladores | Bambu PETG-CF |
 
 Abra esses arquivos como projetos em **Bambu Studio**para manter as configurações salvas. Todos os três usam o perfil de bico**Bambu Lab A1, 0.4 mm**e uma placa**256 × 256 mm** cada. Selecione sua impressora, bico e filamento antes de cortar. Para uma placa de construção de impressora 3D menor, divida as peças em placas adicionais, preservando suas orientações e configurações de suporte.
 

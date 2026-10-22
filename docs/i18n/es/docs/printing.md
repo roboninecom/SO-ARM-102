@@ -12,11 +12,13 @@
 <a id="printing-the-parts"></a>
 # Impresión de las piezas
 
+> Compruebe la revisión: el 3MF de la pinza etiqueta las mordazas como `RB9.01.062.024`, pero la lista STEP/STL actual usa `RB9.01.062.025`. Verifique la geometría antes de imprimir; los nombres por sí solos no prueban que las mallas difieran.
+
 Cada parte impresa del kit SO-ARM 102 está en [`../models/stl/`](../../../../models/stl).Las CAD fuentes editables con los mismos nombres están en [`../models/step/`](../../../../models/step).
 
-- `common/` contiene las piezas que usan ambos brazos robóticos.Imprima la cantidad listada una vez; ya cubre dos brazos robóticos.
-- `follower/` contiene la pinza paralela, el soporte de cámara y la caja de placa del brazo robot seguidor.
-- `leader/` sostiene el mango, gatillo, rollo de muñeca y la caja del tablero del brazo robot líder.
+- `common/` — Piezas comunes, incluidas las cajas de los controladores.
+- `follower/` — Pinza paralela y soporte de cámara.
+- `leader/` — Mango, gatillo y giro de muñeca.
 
 Todas las piezas encajan en una placa de construcción de impresora 3D 180 × 180 mm La parte más grande, la base, mide 160 × 112.5 mm.
 
@@ -27,7 +29,7 @@ Todas las piezas encajan en una placa de construcción de impresora 3D 180 × 18
 
 | Ubicación | Material | Motivo |
 |---|---|---|
-| Eslabones del brazo, base, soportes de servomotor | PET-CF, recocido si es posible | La opción más rígida y resistente al calor probada cerca de servomotores calientes |
+| Eslabones del brazo y soportes de servos | PET-CF, recocido si es posible | La opción más rígida y resistente al calor probada cerca de servomotores calientes |
 | Abrazaderas de agarre, cubiertas, manija del brazo robot líder y gatillo | PETG o PET-CF | Más resistente a los golpes |
 
 El prototipo se imprimió en **Fiberon PET-CF17**. En nuestras pruebas de filamentos, el recocido redujo la desviación del PET-CF17 después de una hora a 65–70 °C de 3.4 mm a 0.3 mm. El recocido también hace que la pieza sea más frágil, por lo que no recoce las partes que reciben impactos. Detalles: [Elegir un filamento para brazos robotizados](https://robonine.com/choosing-filament-for-robotic-arm-applications/).
@@ -42,18 +44,16 @@ Los [3MF proyectos](../models/README.md#3mf-slicer-projects) incluyen orientacio
 | Proyecto | Perfil de filamento guardado | Altura de capa | Paredes | Capas superiores / inferiores | Relleno | Peso | Tiempo |
 |---|---|---|:-:|:-:|---|:-:|:-:|
 | [Brazo líder](../../../../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % de giroide | 457 gr | 23 h |
-| [Brazo robot seguidor](../../../../models/3mf/SO102_follower.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cúbico | 583 gr | 23 h |
-| [Pinza de brazo robot seguidor y caja de placa](../../../../models/3mf/SO102_follower_gripper_box.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cúbico | 131 gr | 6,5 h |
+| [Brazo robot seguidor](../../../../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cúbico | 394 gr | 15,5 h |
+| [Pinza y base del seguidor](../../../../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cúbico | 287 gr | 14 h |
 
-Con estos ajustes necesitarás: Fiberon PET-CF17 583 gr, Bambu PETG-CF 588 gr.
+Con estos ajustes necesitarás: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
 
 Todos los tres guardan un perfil de boquilla **Bambu Lab A1, 0.4 mm**en una placa de construcción de impresora 3D**256 × 256 mm**. Las piezas individuales aún caben en una placa de construcción de impresora 3D 180 × 180 mm, pero los diseños suministrados deben dividirse entre más placas para ese tamaño. Los soportes de árbol automáticos son el valor global predeterminado; algunas piezas tienen anulaciones de soporte, ajustes de soporte manual o bloqueadores de soporte.
 
-Imprima cada proyecto una vez para obtener un kit completo y después imprima **una presilla de cable adicional**: los proyectos contienen dos en total, mientras que la lista de piezas exige tres.
-
-| Diseño de brazo robot líder | Pinza de brazo robot seguidor y diseño de caja de tablero |
-|:-:|:-:|
-| ![Diseño de brazo robot líder](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Disposición de la pinza del brazo robot seguidor y el cortador de cajas de placas](../../../../assets/images/3d%20print/gripper_3dprint.png) |
+| Diseño de brazo robot líder | Brazos del seguidor | Pinza y base del seguidor |
+|:-:|:-:|:-:|
+| ![Diseño de brazo robot líder](../../../../assets/images/3d%20print/leader_3dprint_layout.png) | ![Brazos del seguidor](../../../../assets/images/3d%20print/follower_3dprint_layout.png) | ![Pinza y base del seguidor](../../../../assets/images/3d%20print/gripper_3dprint.png) |
 
 <a id="test-arm-slicer-settings"></a>
 ## Ajustes de la rebanadora del brazo robot de prueba
@@ -93,22 +93,23 @@ Las cantidades son para un kit completo: un brazo robot seguidor y un brazo robo
 | SO102.02.080 | Brazo superior izquierdo | 2 |
 | SO102.02.080-01 | Brazo superior derecho | 2 |
 | SO102.02.090 | Soporte de muñeca | 2 |
-| SO102.02.130 | Clip del cable | 3 |
+| SO102.02.110 | Soporte de placa del líder | 2 |
+| SO102.02.110-01 | Tapa de placa del líder | 2 |
+| SO102.02.130 | Clip del cable | 4 |
 
 <a id="follower-only"></a>
 ### Solo brazo robot seguidor
 
 | Número de pieza | Nombre | Cant. |
 |---|---|:-:|
-| RB9.01.062.011 | Bastidor principal (D6.1) | 1 |
-| RB9.01.062.024 | Mordaza (D6.1) | 2 |
+| RB9.01.062.012 | Bastidor principal (D6.1) | 1 |
+| RB9.01.062.025 | Mordaza (D6.1) | 2 |
 | RB9.01.062.030 | Cremallera | 2 |
 | RB9.01.062.040 | Engranaje de la pinza | 1 |
+| RB9.01.062.050 | Arandela | 2 |
 | RB9.01.062.100 | Pasador | 2 |
 | RB9.01.062.075 | Soporte de cámara | 1 |
 | RB9.01.062.090 | Separador de cámara | 1 |
-| SO102.02.100 | Soporte de placa del seguidor | 1 |
-| SO102.02.100-01 | Tapa de placa del seguidor | 1 |
 
 `(D6.1)` significa que los orificios de las barras están dimensionados para 6.1 mm.Vea los problemas conocidos en el README principal si la pinza funciona apretada.
 
@@ -120,8 +121,6 @@ Las cantidades son para un kit completo: un brazo robot seguidor y un brazo robo
 | — | SO102 Handle | 1 |
 | — | Disparador SO102 | 1 |
 | — | SO102 Rollo de muñeca | 1 |
-| SO102.02.110 | Soporte de placa del líder | 1 |
-| SO102.02.110-01 | Tapa de placa del líder | 1 |
 
 <a id="about-the-stl-files"></a>
 ## Acerca de los archivos STL

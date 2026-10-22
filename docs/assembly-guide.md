@@ -4,6 +4,8 @@
 [English](i18n/en/docs/assembly-guide.md) · [Русский](i18n/ru/docs/assembly-guide.md) · [Español](i18n/es/docs/assembly-guide.md) · [Français](i18n/fr/docs/assembly-guide.md) · [Deutsch](i18n/de/docs/assembly-guide.md) · [Português (Brasil)](i18n/pt-BR/docs/assembly-guide.md) · [简体中文](i18n/zh-CN/docs/assembly-guide.md) · [日本語](i18n/ja/docs/assembly-guide.md) · [हिन्दी](i18n/hi/docs/assembly-guide.md) · [العربية](i18n/ar/docs/assembly-guide.md)
 <!-- /documentation-languages -->
 
+> Legacy guide: the booklet and illustrations show the earlier HAT hardware. The v0.2.0 BOM and printing guide use Bus Servo Adapters on both arms, revised gripper parts and different fasteners. Do not use the old gripper or controller steps as instructions for the revised parts; an updated assembly booklet is pending.
+
 This guide follows the printed booklet
 [SO-ARM102_assembly_A5_v0.6.pdf](SO-ARM102_assembly_A5_v0.6.pdf) page by page.
 Print the booklet on A5 landscape if you prefer paper.
@@ -108,7 +110,7 @@ Slide both clamps along the rods by hand before closing up. They should move fre
 
 | Step | Parts | Fasteners |
 |:-:|---|---|
-| 1 | RB9.01.060.075 Camera holder | 4 × M3×10 |
+| 1 | RB9.01.062.075 Camera holder | 4 × M3×10 |
 | 2 | Gripper assembly onto the wrist | 4 × 2×6 self-tapping |
 | 3 | RB9.01.062.090 Camera spacer, USB camera | 4 × M2×8, 4 × M2 nut |
 | 4 | SO102.02.100 Board holder follower, Waveshare Bus Servo Driver HAT | 4 × M2×8, 4 × M2 nut |
