@@ -83,7 +83,7 @@ Die Reichweite wurde aus 100,000 zufälligen Posen innerhalb der Gelenkgrenzen o
 | Horizontaler Spitzenfehler vom Basisspiel, *berechnet* | ±2.96 mm | ±1.85 mm | −37.5 % |
 | Wiederholgenauigkeit | — | über 0.1 mm |  |
 | Geräuschpegel bei 1 m | 70 dB | 60 dB | −10 dB |
-| Nennnutzlast | 250 g | 300 g |  |
+| Nennnutzlast | 150 g | 300 g |  |
 
 ¹ Beide Roboterarme wurden mit gedruckten Servomotor-Dummys in den Gelenken 2, 3 und 4 gebaut, daher wird nur der Rahmen verglichen. SO-ARM 101 wurde in PLA, SO-ARM 102 in Fiberon PET-CF17 bei 25 % Füllstand gedruckt. Ein zweiter Durchlauf des gleichen SO-ARM 102 Tests ergab 3.9 mm.
 

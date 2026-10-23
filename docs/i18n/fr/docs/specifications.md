@@ -83,7 +83,7 @@ La portée a été calculée à partir de 100,000 poses aléatoires dans les lim
 | Erreur horizontale de pointe à partir du jeu de base, *calculée* | ±2.96 mm | ±1.85 mm | −37.5 % |
 | Répétabilité | — | À propos de 0.1 mm |  |
 | Bruit à 1 m | 70 dB | 60 dB | −10 dB |
-| Charge utile nominale | 250 g | 300 g |  |
+| Charge utile nominale | 150 g | 300 g |  |
 
 ¹ Les deux bras robotiques ont été construits avec des mannequins de servomoteurs imprimés dans les articulations 2, 3 et 4, donc seul le cadre est comparé. SO-ARM 101 imprimé en PLA, SO-ARM 102 en Fiberon PET-CF17 à 25 % de remplissage. Une deuxième exécution du même test SO-ARM 102 a donné 3.9 mm.
 

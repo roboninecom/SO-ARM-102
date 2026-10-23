@@ -83,7 +83,7 @@ El alcance se calculó a partir de 100,000 posturas aleatorias dentro de los lí
 | Error de punta horizontal desde la holgura base, *calculado* | ±2.96 mm | ±1.85 mm | −37.5 % |
 | Repetibilidad | — | Acerca de 0.1 mm |  |
 | Ruido a 1 m | 70 dB | 60 dB | −10 dB |
-| Carga útil nominal | 250 g | 300 g |  |
+| Carga útil nominal | 150 g | 300 g |  |
 
 ¹ Ambos brazos robóticos se construyeron con maniquíes de servomotores impresos en las juntas 2, 3 y 4, por lo que solo se compara el marco. SO-ARM 101 impreso en PLA, SO-ARM 102 en Fiberon PET-CF17 al 25 % de relleno. Una segunda ejecución de la misma prueba SO-ARM 102 dio 3.9 mm.
 
