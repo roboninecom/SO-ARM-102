@@ -12,9 +12,7 @@
 <a id="assembly-guide"></a>
 # 装配指南
 
-> 旧版指南：手册和插图展示的是之前的 HAT 硬件。v0.2.0 的物料清单和打印指南在两只机械臂上使用 Bus Servo Adapter，并更新了夹爪零件及紧固件。不要按旧版夹爪或控制器步骤组装新版零件；新版组装手册尚待发布。
-
-本指南按照印刷的小册子[SO-ARM102_assembly_A5_v0.6.pdf ](../../../SO-ARM102_assembly_A5_v0.6.pdf)逐页进行说明。 如果您喜欢纸张,可以将小册子以横向 A5 格式打印出来。
+本指南按照印刷的小册子[SO-ARM102_assembly_A5_v0.7.pdf ](../../../SO-ARM102_assembly_A5_v0.7.pdf)逐页进行说明。 如果您喜欢纸张,可以将小册子以横向 A5 格式打印出来。
 
 开始之前：
 
@@ -38,10 +36,10 @@
 ### 組裝序列
 
 1. 安装喇叭在伺服电机上。
-2. 建造机器人臂体 **两次 **,一次用于跟随机器人臂,一次用于领导机器人臂(步骤 1 – 11 ) 。
+2. 建造机器人臂体 **两次 **,一次用于跟随机器人臂,一次用于领导机器人臂(步骤 1–13 ) 。 步骤 12–13 为每只机械臂安装一个 Bus Servo Adapter。
 3. 构建平行抓具(抓具步骤 1 – 6 ) 。
-4. 完成跟踪机器人臂:抓具、摄像头、控制器(跟踪机器人臂步骤 1 – 5 ) 。
-5. 完成领导机器人臂:手柄,触发器,控制器(领导机器人臂步骤 1 – 4 ) 。
+4. 完成从臂：相机支架、夹爪和相机（从臂步骤 1–3）。
+5. 完成主臂：手柄和扳机（主臂步骤 1–2）。
 
 <a id="servo-ids"></a>
 ## 舵机 ID
@@ -67,9 +65,10 @@
 如果在机器人手臂上加上O型圈,那么现在就把它们放在伺服电机和喇叭之间。 错误的顺序会导致伺服电机壳体和喇叭之间的O型圈堵塞。
 
 <a id="111-arm-body-follower-and-leader"></a>
-## 1 – 11 。 机械臂主体、跟随机器人手臂和领导机器人手臂
+<a id="113-arm-body-follower-and-leader"></a>
+## 1–13 。 机械臂主体、跟随机器人手臂和领导机器人手臂
 
-为两个机器人臂重复这些步骤。
+为两个机器人臂重复这些步骤。 打印零件名称与 [printing.md](printing.md) 一致。
 
 | 步骤 | 零件 | 紧固件 |
 |:-:|---|---|
@@ -84,13 +83,16 @@
 | 9 | 伺服 ID 5 , SO102.02.090 手腕支架,伺服电机喇叭 | 1 × 数目 M3×6, 4 × 数目 2× 数目6 自攻螺栓 |
 | 10 | 1 短线缆 | 8 × M3×10 |
 | 11 | — | 8 × M3×10 |
+| 12 | SO102.02.110 主臂控制板支架, Bus Servo Adapter | 4 × M2 螺母, 4 × M2×8 |
+| 13 | SO102.02.110-01 主臂控制板盖, 1 × 长线 | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![步骤 1](../../../../assets/images/assembly/steps/shared-01.jpg) | ![步骤 2](../../../../assets/images/assembly/steps/shared-02.jpg) | ![步骤 3](../../../../assets/images/assembly/steps/shared-03.jpg) |
 | ![步骤 4](../../../../assets/images/assembly/steps/shared-04.jpg) | ![步骤 5](../../../../assets/images/assembly/steps/shared-05.jpg) | ![步骤 6](../../../../assets/images/assembly/steps/shared-06.jpg) |
 | ![步骤 7](../../../../assets/images/assembly/steps/shared-07.jpg) | ![步骤 8](../../../../assets/images/assembly/steps/shared-08.jpg) | ![步骤 9](../../../../assets/images/assembly/steps/shared-09.jpg) |
-| ![步骤 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![步骤 11](../../../../assets/images/assembly/steps/shared-11.jpg) |  |
+| ![步骤 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![步骤 11](../../../../assets/images/assembly/steps/shared-11.jpg) | ![步骤 12](../../../../assets/images/assembly/steps/shared-12.jpg) |
+| ![步骤 13](../../../../assets/images/assembly/steps/shared-13.jpg) | | |
 
 在关闭接头之前,检查每个伺服电机电缆到达下一个接头是否有一定的松动。
 
@@ -100,11 +102,13 @@
 | 步骤 | 零件 | 紧固件 |
 |:-:|---|---|
 | 1 | RB9.01.062.040 伺服电机角上的夹持器齿轮,伺服电机ID 6 | 4×M3×4固定螺丝，1×M3×6 |
-| 2 | 2×RB9.01.062.024夹具，2×RB9.01.062.030齿轮架，2×RB9.01.062.100钉子 | — |
+| 2 | 2×RB9.01.062.025 (D6.1)夹具，2×RB9.01.062.030齿轮架，2×RB9.01.062.100钉子 | — |
 | 3 | 2 × 杆径6 × 125 mm | — |
-| 4 | RB9.01.062.011主框架,2×轴承MF106ZZ | 2 × M4×8 |
+| 4 | RB9.01.062.012 主框架 (D6.1), 2 × 轴承 MF106, 2 × RB9.01.062.050 垫圈 | 2 × M3×10 |
 | 5 | 将杆子插入主框架 | — |
 | 6 | 将夹具推至外部停止位置,插入伺服电机 | 3 × 数目 2× 数目6 自攻螺栓 |
+
+步骤 2 中的 ×2 表示两侧各安装一组夹爪。表格中的数量为总数。
 
 从舵盘一侧朝齿轮方向拧紧紧定螺钉，确保两者之间没有间隙。在步骤 6 之前，将 ID 为 6 的舵机移到最小位置，使夹爪能够完全闭合并张开至完整的 85 mm。封闭组件前，用手沿导杆滑动两个夹块。它们应能自由移动，不发生卡滞。
 
@@ -114,35 +118,31 @@
 | ![夹爪步骤 4](../../../../assets/images/assembly/steps/gripper-04.jpg) | ![夹爪步骤 5](../../../../assets/images/assembly/steps/gripper-05.jpg) | ![夹爪步骤 6](../../../../assets/images/assembly/steps/gripper-06.jpg) |
 
 <a id="follower-15"></a>
-## 跟随机器人臂 1-5
+<a id="follower-13"></a>
+## 跟随机器人臂 1–3
 
 | 步骤 | 零件 | 紧固件 |
 |:-:|---|---|
 | 1 | RB9.01.062.075 相机支架 | 4 × M3×10 |
 | 2 | 夹具装配到腕部 | 4 × 数目 2× 数目6 自攻螺栓 |
 | 3 | RB9.01.062.090 摄像头间距,USB摄像头 | 4×M2×8、4×M2螺母 |
-| 4 | SO102.02.100 机器人手臂 , Waveshare Bus Servo Driver HAT | 4×M2×8、4×M2螺母 |
-| 5 | SO102.02.100-01 板盖跟踪机器人臂,长线 | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![从臂步骤 1](../../../../assets/images/assembly/steps/follower-01.jpg) | ![从臂步骤 2](../../../../assets/images/assembly/steps/follower-02.jpg) | ![从臂步骤 3](../../../../assets/images/assembly/steps/follower-03.jpg) |
-| ![从臂步骤 4](../../../../assets/images/assembly/steps/follower-04.jpg) | ![从臂步骤 5](../../../../assets/images/assembly/steps/follower-05.jpg) |  |
 
 <a id="leader-14"></a>
-## Leader机器人臂 1－4
+<a id="leader-12"></a>
+## Leader机器人臂 1–2
 
 | 步骤 | 零件 | 紧固件 |
 |:-:|---|---|
 | 1 | SO102手柄,SO102手腕滚筒 | 4 × 数目 M3×6, 1 × 数目 2× 数目6 自攻螺栓 |
 | 2 | SO102 伺服电机触发器 ID 6 | 4 × 数目 M3×6, 4 × 数目 2× 数目6 自攻螺栓 |
-| 3 | SO102.02.110 机器人手臂 , Waveshare Bus Servo Adapter | 4×M2×8、4×M2螺母 |
-| 4 | SO102.02.110-01 Board cap leader 机器人手臂,长电缆 | — |
 
 | | |
 |:-:|:-:|
 | ![主臂步骤 1](../../../../assets/images/assembly/steps/leader-01.jpg) | ![主臂步骤 2](../../../../assets/images/assembly/steps/leader-02.jpg) |
-| ![主臂步骤 3](../../../../assets/images/assembly/steps/leader-03.jpg) | ![主臂步骤 4](../../../../assets/images/assembly/steps/leader-04.jpg) |
 
 <a id="mounting-and-first-start"></a>
 ## 固定与首次启动

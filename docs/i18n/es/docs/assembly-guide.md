@@ -12,9 +12,7 @@
 <a id="assembly-guide"></a>
 # Guía de montaje
 
-> Guía antigua: el folleto y las ilustraciones muestran el hardware HAT anterior. La BOM y la guía de impresión de v0.2.0 usan Bus Servo Adapter en ambos brazos, piezas de pinza revisadas y otros tornillos. No siga los pasos antiguos de la pinza o del controlador para las piezas revisadas; el folleto actualizado está pendiente.
-
-Esta guía sigue el folleto impreso [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) página por página, imprimiéndolo en A5 horizontal si prefiere papel.
+Esta guía sigue el folleto impreso [SO-ARM102_assembly_A5_v0.7.pdf](../../../SO-ARM102_assembly_A5_v0.7.pdf) página por página, imprimiéndolo en A5 horizontal si prefiere papel.
 
 Antes de empezar:
 
@@ -38,10 +36,10 @@ Los resaltados en beige indican piezas nuevas; las piezas grises ya están monta
 ### Secuencia de montaje
 
 1. Monte los cuernos en los servomotores.
-2. Construye el cuerpo del brazo robot **dos veces**, una vez para el brazo robot seguidor y otra para el brazo robot líder (pasos 1–11).
+2. Construye el cuerpo del brazo robot **dos veces**, una vez para el brazo robot seguidor y otra para el brazo robot líder (pasos 1–13). En los pasos 12–13 se instala un Bus Servo Adapter en cada brazo.
 3. Construya la pinza paralela (pasos de la pinza 1–6).
-4. Termine el brazo robot seguidor: pinza, cámara, controlador (pasos del brazo robot seguidor 1–5).
-5. Termine el brazo robot líder: mango, gatillo, controlador (pasos del brazo robot líder 1–4).
+4. Complete el seguidor: soporte de cámara, pinza y cámara (pasos 1–3 del seguidor).
+5. Complete el líder: mango y gatillo (pasos 1–2 del líder).
 
 <a id="servo-ids"></a>
 ## Identificadores de servos
@@ -67,9 +65,10 @@ Monte un cuerno con un tornillo M3 × 6 en el servomotor ID 1. Los servos ID 2, 
 Si agrega juntas tóricas al brazo del robot líder, colóquelas ahora entre el servomotor y la bocina, ya que si se equivoca en este orden puede atascarse el anillo entre la carcasa del servomotor y la bocina.
 
 <a id="111-arm-body-follower-and-leader"></a>
-## 1–11. Cuerpo del brazo: seguidor y líder
+<a id="113-arm-body-follower-and-leader"></a>
+## 1–13. Cuerpo del brazo: seguidor y líder
 
-Repita estos pasos para ambos brazos del robot.
+Repita estos pasos para ambos brazos del robot. Los nombres de las piezas impresas coinciden con [printing.md](printing.md).
 
 | Paso | Piezas | Elementos de fijación |
 |:-:|---|---|
@@ -84,13 +83,16 @@ Repita estos pasos para ambos brazos del robot.
 | 9 | Servo ID 5, SO102.02.090 Soporte de muñeca, cuerno del servomotor | 1 × M3×6, 4 × 2×6 autoperforantes |
 | 10 | 1 cable corto | 8 × M3×10 |
 | 11 | — | 8 × M3×10 |
+| 12 | SO102.02.110 Soporte de placa del líder, Bus Servo Adapter | 4 × tuerca M2, 4 × M2×8 |
+| 13 | SO102.02.110-01 Tapa de placa del líder, 1 × cable largo | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![Paso 1](../../../../assets/images/assembly/steps/shared-01.jpg) | ![Paso 2](../../../../assets/images/assembly/steps/shared-02.jpg) | ![Paso 3](../../../../assets/images/assembly/steps/shared-03.jpg) |
 | ![Paso 4](../../../../assets/images/assembly/steps/shared-04.jpg) | ![Paso 5](../../../../assets/images/assembly/steps/shared-05.jpg) | ![Paso 6](../../../../assets/images/assembly/steps/shared-06.jpg) |
 | ![Paso 7](../../../../assets/images/assembly/steps/shared-07.jpg) | ![Paso 8](../../../../assets/images/assembly/steps/shared-08.jpg) | ![Paso 9](../../../../assets/images/assembly/steps/shared-09.jpg) |
-| ![Paso 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Paso 11](../../../../assets/images/assembly/steps/shared-11.jpg) |  |
+| ![Paso 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Paso 11](../../../../assets/images/assembly/steps/shared-11.jpg) | ![Paso 12](../../../../assets/images/assembly/steps/shared-12.jpg) |
+| ![Paso 13](../../../../assets/images/assembly/steps/shared-13.jpg) | | |
 
 Compruebe que cada cable del servomotor llegue a la siguiente junta con algo de holgura antes de cerrar la junta.
 
@@ -100,11 +102,13 @@ Compruebe que cada cable del servomotor llegue a la siguiente junta con algo de 
 | Paso | Piezas | Elementos de fijación |
 |:-:|---|---|
 | 1 | RB9.01.062.040 Engranaje para pinza en el cuerno del servomotor, ID del servomotor 6 | 4 × M3×4 tornillo de fijación, 1 × M3×6 |
-| 2 | 2 × RB9.01.062.024 Abrazadera, 2 × RB9.01.062.030 Cremallera, 2 × RB9.01.062.100 Clavo | — |
+| 2 | 2 × RB9.01.062.025 (D6.1) Abrazadera, 2 × RB9.01.062.030 Cremallera, 2 × RB9.01.062.100 Clavo | — |
 | 3 | 2 × barra Ø6 × 125 mm | — |
-| 4 | RB9.01.062.011 Marco principal, 2 × cojinete MF106ZZ | 2 × M4×8 |
+| 4 | RB9.01.062.012 Marco principal (D6.1), 2 × cojinete MF106, 2 × RB9.01.062.050 Arandela | 2 × M3×10 |
 | 5 | Encaje las barras en el marco principal | — |
 | 6 | Empuje las abrazaderas a sus topes exteriores, inserte el servomotor | 3 × 2×6 autoperforante |
+
+El ×2 del paso 2 indica un conjunto de mordaza para cada lado. Las cantidades de la tabla son los totales.
 
 Apriete los tornillos prisioneros desde el lado del brazo del servo hacia el engranaje, para que no quede ningún hueco entre ambos. Antes del paso 6, lleve el servo con ID 6 a su posición mínima para que la pinza se cierre por completo y se abra hasta los 85 mm. Antes de cerrar el conjunto, deslice a mano ambas mordazas por las varillas. Deben moverse libremente, sin atascarse.
 
@@ -114,35 +118,31 @@ Apriete los tornillos prisioneros desde el lado del brazo del servo hacia el eng
 | ![Gripper 4](../../../../assets/images/assembly/steps/gripper-04.jpg) | ![Gripper 5](../../../../assets/images/assembly/steps/gripper-05.jpg) | ![Gripper 6](../../../../assets/images/assembly/steps/gripper-06.jpg) |
 
 <a id="follower-15"></a>
-## Brazo robot seguidor 1–5
+<a id="follower-13"></a>
+## Brazo robot seguidor 1–3
 
 | Paso | Piezas | Elementos de fijación |
 |:-:|---|---|
 | 1 | RB9.01.062.075 Soporte de cámara | 4 × M3×10 |
 | 2 | Montaje del agarrador en la muñeca | 4 × 2×6 autoperforante |
 | 3 | RB9.01.062.090 Espaciador de cámara, cámara USB | Tuerca 4 × M2×8, 4 × M2 |
-| 4 | SO102.02.100 Brazo robot seguidor del sostenedor de la tabla, Waveshare Bus Servo Driver HAT | Tuerca 4 × M2×8, 4 × M2 |
-| 5 | SO102.02.100-01 Brazo robot seguidor de tapa de placa, cable largo | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![Brazo robot seguidor 1](../../../../assets/images/assembly/steps/follower-01.jpg) | ![Brazo robot seguidor 2](../../../../assets/images/assembly/steps/follower-02.jpg) | ![Brazo robot seguidor 3](../../../../assets/images/assembly/steps/follower-03.jpg) |
-| ![Brazo robot seguidor 4](../../../../assets/images/assembly/steps/follower-04.jpg) | ![Brazo robot seguidor 5](../../../../assets/images/assembly/steps/follower-05.jpg) |  |
 
 <a id="leader-14"></a>
-## Brazo robot líder 1–4
+<a id="leader-12"></a>
+## Brazo robot líder 1–2
 
 | Paso | Piezas | Elementos de fijación |
 |:-:|---|---|
 | 1 | SO102 mango, SO102 rollo de muñeca | 4 × M3×6, 1 × 2×6 autoperforantes |
 | 2 | SO102 Disparador, servomotor ID 6 | 4 × M3×6, 4 × 2×6 autoperforantes |
-| 3 | SO102.02.110 Brazo robot líder de soporte de tablero, Waveshare Bus Servo Adapter | Tuerca 4 × M2×8, 4 × M2 |
-| 4 | SO102.02.110-01 Brazo robot líder de la tapa del tablero, cable largo | — |
 
 | | |
 |:-:|:-:|
 | ![Brazo robótico líder 1](../../../../assets/images/assembly/steps/leader-01.jpg) | ![Brazo robótico líder 2](../../../../assets/images/assembly/steps/leader-02.jpg) |
-| ![Brazo robótico líder 3](../../../../assets/images/assembly/steps/leader-03.jpg) | ![Brazo robótico líder 4](../../../../assets/images/assembly/steps/leader-04.jpg) |
 
 <a id="mounting-and-first-start"></a>
 ## Fijación y primera puesta en marcha

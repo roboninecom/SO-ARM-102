@@ -12,9 +12,7 @@
 <a id="assembly-guide"></a>
 # Montageanleitung
 
-> Veraltete Anleitung: Heft und Abbildungen zeigen die frühere HAT-Hardware. Stückliste und Druckanleitung für v0.2.0 verwenden Bus Servo Adapter an beiden Armen, überarbeitete Greiferteile und andere Schrauben. Die alten Greifer- und Controller-Schritte gelten nicht für die überarbeiteten Teile; ein aktualisiertes Montageheft steht noch aus.
-
-Diese Anleitung folgt der gedruckten Broschüre [SO-ARM102_assembly_A5_v0.6.pdf](../../../SO-ARM102_assembly_A5_v0.6.pdf) Seite für Seite und druckt die Broschüre auf A5 Querformat aus, wenn Sie Papier bevorzugen.
+Diese Anleitung folgt der gedruckten Broschüre [SO-ARM102_assembly_A5_v0.7.pdf](../../../SO-ARM102_assembly_A5_v0.7.pdf) Seite für Seite und druckt die Broschüre auf A5 Querformat aus, wenn Sie Papier bevorzugen.
 
 Vor dem Beginn:
 
@@ -38,10 +36,10 @@ Beigefarbene Markierungen kennzeichnen neue Teile, graue Teile sind bereits mont
 ### Montagereihenfolge
 
 1. Montieren Sie die Hörner auf den Servomotoren.
-2. Bauen Sie den Roboterarmkörper **zweimal**, einmal für den Nachfolgerroboterarm und einmal für den Anführerroboterarm (Schritte 1–11).
+2. Bauen Sie den Roboterarmkörper **zweimal**, einmal für den Nachfolgerroboterarm und einmal für den Anführerroboterarm (Schritte 1–13). In den Schritten 12–13 wird an jedem Arm ein Bus Servo Adapter montiert.
 3. Bauen Sie den Parallelgreifer (Greiferschritte 1–6).
-4. Fertigstellung des Follower-Roboterarms: Greifer, Kamera, Steuerung (Folger-Roboterarm Schritte 1–5).
-5. Fertigstellung des Leiterroboterarms: Griff, Trigger, Controller (Leiterroboterarm Schritte 1–4).
+4. Vervollständigen Sie den Follower: Kamerahalter, Greifer und Kamera (Follower-Schritte 1–3).
+5. Vervollständigen Sie den Leader: Griff und Abzug (Leader-Schritte 1–2).
 
 <a id="servo-ids"></a>
 ## Servo-IDs
@@ -67,9 +65,10 @@ Ein Horn wird mit einer M3 × 6 Schraube am Servomotor ID 1 befestigt. Die Servo
 Wenn Sie O-Ringe an den Roboterarm des Leiters anbringen, setzen Sie sie jetzt zwischen Servomotor und Horn ein, da eine falsche Reihenfolge dazu führen kann, dass der Ring zwischen Servomotorgehäuse und Horn verklemmt.
 
 <a id="111-arm-body-follower-and-leader"></a>
-## 1–11. Armkörper, Roboterarm und Leiterroboterarm
+<a id="113-arm-body-follower-and-leader"></a>
+## 1–13. Armkörper, Roboterarm und Leiterroboterarm
 
-Wiederholen Sie diese Schritte für beide Roboterarme.
+Wiederholen Sie diese Schritte für beide Roboterarme. Die Namen der Druckteile entsprechen [printing.md](printing.md).
 
 | Schritt | Teile | Befestigungsmittel |
 |:-:|---|---|
@@ -84,13 +83,16 @@ Wiederholen Sie diese Schritte für beide Roboterarme.
 | 9 | Servo ID 5, SO102.02.090 Handgelenkhalterung, Servomotorhorn | 1 × M3×6, 4 × 2×6 selbstschneidend |
 | 10 | 1 Kurzes Kabel | 8 × M3×10 |
 | 11 | — | 8 × M3×10 |
+| 12 | SO102.02.110 Leader-Platinenhalter, Bus Servo Adapter | 4 × M2-Mutter, 4 × M2×8 |
+| 13 | SO102.02.110-01 Leader-Platinenabdeckung, 1 × langes Kabel | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![Schritt 1](../../../../assets/images/assembly/steps/shared-01.jpg) | ![Schritt 2](../../../../assets/images/assembly/steps/shared-02.jpg) | ![Schritt 3](../../../../assets/images/assembly/steps/shared-03.jpg) |
 | ![Schritt 4](../../../../assets/images/assembly/steps/shared-04.jpg) | ![Schritt 5](../../../../assets/images/assembly/steps/shared-05.jpg) | ![Schritt 6](../../../../assets/images/assembly/steps/shared-06.jpg) |
 | ![Schritt 7](../../../../assets/images/assembly/steps/shared-07.jpg) | ![Schritt 8](../../../../assets/images/assembly/steps/shared-08.jpg) | ![Schritt 9](../../../../assets/images/assembly/steps/shared-09.jpg) |
-| ![Schritt 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Schritt 11](../../../../assets/images/assembly/steps/shared-11.jpg) |  |
+| ![Schritt 10](../../../../assets/images/assembly/steps/shared-10.jpg) | ![Schritt 11](../../../../assets/images/assembly/steps/shared-11.jpg) | ![Schritt 12](../../../../assets/images/assembly/steps/shared-12.jpg) |
+| ![Schritt 13](../../../../assets/images/assembly/steps/shared-13.jpg) | | |
 
 Prüfen Sie, ob jedes Servomotorkabel die nächste Verbindung mit etwas Spiel erreicht, bevor Sie die Verbindung schließen.
 
@@ -100,11 +102,13 @@ Prüfen Sie, ob jedes Servomotorkabel die nächste Verbindung mit etwas Spiel er
 | Schritt | Teile | Befestigungsmittel |
 |:-:|---|---|
 | 1 | RB9.01.062.040 Getriebe für Greifer am Servomotorhorn, Servomotor ID 6 | 4 × M3×4 Stellschraube, 1 × M3×6 |
-| 2 | 2 × RB9.01.062.024 Klammer, 2 × RB9.01.062.030 Zahnstange, 2 × RB9.01.062.100 Nagel | — |
+| 2 | 2 × RB9.01.062.025 (D6.1) Klammer, 2 × RB9.01.062.030 Zahnstange, 2 × RB9.01.062.100 Nagel | — |
 | 3 | 2 × Stab Ø6 × 125 mm | — |
-| 4 | RB9.01.062.011 Hauptrahmen, 2 × Lager MF106ZZ | 2 × M4×8 |
+| 4 | RB9.01.062.012 Hauptrahmen (D6.1), 2 × Lager MF106, 2 × RB9.01.062.050 Unterlegscheibe | 2 × M3×10 |
 | 5 | Schnappen Sie die Stangen in den Hauptrahmen | — |
 | 6 | Die Klemmen auf ihre äußeren Anschläge schieben, den Servomotor einsetzen | 3 × 2×6 selbstschneidend |
+
+×2 in Schritt 2 bedeutet eine Backenbaugruppe pro Seite. Die Mengen in der Tabelle sind Gesamtmengen.
 
 Ziehen Sie die Gewindestifte von der Seite des Servohorns in Richtung Zahnrad fest, damit dazwischen kein Spalt entsteht. Stellen Sie vor Schritt 6 den Servo mit ID 6 auf seine Minimalposition, damit der Greifer vollständig schließt und sich auf die vollen 85 mm öffnet. Schieben Sie beide Klemmbacken vor dem Schließen des Gehäuses von Hand entlang der Stangen. Sie müssen sich frei und ohne Verklemmen bewegen.
 
@@ -114,35 +118,31 @@ Ziehen Sie die Gewindestifte von der Seite des Servohorns in Richtung Zahnrad fe
 | ![Gripper 4](../../../../assets/images/assembly/steps/gripper-04.jpg) | ![Gripper 5](../../../../assets/images/assembly/steps/gripper-05.jpg) | ![Gripper 6](../../../../assets/images/assembly/steps/gripper-06.jpg) |
 
 <a id="follower-15"></a>
-## Roboterarm mit Nachfolger 1–5
+<a id="follower-13"></a>
+## Roboterarm mit Nachfolger 1–3
 
 | Schritt | Teile | Befestigungsmittel |
 |:-:|---|---|
 | 1 | RB9.01.062.075 Kamerahalter | 4 × M3×10 |
 | 2 | Greifermontage am Handgelenk | 4 × 2×6 selbstschneidend |
 | 3 | RB9.01.062.090 Kamera-Abstandshalter, USB-Kamera | 4 × M2×8, 4 × M2 Mutter |
-| 4 | SO102.02.100 Roboterarm für Bretthalter, Waveshare Bus Servo Driver HAT | 4 × M2×8, 4 × M2 Mutter |
-| 5 | SO102.02.100-01 Board Cap Follower Roboterarm, langes Kabel | — |
 
 | | | |
 |:-:|:-:|:-:|
 | ![Nachfolger Roboterarm 1](../../../../assets/images/assembly/steps/follower-01.jpg) | ![Nachfolger Roboterarm 2](../../../../assets/images/assembly/steps/follower-02.jpg) | ![Nachfolger Roboterarm 3](../../../../assets/images/assembly/steps/follower-03.jpg) |
-| ![Nachfolger Roboterarm 4](../../../../assets/images/assembly/steps/follower-04.jpg) | ![Nachfolger Roboterarm 5](../../../../assets/images/assembly/steps/follower-05.jpg) |  |
 
 <a id="leader-14"></a>
-## Leader Roboterarm 1–4
+<a id="leader-12"></a>
+## Leader Roboterarm 1–2
 
 | Schritt | Teile | Befestigungsmittel |
 |:-:|---|---|
 | 1 | SO102 Handgriff, SO102 Handgelenkrolle | 4 × M3×6, 1 × 2×6 selbstschneidend |
 | 2 | SO102 Trigger, Servomotor ID 6 | 4 × M3×6, 4 × 2×6 selbstschneidend |
-| 3 | SO102.02.110 Roboterarm für Leiterplattenhalter, Waveshare Bus Servo Adapter | 4 × M2×8, 4 × M2 Mutter |
-| 4 | SO102.02.110-01 Board Cap Leader Roboterarm, langes Kabel | — |
 
 | | |
 |:-:|:-:|
 | ![Anführer Roboterarm 1](../../../../assets/images/assembly/steps/leader-01.jpg) | ![Anführer Roboterarm 2](../../../../assets/images/assembly/steps/leader-02.jpg) |
-| ![Anführer Roboterarm 3](../../../../assets/images/assembly/steps/leader-03.jpg) | ![Anführer Roboterarm 4](../../../../assets/images/assembly/steps/leader-04.jpg) |
 
 <a id="mounting-and-first-start"></a>
 ## Befestigung und erste Inbetriebnahme
