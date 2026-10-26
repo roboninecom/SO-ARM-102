@@ -17,21 +17,21 @@ Les quantités sont pour un kit complet: un bras robotique suivi et un bras robo
 <a id="estimated-kit-cost"></a>
 ## Coût estimatif de la trousse
 
-**Un bras robot leader + un bras robot suiveur: $340 en composants, ou $374 y compris le matériel d'impression.**
+**Un bras robot leader + un bras robot suiveur: $341 en composants, ou $375 y compris le matériel d'impression.**
 
 | Catégorie | Coût des quantités utilisées (USD) | Acheter des paquets complets / bobines (USD) |
 |---|---:|---:|
 | Servos (12 pcs) | $240.72 | $240.72 |
 | Électronique, caméra et alimentations électriques | $50.50 | $50.50 |
-| Roulements, tiges de guidage en acier et pinces de table | $37.76 | $49.70 |
+| Roulements, tubes de guidage et serre-joints | $38.60 | $43.40 |
 | Fixations | $11.24 | $28.60 |
-| **Sous-total des composants** | **$340.22** | **$368.82** |
+| **Sous-total des composants** | **$341.06** | **$362.52** |
 | Matériel d &apos; impression: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **Total avec matériau d’impression** | **$373.97** | **$434.82** |
+| **Total avec matériau d’impression** | **$374.81** | **$428.52** |
 
-La colonne **Total (USD)** représente le coût de la quantité nécessaire pour un kit, en utilisant l'offre de référence derrière chaque total de ligne existant (et non la somme des offres des fournisseurs). Les vis incluses coûtent $0; les tubes carbone alternatifs sont exclus des totaux. Les estimations utilisent les prix de référence indiqués ci-dessous, avec chaque ligne arrondie au centime le plus proche. Ce ne sont pas de nouveaux devis fournisseurs: confirmez les variantes sélectionnées, les quantités minimales de commande et les prix avant de commander.
+Les totaux utilisent le prix de référence existant des tubes carbone, pas un nouveau devis. Les vis incluses coûtent $0. Vérifiez les variantes, quantités par paquet et prix avant commande ; livraison, taxes, outils et assemblage sont exclus.
 
-La colonne de pack complet comprend des pièces de rechange non utilisées, 0.5 kg PET-CF17 bobine et 1 kg PETG bobine. Les quantités d'impression sont des allocations budgétaires; coupez à nouveau en utilisant le trancheur d'impression 3D les 3MF projets fournis pour vos paramètres.
+Les paquets complets comprennent les surplus, une bobine PET-CF17 de 0.5 kg et une bobine PETG de 1 kg. Retranchez les projets 3MF selon vos réglages.
 
 ![Kit matériel](../../../../assets/images/assembly/hardware.jpg)
 
@@ -76,14 +76,16 @@ Total: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V. 
 <a id="mechanical-parts"></a>
 ## Pièces mécaniques
 
+Choisissez aluminium OU carbone : deux tubes par kit, pas deux paires. Dimensions : diamètre extérieur × diamètre intérieur × longueur (paroi de 1 mm). Vérifiez le montage avant la production en série. Demandez un devis pour l’aluminium.
+
 | Article | Dimensions | Qté | Emplacement | Achat aux États-Unis | Prix unitaire (États-Unis) | Achat aux États-Unis | Prix unitaire (États-Unis) | Achat dans l’UE | Prix unitaire (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Roulement à billes 6812 | 60 × 78 × 10 mm | 2 | Rotation de base, une par bras robotique | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Roulement à bride MF106ZZ | 6 × 10 × 3 mm | 2 | Châssis principal de la pince | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Tige (Tige ronde en acier inoxydable, 6mm Diamètre, Longueur 125mm) | Ø6 × 125 mm, carbone ou acier | 2 | Guides de la pince | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
-| Tube en carbone (Tube en carbone, 6mm x 4mm x 125mm), alternative | Ø6 × 4 × 125 mm | 2 | Alternative aux tiges de guidage en acier | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternative) |
+| Tube de guidage en aluminium | Ø6 × 4 × 125 mm | 2 | Guides de la pince | — | Devis requis | — | Devis requis | — | Devis requis | — |
+| Tube de guidage en fibre de carbone | Ø6 × 4 × 125 mm | 2 | Guides de la pince | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
 | Serre-joint en C | 3 pouces, ouverture 0-75 mm | 4 | Deux par bras de robot, pour fixer la base à la table | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **Total** |  |  |  |  |  |  |  |  |  | **$37.76** |
+| **Total** |  |  |  |  |  |  |  |  |  | **$38.60** |
 
 <a id="fasteners"></a>
 ## Fixations

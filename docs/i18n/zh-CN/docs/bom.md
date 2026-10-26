@@ -17,21 +17,21 @@
 <a id="estimated-kit-cost"></a>
 ## 估计费用
 
-** 一个领导机器人臂 + 一个跟踪机器人臂: $340 组件,或 $374 包括印刷材料。
+** 一个领导机器人臂 + 一个跟踪机器人臂: $341 组件,或 $375 包括印刷材料。
 
 | 类别 | 使用数量的成本(美元) | 购买完整包装/卷轴 (USD) |
 |---|---:|---:|
 | 服务器(12 pcs) | $240.72 | $240.72 |
 | 电子、摄像头和电源 | $50.50 | $50.50 |
-| 轴承、钢制导杆和工作台夹具 | $37.76 | $49.70 |
+| 轴承、导向管和工作台夹具 | $38.60 | $43.40 |
 | 紧固件 | $11.24 | $28.60 |
-| **零部件小计** | **$340.22** | **$368.82** |
+| **零部件小计** | **$341.06** | **$362.52** |
 | 印刷材料：0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **含打印材料总计** | **$373.97** | **$434.82** |
+| **含打印材料总计** | **$374.81** | **$428.52** |
 
-**总计 (美元)** 栏是一个套件所需数量的成本,使用每个现有行总额后面的参考报价(而不是供应商报价的总和 ) 。 包括螺丝的价格为 $0;替代碳纤维管不包括在总数中。 估算使用下列参考价格,每行四舍五入到最小值。 它们不是新供应商报价:确认选择的变体、最低订单数量和价格,然后再订购。 不包括运费、税费、工具、电脑、打印机、电力和装配工人。
+总价采用现有碳纤维管参考价格，并非新的供应商报价。随附螺钉价格为 $0。订购前请确认型号、每包数量和价格；运费、税费、工具和装配费用不包含在内。
 
-完整包装的柱子包括未使用的备件,0.5 kg PET-CF17 卷轴和 1 kg PETG 卷轴。 打印数量是预算允许值;使用 3D 打印切片机再次切割所提供的 3MF 项目以适应您的设置。
+整包总价包含剩余零件、0.5 kg PET-CF17 线材和 1 kg PETG 线材。请根据自己的设置重新切片 3MF 项目。
 
 ![五金套件](../../../../assets/images/assembly/hardware.jpg)
 
@@ -76,14 +76,16 @@
 <a id="mechanical-parts"></a>
 ## 机械零件
 
+选择铝管或碳纤维管：每套共两根，不是两对。尺寸为外径 × 内径 × 长度（壁厚 1 mm）。批量装配前请检查实际管材的配合。铝管价格需询价。
+
 | 项目 | 尺寸 | 数量 | 位置 | 美国采购 | 单价（美国） | 美国采购 | 单价（美国） | 欧盟采购 | 单价（欧盟） | 总计 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 球轴承 6812 | 60 × 78 × 10 mm | 2 | 基座旋转,每个机器人臂一个 | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | 法兰轴承 MF106ZZ | 6 × 10 × 3 mm | 2 | 夹爪主框架 | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| 棒材(不锈钢圆棒,直径6mm,长度125mm) | Ø6×125 mm，碳或钢 | 2 | 夹爪导杆 | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
-| 碳管（碳管，6mm x4mm x125mm），替代品 | Ø6 × 4 × 125 mm | 2 | 钢制夹具导向杆的替代品 | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60(备选) |
+| 铝制导向管 | Ø6 × 4 × 125 mm | 2 | 夹爪导向管 | — | 需询价 | — | 需询价 | — | 需询价 | — |
+| 碳纤维导向管 | Ø6 × 4 × 125 mm | 2 | 夹爪导向管 | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
 | C型夹具 | 3英寸，0-75 mm开口 | 4 | 每个机器人手臂两个,用于将底座固定在桌子上 | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **总计** |  |  |  |  |  |  |  |  |  | **$37.76** |
+| **总计** |  |  |  |  |  |  |  |  |  | **$38.60** |
 
 <a id="fasteners"></a>
 ## 紧固件

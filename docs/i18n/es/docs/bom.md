@@ -17,21 +17,21 @@ Las cantidades son para un kit completo: un brazo robot seguidor y un brazo robo
 <a id="estimated-kit-cost"></a>
 ## Costo estimado del equipo
 
-**Un brazo robot líder + un brazo robot seguidor: $340 en componentes, o $374 incluyendo material de impresión.**
+**Un brazo robot líder + un brazo robot seguidor: $341 en componentes, o $375 incluyendo material de impresión.**
 
 | Categoría | Costo de las cantidades utilizadas (USD) | Comprar paquetes completos / carretes (USD) |
 |---|---:|---:|
 | Acerca de nosotros (12 pcs) | $240.72 | $240.72 |
 | Electrónica, cámara y fuentes de alimentación | $50.50 | $50.50 |
-| Rodamientos, barras guía de acero y abrazaderas de mesa | $37.76 | $49.70 |
+| Rodamientos, tubos guía y abrazaderas de mesa | $38.60 | $43.40 |
 | Elementos de fijación | $11.24 | $28.60 |
-| **Subtotal de componentes** | **$340.22** | **$368.82** |
+| **Subtotal de componentes** | **$341.06** | **$362.52** |
 | Material de impresión: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **Total con material de impresión** | **$373.97** | **$434.82** |
+| **Total con material de impresión** | **$374.81** | **$428.52** |
 
-La columna **Total (USD)** es el coste de la cantidad necesaria para un kit, utilizando la oferta de referencia detrás del total de cada línea existente (no la suma de las ofertas de los proveedores). Los tornillos incluidos cuestan $0; los tubos de carbono alternativos se excluyen de los totales. Las estimaciones utilizan los precios de referencia que aparecen a continuación, con cada línea redondeada al céntimo. No son nuevas cotizaciones de proveedores: confirme las variantes seleccionadas, cantidades mínimas de pedido y precios antes de realizar el pedido. Se excluyen envío, impuestos, herramientas, ordenador, impresora, electricidad y mano de obra de montaje.
+Los totales usan el precio de referencia existente de los tubos de carbono, no una nueva cotización. Los tornillos incluidos cuestan $0. Verifique variantes, cantidades por paquete y precios antes de pedir; envío, impuestos, herramientas y montaje no están incluidos.
 
-El paquete completo de columna incluye piezas de repuesto no utilizadas, 0.5 kg carrete PET-CF17 y 1 kg PETG carrete. Las cantidades de impresión son asignaciones presupuestarias; corte nuevamente utilizando el cortador de impresión 3D los 3MF proyectos suministrados para su configuración. Los costos de la varilla utilizan acero; los tubos de carbono son una alternativa.
+Los paquetes completos incluyen sobrantes, una bobina PET-CF17 de 0.5 kg y una bobina PETG de 1 kg. Vuelva a laminar los proyectos 3MF con sus ajustes.
 
 ![Kit hardware](../../../../assets/images/assembly/hardware.jpg)
 
@@ -76,14 +76,16 @@ Totales: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V
 <a id="mechanical-parts"></a>
 ## Piezas mecánicas
 
+Elija aluminio O fibra de carbono: dos tubos por kit, no dos pares. Dimensiones: diámetro exterior × diámetro interior × longitud (pared de 1 mm). Compruebe el ajuste antes del montaje en serie. Solicite el precio del aluminio.
+
 | Artículo | Tamaño | Cant. | Ubicación | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en la UE | Precio unitario (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rodamiento de bolas 6812 | 60 × 78 × 10 mm | 2 | Rotación de la base, una por brazo del robot | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Cojinete de brida MF106ZZ | 6 × 10 × 3 mm | 2 | Bastidor principal de la pinza | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Varilla (Varilla redonda de acero inoxidable, 6mm diámetro, longitud 125mm) | Ø6 × 125 mm, carbono o acero | 2 | Guías de la pinza | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
-| Tubo de carbono (Tubo de carbono, 6mm x 4mm x 125mm), alternativa | Ø6 × 4 × 125 mm | 2 | Alternativa a las barras guía de acero | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternativa) |
+| Tubo guía de aluminio | Ø6 × 4 × 125 mm | 2 | Guías de la pinza | — | Solicitar cotización | — | Solicitar cotización | — | Solicitar cotización | — |
+| Tubo guía de fibra de carbono | Ø6 × 4 × 125 mm | 2 | Guías de la pinza | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
 | Abrazadera en C | 3 pulgadas, 0–75 mm apertura | 4 | Dos por brazo robot, para fijar la base a la mesa | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **Total** |  |  |  |  |  |  |  |  |  | **$37.76** |
+| **Total** |  |  |  |  |  |  |  |  |  | **$38.60** |
 
 <a id="fasteners"></a>
 ## Elementos de fijación

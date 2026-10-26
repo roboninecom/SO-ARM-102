@@ -17,21 +17,21 @@ As quantidades são para um kit completo: um braço de robô seguidor e um braç
 <a id="estimated-kit-cost"></a>
 ## Custo estimado do kit
 
-**Um braço de robô líder + um braço de robô seguidor: $340 em componentes, ou $374 incluindo material de impressão.**
+**Um braço de robô líder + um braço de robô seguidor: $341 em componentes, ou $375 incluindo material de impressão.**
 
 | Categoria | Custo das quantidades utilizadas (USD) | Comprar pacotes completos / carretéis (USD) |
 |---|---:|---:|
 | Serviços (12 pcs) | $240.72 | $240.72 |
 | Eletrônica, câmera e fontes de alimentação | $50.50 | $50.50 |
-| Rolamentos, barras de guia de aço e grampos de mesa | $37.76 | $49.70 |
+| Rolamentos, tubos guia e grampos de mesa | $38.60 | $43.40 |
 | Fixadores | $11.24 | $28.60 |
-| **Subtotal dos componentes** | **$340.22** | **$368.82** |
+| **Subtotal dos componentes** | **$341.06** | **$362.52** |
 | Material de impressão: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **Total com material de impressão** | **$373.97** | **$434.82** |
+| **Total com material de impressão** | **$374.81** | **$428.52** |
 
-A coluna **Total (USD)** é o custo da quantidade necessária para um kit, usando a oferta de referência por trás do total de cada linha existente (não a soma das ofertas dos fornecedores). Os parafusos incluídos custam $0; os tubos de carbono alternativos são excluídos dos totais. As estimativas usam os preços de referência listados abaixo, com cada linha arredondada aos centésimos. Não são cotações de novos fornecedores: confirme as variantes selecionadas, quantidades mínimas de pedido e preços antes de encomendar. Envio, impostos, ferramentas, computador, impressora, eletricidade e trabalho de montagem estão excluídos.
+Os totais usam o preço de referência existente dos tubos de carbono, não uma nova cotação. Os parafusos incluídos custam $0. Confirme variantes, quantidades por pacote e preços antes de comprar; frete, impostos, ferramentas e montagem estão excluídos.
 
-A coluna de pacote completo inclui peças de reposição não utilizadas, 0.5 kg PET-CF17 bobina e 1 kg PETG bobina. As quantidades de impressão são as permissões do orçamento; corte novamente usando o slicer de impressão 3D os 3MF projetos fornecidos para suas configurações.
+Os pacotes completos incluem sobras, um carretel PET-CF17 de 0.5 kg e um carretel PETG de 1 kg. Fatie novamente os projetos 3MF conforme suas configurações.
 
 ![Hardware do kit](../../../../assets/images/assembly/hardware.jpg)
 
@@ -76,14 +76,16 @@ Totais: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 <a id="mechanical-parts"></a>
 ## Peças mecânicas
 
+Escolha alumínio OU fibra de carbono: dois tubos por kit, não dois pares. Dimensões: diâmetro externo × diâmetro interno × comprimento (parede de 1 mm). Verifique o encaixe antes da montagem em série. Solicite cotação do alumínio.
+
 | Item | Dimensões | Qtd. | Localização | Comprar nos EUA | Preço unitário (EUA) | Comprar nos EUA | Preço unitário (EUA) | Comprar na UE | Preço unitário (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rolamento de esferas 6812 | 60 × 78 × 10 mm | 2 | Rotação da base, uma por braço do robô | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Rolamento flangeado MF106ZZ | 6 × 10 × 3 mm | 2 | Estrutura principal da garra | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Haste (Haste redonda de aço inoxidável, 6mm diâmetro, comprimento 125mm) | Ø 6 × 125 mm, carbono ou aço | 2 | Guias da garra | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
-| Tubo de carbono (Tubo de carbono, 6mm x 4mm x 125mm), alternativa | Ø6 × 4 × 125 mm | 2 | Alternativa às hastes de guia de aço do prendedor | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternativa) |
+| Tubo guia de alumínio | Ø6 × 4 × 125 mm | 2 | Guias da garra | — | Solicitar cotação | — | Solicitar cotação | — | Solicitar cotação | — |
+| Tubo guia de fibra de carbono | Ø6 × 4 × 125 mm | 2 | Guias da garra | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
 | Grampo tipo C | 3 polegadas, abertura 0–75 mm | 4 | Dois por braço de robô, para fixar a base à mesa | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **Total** |  |  |  |  |  |  |  |  |  | **$37.76** |
+| **Total** |  |  |  |  |  |  |  |  |  | **$38.60** |
 
 <a id="fasteners"></a>
 ## Fixadores
