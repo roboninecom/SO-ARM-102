@@ -22,6 +22,8 @@
 
 > ⚠️ **主臂使用 5 V 电源，从臂使用 12 V 电源。** 请将两种电源分开放置。
 
+使用与打印塑料兼容的可拆卸螺纹锁固剂，例如 [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/)。将 VC-3 涂在金属螺钉的螺纹上，完全干燥后再组装（按[技术资料](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)至少等待 30 分钟）；不要将未干的锁固剂涂在塑料上。先用同种耗材的试打印件验证兼容性。
+
 ![工具和电压警告](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>
