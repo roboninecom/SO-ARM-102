@@ -40,4 +40,6 @@ Für einen Leader-Roboterarm + einen Follower-Roboterarm drucken Sie alle drei P
 Gespeicherte Einstellungen und Layout-Vorschauen sind in [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
 
 Teilenummern, Mengen und Druckeinstellungen finden Sie in [docs/printing.md](../docs/printing.md).
+
+Drucken Sie die [Prüfplatte für Führungsstangen](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL) mit demselben Material und denselben Einstellungen wie die Greifbacken. Prüfen Sie die Bohrungen von 6.0–6.3 mm von groß nach klein auf leichtgängigen Sitz mit minimalem Spiel. Enthalten sind nur D6.1-Greifbacken; andere Ergebnisse erfordern vor dem Druck eine passende Version. Die Prüfplatte ist kein Bausatzteil.
 <!-- /translated-content -->
