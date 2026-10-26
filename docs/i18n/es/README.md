@@ -124,7 +124,7 @@ Obtenga los componentes del [resumen de la lista de materiales](#bill-of-materia
 <a id="3-assemble"></a>
 ### 3. Ensamblar
 
-- Folleto imprimible, 36 páginas A5: [docs/SO-ARM102_assembly_A5_v0.6.pdf](../../SO-ARM102_assembly_A5_v0.6.pdf)
+- Folleto imprimible, 32 páginas A5: [docs/SO-ARM102_assembly_A5_v0.7.pdf](../../SO-ARM102_assembly_A5_v0.7.pdf)
 - Lista de pasos con piezas y sujetadores: [docs/assembly-guide.md](docs/assembly-guide.md)
 
 Herramientas: llaves hexagonales 1.5 mm (M2 tornillos) y 2 mm (M3 tornillos).
@@ -189,7 +189,7 @@ La exportación independiente actual está en [`simulation/urdf/`](../../../simu
 │   ├── bom.md               # Lista de materiales
 │   ├── assembly-guide.md    # Lista de pasos con piezas y sujetadores
 │   ├── specifications.md    # Geometría, servomotores, resultados medidos vs SO-ARM 101
-│   └── SO-ARM102_assembly_A5_v0.6.pdf
+│   └── SO-ARM102_assembly_A5_v0.7.pdf
 ├── assets/
 │   ├── images/              # Fotos, renders, páginas de folletos, fotos de prueba
 │   └── video/               # Vista previa de vídeo y GIF
@@ -204,7 +204,7 @@ La exportación independiente actual está en [`simulation/urdf/`](../../../simu
 
 Notas de montaje de pruebas independientes; revíselas al montar.
 
-1. **La documentación de montaje está desactualizada.** El folleto aún muestra el controlador HAT y piezas antiguas de la pinza. Consulte la advertencia de revisión en la guía de montaje.
+1. **Use el folleto v0.7.** Los anteriores muestran el controlador HAT y piezas antiguas de la pinza. La v0.7 instala un Bus Servo Adapter en ambos brazos.
 2. **M2 tornillos son difíciles de alcanzar en varios lugares.** Espere luchar contra algunos de ellos.
 3. **Las abrazaderas de la pinza funcionan bien en varillas de carbono.** Los orificios de las abrazaderas tienen un tamaño para 6.1 mm.Los diámetros de las varillas varían entre los proveedores, así que compruebe el ajuste antes del montaje.
 4. **Compruebe las longitudes de cable del servomotor** antes de cerrar cada junta, especialmente desde la base hasta el hombro.
