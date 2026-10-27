@@ -18,7 +18,11 @@
 
 **🎥 [プレビュービデオを見る](../../../assets/video/so-arm-102-preview.mp4)**·**🛒[キットを買う](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**遠隔操作と模倣学習のための、5 自由度のアームとグリッパーを備えたオープンソースのリーダー＋フォロワー型ロボットアームキットです。[Robonine](https://robonine.com) が SO-ARM 101 の後継機として設計し、剛性と速度を向上させました。**
+**SO-ARM 102 は、遠隔操作と模倣学習のためのオープンソースのリーダー・フォロワーロボットアームキットです。各アームは五つの自由度とグリッパーを備えています。**
+
+<p align="left">
+SO-ARM 100 と 101 を基に、より剛性の高い PET-CF フレームと平行グリッパーを組み合わせています。
+</p>
 
 [![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![ドキュメント: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | 距離 1 m での騒音 | 70 dB | **60 dB** |
 
 ¹ 両アームには印刷したサーボのダミーを使用しているため、比較対象はモーターではなくフレームです。詳しい結果と試験条件は [docs/specifications.md](docs/specifications.md) を参照してください。
-
-アームは SO-ARM 101 の関節構成を引き継いでいるため、[Hugging Face LeRobot](https://github.com/huggingface/lerobot) のデータセットとポリシーに対応します。
 
 ---
 

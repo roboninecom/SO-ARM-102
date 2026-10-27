@@ -18,7 +18,11 @@
 
 **🎥 [Посмотреть видео](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Купить комплект](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Открытый комплект ведущей и ведомой роботизированных рук с 5 степенями свободы и захватом для телеуправления и обучения по демонстрациям. Разработан [Robonine](https://robonine.com) как более жёсткий и быстрый преемник SO-ARM 101.**
+**SO-ARM 102 — открытый комплект ведущей и ведомой роботизированных рук для телеуправления и обучения по демонстрациям. Каждая рука имеет пять степеней свободы и захват.**
+
+<p align="left">
+Развивая конструкцию SO-ARM 100 и 101, он сочетает более жёсткую раму из PET-CF с параллельным захватом.
+</p>
 
 [![Аппаратные модели: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ПО: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Документация: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | Шум на расстоянии 1 м | 70 dB | **60 dB** |
 
 ¹ Обе руки собраны с напечатанными макетами сервоприводов: сравниваются рамы, а не моторы. Полные результаты и условия испытаний приведены в [docs/specifications.md](docs/specifications.md).
-
-Рука сохраняет расположение суставов SO-ARM 101, что обеспечивает совместимость с датасетами и политиками [Hugging Face LeRobot](https://github.com/huggingface/lerobot).
 
 ---
 

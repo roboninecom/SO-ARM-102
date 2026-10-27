@@ -18,7 +18,11 @@
 
 **🎥 [Ver el video de vista previa](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Comprar el kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Un kit de brazo robótico líder + brazo robótico seguidor de código abierto con 5 grados de libertad más una pinza para teleoperación y aprendizaje por imitación, diseñado por [Robonine](https://robonine.com) como sucesor más rígido y rápido del SO-ARM 101.**
+**SO-ARM 102 es un kit de brazos robóticos líder–seguidor de código abierto para teleoperación y aprendizaje por imitación. Cada brazo tiene cinco grados de libertad y una pinza.**
+
+<p align="left">
+Basado en SO-ARM 100 y 101, combina una estructura de PET-CF más rígida con una pinza paralela.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | Ruido a 1 m | 70 dB | **60 dB** |
 
 ¹ Ambos brazos robóticos se construyeron con maniquíes de servomotores impresos, por lo que se compara el bastidor, no los motores.Los resultados completos y las condiciones de prueba están en [docs/specifications.md](docs/specifications.md).
-
-El brazo del robot mantiene el diseño de la junta SO-ARM 101, por lo que funciona con [Hugging Face LeRobot](https://github.com/huggingface/lerobot) conjuntos de datos y políticas.
 
 ---
 
