@@ -90,6 +90,8 @@ Total: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V. 
 
 Total du kit tel qu'il est emballé dans le livret d'assemblage.
 
+Utilisez un frein-filet démontable compatible avec le plastique imprimé, par exemple [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Appliquez VC-3 sur le filetage des vis métalliques et laissez sécher complètement avant assemblage (au moins 30 minutes selon la [fiche technique](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)) ; ne l'appliquez pas humide sur le plastique. Vérifiez d'abord la compatibilité avec votre filament sur une pièce d'essai.
+
 | Fixation | Norme | Qté | Achat aux États-Unis | Prix unitaire (États-Unis) | Achat aux États-Unis | Prix unitaire (États-Unis) | Achat dans l’UE | Prix unitaire (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 à tête cylindrique | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |

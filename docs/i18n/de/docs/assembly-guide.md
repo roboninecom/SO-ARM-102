@@ -22,6 +22,8 @@ Vor dem Beginn:
 
 > ⚠️ **Der Leader-Arm wird mit 5 V betrieben, der Follower-Arm mit 12 V.** Halten Sie die Netzteile getrennt.
 
+Verwenden Sie eine lösbare, mit dem gedruckten Kunststoff verträgliche Schraubensicherung, z. B. [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). VC-3 auf Metallschraubengewinde auftragen und vor der Montage vollständig trocknen lassen (mindestens 30 Minuten laut [Datenblatt](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); nicht nass auf Kunststoff auftragen. Verträglichkeit zuerst an einem Probedruck mit Ihrem Filament prüfen.
+
 ![Werkzeug- und Spannungswarnung](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

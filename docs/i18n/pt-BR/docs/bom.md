@@ -90,6 +90,8 @@ Totais: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 
 Kit totais como embalado no livreto de montagem.
 
+Use um trava-roscas removível compatível com o plástico impresso, como [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Aplique VC-3 na rosca do parafuso metálico e deixe secar completamente antes da montagem (pelo menos 30 minutos conforme a [ficha técnica](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); não aplique o produto úmido no plástico. Teste primeiro a compatibilidade com seu filamento em uma peça de teste.
+
 | Fixador | Norma | Qtd. | Comprar nos EUA | Preço unitário (EUA) | Comprar nos EUA | Preço unitário (EUA) | Comprar na UE | Preço unitário (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 cabeça cilíndrica | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |
