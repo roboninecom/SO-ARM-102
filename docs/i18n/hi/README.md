@@ -21,7 +21,7 @@
 **SO-ARM 102 टेलीऑपरेशन और अनुकरण से सीखने के लिए एक ओपन-सोर्स लीडर–फॉलोअर रोबोट आर्म किट है। प्रत्येक आर्म में पाँच स्वतंत्रता की डिग्रियाँ और एक ग्रिपर है।**
 
 <p align="left">
-SO-ARM 100 और 101 पर आधारित यह किट अधिक कठोर PET-CF फ्रेम को समानांतर ग्रिपर के साथ जोड़ता है। LeRobot डेटासेट और पॉलिसी के साथ संगतता के लिए SO-ARM 101 के जोड़ों का विन्यास बरकरार रखा गया है।
+SO-ARM 100 और 101 पर आधारित यह किट अधिक कठोर PET-CF फ्रेम को समानांतर ग्रिपर के साथ जोड़ता है।
 </p>
 
 [![हार्डवेयर: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![सॉफ्टवेयर: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![डॉक्यूमेंट्स: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
@@ -51,8 +51,6 @@ SO-ARM 100 और 101 पर आधारित यह किट अधिक �
 | 1 m पर शोर | 70 dB | **60 dB** |
 
 ¹ दोनों रोबोट हाथों को प्रिंटेड सर्वोमोटर डमी के साथ बनाया गया है, इसलिए फ्रेम की तुलना की जाती है, मोटर नहीं. पूर्ण परिणाम और परीक्षण स्थिति [docs/specifications.md](docs/specifications.md) में हैं.
-
-रोबोट आर्म SO-ARM 101 संयुक्त लेआउट रखता है, इसलिए यह [Hugging Face LeRobot](https://github.com/huggingface/lerobot) डाटासेट्स और नीतियों के साथ काम करता है.
 
 ---
 

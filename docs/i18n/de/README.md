@@ -21,7 +21,7 @@
 **SO-ARM 102 ist ein quelloffenes Leader-Follower-Roboterarm-Kit für Teleoperation und Imitationslernen. Jeder Arm hat fünf Freiheitsgrade und einen zusätzlichen Greifer.**
 
 <p align="left">
-Aufbauend auf SO-ARM 100 und 101 verbindet es einen steiferen PET-CF-Rahmen mit einem Parallelgreifer. Die Gelenkanordnung des SO-ARM 101 bleibt erhalten, um die Kompatibilität mit LeRobot-Datensätzen und -Policies zu gewährleisten.
+Aufbauend auf SO-ARM 100 und 101 verbindet es einen steiferen PET-CF-Rahmen mit einem Parallelgreifer.
 </p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
@@ -51,8 +51,6 @@ Aufbauend auf SO-ARM 100 und 101 verbindet es einen steiferen PET-CF-Rahmen mit 
 | Geräuschpegel bei 1 m | 70 dB | **60 dB** |
 
 ¹ Beide Roboterarme wurden mit gedruckten Servomotor-Dummys gebaut, daher wird der Rahmen verglichen, nicht die Motoren.Vollständige Ergebnisse und Testbedingungen finden Sie in [docs/specifications.md](docs/specifications.md).
-
-Der Roboterarm behält das SO-ARM 101-Gelenklayout bei und arbeitet daher mit [Hugging Face LeRobot](https://github.com/huggingface/lerobot) Datensätze und Richtlinien.
 
 ---
 

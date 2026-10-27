@@ -13,7 +13,7 @@
 **SO-ARM 102 is an open-source leader–follower robot arm kit for teleoperation and imitation learning. Each arm has five degrees of freedom plus a gripper.**
 
 <p align="left">
-Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parallel gripper. The SO-ARM 101 joint layout is retained for compatibility with LeRobot datasets and policies.
+Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parallel gripper.
 </p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
@@ -47,9 +47,6 @@ Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parall
 
 ¹ Both arms built with printed servo dummies, so the frame is compared, not the motors.
 Full results and test conditions are in [docs/specifications.md](docs/specifications.md).
-
-The arm keeps the SO-ARM 101 joint layout, so it works with
-[Hugging Face LeRobot](https://github.com/huggingface/lerobot) datasets and policies.
 
 ---
 

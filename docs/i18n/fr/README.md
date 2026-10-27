@@ -21,7 +21,7 @@
 **SO-ARM 102 est un kit de bras robotiques leader–suiveur open source pour la téléopération et l’apprentissage par imitation. Chaque bras possède cinq degrés de liberté et une pince.**
 
 <p align="left">
-Dans la continuité des SO-ARM 100 et 101, il associe une structure en PET-CF plus rigide à une pince parallèle. La disposition des articulations du SO-ARM 101 est conservée pour assurer la compatibilité avec les jeux de données et les politiques de LeRobot.
+Dans la continuité des SO-ARM 100 et 101, il associe une structure en PET-CF plus rigide à une pince parallèle.
 </p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
@@ -51,8 +51,6 @@ Dans la continuité des SO-ARM 100 et 101, il associe une structure en PET-CF pl
 | Bruit à 1 m | 70 dB | **60 dB** |
 
 ¹ Les deux bras robotisés ont été construits avec des mannequins de servomoteurs imprimés. Le cadre est donc comparé, pas les moteurs. Les résultats complets et les conditions d'essai sont disponibles dans [docs/specifications.md](docs/specifications.md).
-
-Le bras du robot conserve la disposition des SO-ARM 101 joints, il fonctionne donc avec [Hugging Face LeRobot](https://github.com/huggingface/lerobot) jeux de données et politiques.
 
 ---
 

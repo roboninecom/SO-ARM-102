@@ -21,7 +21,7 @@
 **SO-ARM 102 es un kit de brazos robóticos líder–seguidor de código abierto para teleoperación y aprendizaje por imitación. Cada brazo tiene cinco grados de libertad y una pinza.**
 
 <p align="left">
-Basado en SO-ARM 100 y 101, combina una estructura de PET-CF más rígida con una pinza paralela. Conserva la disposición de las articulaciones del SO-ARM 101 para mantener la compatibilidad con los conjuntos de datos y las políticas de LeRobot.
+Basado en SO-ARM 100 y 101, combina una estructura de PET-CF más rígida con una pinza paralela.
 </p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
@@ -51,8 +51,6 @@ Basado en SO-ARM 100 y 101, combina una estructura de PET-CF más rígida con un
 | Ruido a 1 m | 70 dB | **60 dB** |
 
 ¹ Ambos brazos robóticos se construyeron con maniquíes de servomotores impresos, por lo que se compara el bastidor, no los motores.Los resultados completos y las condiciones de prueba están en [docs/specifications.md](docs/specifications.md).
-
-El brazo del robot mantiene el diseño de la junta SO-ARM 101, por lo que funciona con [Hugging Face LeRobot](https://github.com/huggingface/lerobot) conjuntos de datos y políticas.
 
 ---
 

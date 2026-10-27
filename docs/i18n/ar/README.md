@@ -23,7 +23,7 @@
 **SO-ARM 102 هو طقم أذرع روبوتية مفتوح المصدر يضم ذراعًا قائدة وذراعًا تابعة للتشغيل عن بُعد والتعلم بالتقليد. لكل ذراع خمس درجات حرية وماسك إضافي.**
 
 <p align="left">
-يستند إلى SO-ARM 100 و101، ويجمع بين هيكل أكثر صلابة من PET-CF وماسك متوازٍ. ويحتفظ بترتيب مفاصل SO-ARM 101 لضمان التوافق مع مجموعات بيانات LeRobot وسياساته.
+يستند إلى SO-ARM 100 و101، ويجمع بين هيكل أكثر صلابة من PET-CF وماسك متوازٍ.
 </p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
@@ -53,8 +53,6 @@
 | الضجيج عند 1 م | 70 dB | **60 dB** |
 
 (1) كلا الذراعين الروبوتيين مصنوعان من نماذج مطبوعة لمحركات الخدمة، وبالتالي فإن الإطار هو الذي يتم مقارنته، لا المحركات. وترد النتائج الكاملة وظروف الاختبار في [docs/specifications.md](docs/specifications.md).
-
-الذراع الروبوتية تحتفظ بالتخطيط المشترك SO-ARM 101، لذا فهي تعمل مع [Hugging Face LeRobot](https://github.com/huggingface/lerobot) مجموعات البيانات والسياسات.
 
 ---
 
