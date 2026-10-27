@@ -18,7 +18,9 @@
 
 **🎥 [Посмотреть видео](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Купить комплект](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Открытый комплект ведущей и ведомой роботизированных рук с 5 степенями свободы и захватом для телеуправления и обучения по демонстрациям. Разработан [Robonine](https://robonine.com) как более жёсткий и быстрый преемник SO-ARM 101.**
+SO-ARM 102 (SO-ARM102, SO-102) — открытый комплект ведущей и ведомой роботизированных рук с 5 степенями свободы и захватом, предназначенный для телеуправления и обучения по демонстрациям.
+
+Развивая конструкцию роботизированных рук SO-ARM 100 (SO-ARM100, SO-100) и SO-ARM 101 (SO-ARM101, SO-101), он сохраняет расположение суставов SO-ARM 101 для совместимости с наборами данных и политиками LeRobot, предлагая при этом повышенную жёсткость, раму из PET-CF и параллельный захват.
 
 [![Аппаратные модели: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ПО: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Документация: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

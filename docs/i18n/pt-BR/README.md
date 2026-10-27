@@ -18,7 +18,9 @@
 
 **🎥 [Veja o vídeo de pré-visualização](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Compre o kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Um kit de braço robótico líder + braço robótico seguidor de código aberto com 5 graus de liberdade mais uma garra para teleoperação e aprendizado por imitação, projetado por [Robonine](https://robonine.com) como um sucessor mais rígido e rápido do SO-ARM 101.**
+SO-ARM 102 (SO-ARM102, SO-102) é um kit de braços robóticos líder + seguidor de código aberto com 5 graus de liberdade e uma garra adicional, projetado para teleoperação e aprendizado por imitação.
+
+Desenvolvido como uma evolução dos braços robóticos SO-ARM 100 (SO-ARM100, SO-100) e SO-ARM 101 (SO-ARM101, SO-101), preserva a disposição das articulações do SO-ARM 101 para manter a compatibilidade com os conjuntos de dados e as políticas do LeRobot, oferecendo maior rigidez, uma estrutura de PET-CF e uma garra paralela.
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

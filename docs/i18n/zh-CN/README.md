@@ -18,7 +18,9 @@
 
 **🎥 [观看预览视频 ](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [购买套装 ](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**这是一套开源主从机械臂套件，具有 5 个自由度和一个夹爪，适用于遥操作和模仿学习。由 [Robonine](https://robonine.com) 设计，是 SO-ARM 101 的升级版，结构更坚固，动作更快。**
+SO-ARM 102 (SO-ARM102, SO-102) 是一套开源主从机械臂套件，具有 5 个自由度和一个夹爪，专为遥操作和模仿学习设计。
+
+作为 SO-ARM 100 (SO-ARM100, SO-100) 和 SO-ARM 101 (SO-ARM101, SO-101) 机械臂的演进版本，它保留了 SO-ARM 101 的关节布局，以兼容 LeRobot 数据集和策略，同时提供更高的刚性、PET-CF 框架和平行夹爪。
 
 [![硬件：CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![软件：Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![文件：CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
