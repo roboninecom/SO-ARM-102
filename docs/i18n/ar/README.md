@@ -20,9 +20,11 @@
 
 **🎥 [مشاهدة الفيديو المسبق](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [شراء المجموعة](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) هو طقم أذرع روبوتية مفتوح المصدر يضم ذراعًا قائدة وذراعًا تابعة، مع 5 درجات حرية وماسك إضافي، ومصمم للتشغيل عن بُعد والتعلم بالتقليد.
+**SO-ARM 102 هو طقم أذرع روبوتية مفتوح المصدر يضم ذراعًا قائدة وذراعًا تابعة للتشغيل عن بُعد والتعلم بالتقليد. لكل ذراع خمس درجات حرية وماسك إضافي.**
 
-طُوّر بوصفه امتدادًا للذراعين الروبوتيتين SO-ARM 100 (SO-ARM100, SO-100) وSO-ARM 101 (SO-ARM101, SO-101)، ويحتفظ بترتيب مفاصل SO-ARM 101 لضمان التوافق مع مجموعات بيانات LeRobot وسياساته، مع توفير صلابة أعلى وهيكل من PET-CF وماسك متوازٍ.
+<p align="left">
+يستند إلى SO-ARM 100 و101، ويجمع بين هيكل أكثر صلابة من PET-CF وماسك متوازٍ. ويحتفظ بترتيب مفاصل SO-ARM 101 لضمان التوافق مع مجموعات بيانات LeRobot وسياساته.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

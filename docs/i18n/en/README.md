@@ -18,9 +18,11 @@
 
 **🎥 [Watch the preview video](../../../assets/video/so-arm-102-preview.mp4)** · **🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) is an open-source leader + follower robot arm kit with 5 degrees of freedom plus a gripper, designed for teleoperation and imitation learning.
+**SO-ARM 102 is an open-source leader–follower robot arm kit for teleoperation and imitation learning. Each arm has five degrees of freedom plus a gripper.**
 
-Built as an evolution of the SO-ARM 100 (SO-ARM100, SO-100) and SO-ARM 101 (SO-ARM101, SO-101) robotic arms, it preserves the SO-ARM 101 joint layout for LeRobot dataset and policy compatibility while offering improved rigidity, a PET-CF frame, and a parallel gripper.
+<p align="left">
+Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parallel gripper. The SO-ARM 101 joint layout is retained for compatibility with LeRobot datasets and policies.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)

@@ -18,9 +18,11 @@
 
 **🎥 [Sehen Sie sich das Vorschauvideo an](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Kaufen Sie das Kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) ist ein quelloffenes Leader-Follower-Roboterarm-Kit mit 5 Freiheitsgraden und einem zusätzlichen Greifer, entwickelt für Teleoperation und Imitationslernen.
+**SO-ARM 102 ist ein quelloffenes Leader-Follower-Roboterarm-Kit für Teleoperation und Imitationslernen. Jeder Arm hat fünf Freiheitsgrade und einen zusätzlichen Greifer.**
 
-Als Weiterentwicklung der Roboterarme SO-ARM 100 (SO-ARM100, SO-100) und SO-ARM 101 (SO-ARM101, SO-101) behält es die Gelenkanordnung des SO-ARM 101 bei, um die Kompatibilität mit LeRobot-Datensätzen und -Policies zu gewährleisten, und bietet zugleich eine höhere Steifigkeit, einen PET-CF-Rahmen und einen Parallelgreifer.
+<p align="left">
+Aufbauend auf SO-ARM 100 und 101 verbindet es einen steiferen PET-CF-Rahmen mit einem Parallelgreifer. Die Gelenkanordnung des SO-ARM 101 bleibt erhalten, um die Kompatibilität mit LeRobot-Datensätzen und -Policies zu gewährleisten.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

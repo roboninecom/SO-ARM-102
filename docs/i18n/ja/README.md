@@ -18,9 +18,11 @@
 
 **🎥 [プレビュービデオを見る](../../../assets/video/so-arm-102-preview.mp4)**·**🛒[キットを買う](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) は、5 自由度に加えてグリッパーを備えたオープンソースのリーダー＋フォロワーロボットアームキットで、遠隔操作と模倣学習向けに設計されています。
+**SO-ARM 102 は、遠隔操作と模倣学習のためのオープンソースのリーダー・フォロワーロボットアームキットです。各アームは五つの自由度とグリッパーを備えています。**
 
-SO-ARM 100 (SO-ARM100, SO-100) および SO-ARM 101 (SO-ARM101, SO-101) ロボットアームの進化形として開発され、LeRobot のデータセットとポリシーとの互換性を保つために SO-ARM 101 の関節配置を維持しながら、剛性の向上、PET-CF フレーム、平行グリッパーを実現しています。
+<p align="left">
+SO-ARM 100 と 101 を基に、より剛性の高い PET-CF フレームと平行グリッパーを組み合わせています。LeRobot のデータセットとポリシーとの互換性を保つため、SO-ARM 101 の関節配置を維持しています。
+</p>
 
 [![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![ドキュメント: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

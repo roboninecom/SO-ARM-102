@@ -18,9 +18,11 @@
 
 **🎥 [पूर्वावलोकन वीडियो देखें](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [किट खरीदें](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) एक ओपन-सोर्स लीडर + फॉलोअर रोबोट आर्म किट है, जिसमें 5 स्वतंत्रता की डिग्रियाँ और एक अतिरिक्त ग्रिपर है। इसे टेलीऑपरेशन और अनुकरण से सीखने के लिए बनाया गया है।
+**SO-ARM 102 टेलीऑपरेशन और अनुकरण से सीखने के लिए एक ओपन-सोर्स लीडर–फॉलोअर रोबोट आर्म किट है। प्रत्येक आर्म में पाँच स्वतंत्रता की डिग्रियाँ और एक ग्रिपर है।**
 
-SO-ARM 100 (SO-ARM100, SO-100) और SO-ARM 101 (SO-ARM101, SO-101) रोबोट आर्म के विकसित रूप के तौर पर बनाया गया यह किट, LeRobot डेटासेट और पॉलिसी के साथ संगतता के लिए SO-ARM 101 के जोड़ों का विन्यास बनाए रखता है। साथ ही, यह बेहतर कठोरता, PET-CF फ्रेम और समानांतर ग्रिपर प्रदान करता है।
+<p align="left">
+SO-ARM 100 और 101 पर आधारित यह किट अधिक कठोर PET-CF फ्रेम को समानांतर ग्रिपर के साथ जोड़ता है। LeRobot डेटासेट और पॉलिसी के साथ संगतता के लिए SO-ARM 101 के जोड़ों का विन्यास बरकरार रखा गया है।
+</p>
 
 [![हार्डवेयर: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![सॉफ्टवेयर: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![डॉक्यूमेंट्स: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 

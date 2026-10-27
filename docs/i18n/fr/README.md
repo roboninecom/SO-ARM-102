@@ -18,9 +18,11 @@
 
 **🎥 [Regardez la vidéo d'aperçu](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Achetez le kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-SO-ARM 102 (SO-ARM102, SO-102) est un kit de bras robotiques leader + suiveur open source doté de 5 degrés de liberté et d’une pince, conçu pour la téléopération et l’apprentissage par imitation.
+**SO-ARM 102 est un kit de bras robotiques leader–suiveur open source pour la téléopération et l’apprentissage par imitation. Chaque bras possède cinq degrés de liberté et une pince.**
 
-Conçu comme une évolution des bras robotiques SO-ARM 100 (SO-ARM100, SO-100) et SO-ARM 101 (SO-ARM101, SO-101), il conserve la disposition des articulations du SO-ARM 101 pour assurer la compatibilité avec les jeux de données et les politiques de LeRobot, tout en offrant une rigidité accrue, une structure en PET-CF et une pince parallèle.
+<p align="left">
+Dans la continuité des SO-ARM 100 et 101, il associe une structure en PET-CF plus rigide à une pince parallèle. La disposition des articulations du SO-ARM 101 est conservée pour assurer la compatibilité avec les jeux de données et les politiques de LeRobot.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
