@@ -215,6 +215,13 @@ SO-ARM 102 फॉलोअर प्लगइन का उपयोग मा�
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ स्टार का इतिहास
+
+[![स्टार का इतिहास — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
+
+---
+
 <a id="-related-projects"></a>
 ## संबंधित परियोजनाएँ
 

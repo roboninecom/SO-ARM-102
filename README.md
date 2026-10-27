@@ -216,6 +216,12 @@ Found something else? Please [open an issue](https://github.com/roboninecom/SO-A
 
 ---
 
+## ⭐ Star History
+
+[![Star History Chart for SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
+
+---
+
 ## 🔗 Related projects
 
 - [SO-ARM100/101 Parallel Gripper](https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper), the gripper the SO-ARM 102 gripper grew from
