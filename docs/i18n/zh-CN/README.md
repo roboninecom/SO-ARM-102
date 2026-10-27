@@ -215,6 +215,13 @@
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ 星标历史
+
+[![星标历史 — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
+
+---
+
 <a id="-related-projects"></a>
 ## 相关项目
 

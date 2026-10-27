@@ -215,6 +215,13 @@ SO-ARM 102 フォロワープラグインと標準の `so101_leader` 型を使�
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ スター数の推移
+
+[![スター数の推移 — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
+
+---
+
 <a id="-related-projects"></a>
 ## 関連プロジェクト
 
