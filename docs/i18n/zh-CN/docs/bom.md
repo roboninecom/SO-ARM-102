@@ -92,6 +92,8 @@
 
 在装配手册中包装的套件总数。
 
+使用与打印塑料兼容的可拆卸螺纹锁固剂，例如 [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/)。将 VC-3 涂在金属螺钉的螺纹上，完全干燥后再组装（按[技术资料](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)至少等待 30 分钟）；不要将未干的锁固剂涂在塑料上。先用同种耗材的试打印件验证兼容性。
+
 | 紧固件 | 标准 | 数量 | 美国采购 | 单价（美国） | 美国采购 | 单价（美国） | 欧盟采购 | 单价（欧盟） | 总计 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 内六角圆柱头 | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |

@@ -40,4 +40,6 @@ Pour un bras robotique leader + un bras robotique suiveur, imprimez les trois pr
 Les paramètres enregistrés et les aperçus de mise en page sont dans [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
 
 Les numéros de pièce, les quantités et les paramètres d'impression sont dans [docs/printing.md](../docs/printing.md).
+
+Imprimez la [plaque de test des tiges](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL) avec le même matériau et les mêmes réglages que les mâchoires. Testez les trous de 6.0–6.3 mm du plus grand au plus petit pour obtenir un coulissement sans effort avec un jeu minimal. Seules les mâchoires D6.1 sont fournies ; un autre résultat nécessite une version adaptée avant impression. Cet outil de test ne fait pas partie du kit.
 <!-- /translated-content -->

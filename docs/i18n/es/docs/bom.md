@@ -92,6 +92,8 @@ Elija aluminio O fibra de carbono: dos tubos por kit, no dos pares. Dimensiones:
 
 Totales del kit como se embala en el folleto de montaje.
 
+Use un fijador de roscas desmontable compatible con el plástico impreso, como [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Aplique VC-3 a la rosca del tornillo metálico y deje secar completamente antes del montaje (al menos 30 minutos según la [ficha técnica](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); no lo aplique húmedo sobre plástico. Compruebe primero la compatibilidad con su filamento en una pieza de prueba.
+
 | Fijación | Norma | Cant. | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en la UE | Precio unitario (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 de cabeza cilíndrica | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |

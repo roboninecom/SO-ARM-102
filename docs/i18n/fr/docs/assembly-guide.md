@@ -22,6 +22,8 @@ Avant de commencer :
 
 > ⚠️ **Le bras maître fonctionne sous 5 V, le bras suiveur sous 12 V.** Gardez leurs alimentations séparées.
 
+Utilisez un frein-filet démontable compatible avec le plastique imprimé, par exemple [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Appliquez VC-3 sur le filetage des vis métalliques et laissez sécher complètement avant assemblage (au moins 30 minutes selon la [fiche technique](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)) ; ne l'appliquez pas humide sur le plastique. Vérifiez d'abord la compatibilité avec votre filament sur une pièce d'essai.
+
 ![Outils et avertissement de tension](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

@@ -92,6 +92,8 @@
 
 Количество соответствует комплекту в буклете сборки.
 
+Используйте разборный фиксатор резьбы, совместимый с пластиком деталей, например [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Нанесите VC-3 на резьбу металлического винта и полностью высушите до сборки (не менее 30 минут по [техническому описанию](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); не наносите жидкий состав на пластик. Сначала проверьте совместимость с вашим филаментом на пробной детали.
+
 | Крепёж | Стандарт | Кол-во | Купить в США | Цена за единицу (США) | Купить в США | Цена за единицу (США) | Купить в ЕС | Цена за единицу (ЕС) | Итого (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6, цилиндрическая головка | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |

@@ -40,4 +40,6 @@
 保存的设置和布局预览在 [docs/printing.md ](../docs/printing.md#3mf-slicer-projects) 中。
 
 零件编号、数量和打印设置见[docs/printing.md ](../docs/printing.md) 。
+
+使用与夹爪相同的材料和设置打印[导杆配合测试板](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL)。从大到小测试 6.0–6.3 mm 孔，选择滑动顺畅且间隙最小的尺寸。仓库目前仅提供 D6.1 夹爪；若测试结果不同，打印前需要相应尺寸的夹爪版本。测试板是检测工具，不是套件零件。
 <!-- /translated-content -->

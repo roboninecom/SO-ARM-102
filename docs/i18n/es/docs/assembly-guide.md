@@ -22,6 +22,8 @@ Antes de empezar:
 
 > ⚠️ **El brazo líder funciona a 5 V y el brazo seguidor a 12 V.** Mantenga separadas las fuentes de alimentación.
 
+Use un fijador de roscas desmontable compatible con el plástico impreso, como [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Aplique VC-3 a la rosca del tornillo metálico y deje secar completamente antes del montaje (al menos 30 minutos según la [ficha técnica](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); no lo aplique húmedo sobre plástico. Compruebe primero la compatibilidad con su filamento en una pieza de prueba.
+
 ![Herramientas y advertencia de voltaje](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

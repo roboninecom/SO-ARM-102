@@ -10,8 +10,11 @@
 
 **🎥 [Watch the preview video](assets/video/so-arm-102-preview.mp4)** · **🛒 [Buy the kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**An open-source leader + follower robot arm kit with 5 degrees of freedom plus a gripper for teleoperation and imitation learning,
-designed by [Robonine](https://robonine.com) as a stiffer, faster successor to the SO-ARM 101.**
+**SO-ARM 102 is an open-source leader–follower robot arm kit for teleoperation and imitation learning. Each arm has five degrees of freedom plus a gripper.**
+
+<p align="left">
+Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parallel gripper.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](SOFTWARE-LICENSE.txt)
@@ -44,9 +47,6 @@ designed by [Robonine](https://robonine.com) as a stiffer, faster successor to t
 
 ¹ Both arms built with printed servo dummies, so the frame is compared, not the motors.
 Full results and test conditions are in [docs/specifications.md](docs/specifications.md).
-
-The arm keeps the SO-ARM 101 joint layout, so it works with
-[Hugging Face LeRobot](https://github.com/huggingface/lerobot) datasets and policies.
 
 ---
 
@@ -213,6 +213,12 @@ Build notes from independent testing; check these when assembling.
 6. **Leader joints can feel loose.** Adding 8 × 2 mm rubber O-rings between each servo and its horn gives the leader smooth, silent friction. Use two per servo on joints 1–4 and one on joints 5–6.
 
 Found something else? Please [open an issue](https://github.com/roboninecom/SO-ARM-102/issues).
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart for SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 

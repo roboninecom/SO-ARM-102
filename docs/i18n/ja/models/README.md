@@ -40,4 +40,6 @@
 保存された設定とレイアウトのプレビューは [docs/printing.md](../docs/printing.md#3mf-slicer-projects)にあります。
 
 部品番号、数量、印刷設定は [docs/printing.md](../docs/printing.md).
+
+クランプと同じ材料・設定で[ガイドロッドのはめあいテスト板](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL)を印刷してください。6.0–6.3 mm の穴を大きい順に試し、滑らかに動き、がたつきが最小になる寸法を選びます。このリポジトリには D6.1 クランプのみ含まれます。結果が異なる場合は、印刷前に対応するクランプ版が必要です。テスト板は確認用工具で、キット部品ではありません。
 <!-- /translated-content -->

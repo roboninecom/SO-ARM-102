@@ -18,7 +18,11 @@
 
 **🎥 [Sehen Sie sich das Vorschauvideo an](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Kaufen Sie das Kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Ein quelloffenes Roboterarm-Kit mit einem Leader- und einem Follower-Arm, 5 Freiheitsgraden und einem Greifer für Teleoperation und Imitationslernen. Entwickelt von [Robonine](https://robonine.com) als steiferer und schnellerer Nachfolger des SO-ARM 101.**
+**SO-ARM 102 ist ein quelloffenes Leader-Follower-Roboterarm-Kit für Teleoperation und Imitationslernen. Jeder Arm hat fünf Freiheitsgrade und einen zusätzlichen Greifer.**
+
+<p align="left">
+Aufbauend auf SO-ARM 100 und 101 verbindet es einen steiferen PET-CF-Rahmen mit einem Parallelgreifer.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | Geräuschpegel bei 1 m | 70 dB | **60 dB** |
 
 ¹ Beide Roboterarme wurden mit gedruckten Servomotor-Dummys gebaut, daher wird der Rahmen verglichen, nicht die Motoren.Vollständige Ergebnisse und Testbedingungen finden Sie in [docs/specifications.md](docs/specifications.md).
-
-Der Roboterarm behält das SO-ARM 101-Gelenklayout bei und arbeitet daher mit [Hugging Face LeRobot](https://github.com/huggingface/lerobot) Datensätze und Richtlinien.
 
 ---
 
@@ -212,6 +214,13 @@ Hinweise aus unabhängigen Testaufbauten; beim Zusammenbau beachten.
 6. **Die Gelenke des Leader-Roboterarms können sich locker anfühlen.** Durch das Hinzufügen von 8 × 2 mm Gummi-O-Ringen zwischen jedem Servomotor und seinem Horn erhält der Leader-Roboterarm eine glatte, leise Reibung. Verwenden Sie zwei pro Servomotor an den Gelenken 1–4 und einen an den Gelenken 5–6.
 
 Haben Sie etwas anderes gefunden? Bitte [öffnen Sie ein Problem](https://github.com/roboninecom/SO-ARM-102/issues).
+
+---
+
+<a id="-star-history"></a>
+## ⭐ Sterneverlauf
+
+[![Sterneverlauf — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 

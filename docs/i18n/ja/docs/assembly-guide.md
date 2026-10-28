@@ -22,6 +22,8 @@
 
 > ⚠️ **リーダーアームは 5 V、フォロワーアームは 12 V で動作します。** それぞれの電源を分けて管理してください。
 
+印刷した樹脂に適合する取り外し可能なねじロック剤（例：[Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/)）を使用してください。VC-3 は金属ねじのねじ部に塗布し、組立前に完全に乾燥させます（[技術資料](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)では最低 30 分）。未乾燥の状態で樹脂に塗布しないでください。まず同じフィラメントの試作品で適合性を確認してください。
+
 ![ツールと電圧警告](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

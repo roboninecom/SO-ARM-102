@@ -92,6 +92,8 @@ Aluminium ODER Carbon wählen: zwei Rohre pro Kit, nicht zwei Paare. Maße: Auß
 
 Kit-Gesamtsumme wie im Montagebuch verpackt.
 
+Verwenden Sie eine lösbare, mit dem gedruckten Kunststoff verträgliche Schraubensicherung, z. B. [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). VC-3 auf Metallschraubengewinde auftragen und vor der Montage vollständig trocknen lassen (mindestens 30 Minuten laut [Datenblatt](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); nicht nass auf Kunststoff auftragen. Verträglichkeit zuerst an einem Probedruck mit Ihrem Filament prüfen.
+
 | Befestigungsmittel | Norm | Anzahl | Kauf USA | Stückpreis (USA) | Kauf USA | Stückpreis (USA) | Kauf EU | Stückpreis (EU) | Gesamt (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | M2 × 6 Zylinderkopf | DIN 912 | 28 | [Amazon](https://www.amazon.com/Socket-Stainless-Threaded-Furniture-Printing/dp/B0DKY8XHB1/) | $6.60 / 60 | [Aliexpress](https://www.aliexpress.us/item/3256812583382995.html) | $3.70 / 100 | [Amazon EU](https://www.amazon.fr/-/en/THFJWJ-M2-Allen-Cylinder-Screws/dp/B0FP8ZP1XT/) | €6.60 / 60 | $1.04 |

@@ -18,7 +18,11 @@
 
 **🎥 [观看预览视频 ](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [购买套装 ](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**这是一套开源主从机械臂套件，具有 5 个自由度和一个夹爪，适用于遥操作和模仿学习。由 [Robonine](https://robonine.com) 设计，是 SO-ARM 101 的升级版，结构更坚固，动作更快。**
+**SO-ARM 102 是一套用于遥操作和模仿学习的开源主从机械臂套件。每个机械臂均具有五个自由度和一个夹爪。**
+
+<p align="left">
+它在 SO-ARM 100 和 101 的基础上，将刚性更高的 PET-CF 框架与平行夹爪相结合。
+</p>
 
 [![硬件：CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![软件：Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![文件：CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | 1 米处的噪音 | 70 dB | **60 dB** |
 
 ¹ 两个机器人手臂均采用印刷伺服电机模型制作,因此对比的是框架而不是电机。 完整的结果和测试条件见[docs/specifications.md ](docs/specifications.md)
-
-机器人手臂保留 SO-ARM 101 关节布局,因此它使用 [Hugging Face LeRobot ](https://github.com/huggingface/lerobot) 数据集和策略。
 
 ---
 
@@ -212,6 +214,13 @@
 6. **主臂关节可能感觉偏松。** 在每个舵机与舵盘之间加入 8 × 2 mm 橡胶 O 形圈，可使主臂产生平滑、安静的摩擦。关节 1–4 每个舵机使用两个，关节 5–6 每个使用一个。
 
 您还找到其他东西吗? 请 [打开问题 ](https://github.com/roboninecom/SO-ARM-102/issues) 。
+
+---
+
+<a id="-star-history"></a>
+## ⭐ 星标历史
+
+[![星标历史 — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 
