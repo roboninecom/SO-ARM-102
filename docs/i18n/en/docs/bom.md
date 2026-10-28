@@ -18,21 +18,31 @@ Printed parts are listed separately in [printing.md](printing.md).
 <a id="estimated-kit-cost"></a>
 ## Estimated kit cost
 
-**One leader + one follower: $341 in components, or $375 including printing material.**
+> Cost figures below retain the previous steel-rod estimate. Aluminium guide tubes require a new quote; these totals are not a confirmed aluminium-kit price.
+
+**One leader + one follower: $340 in components, or $374 including printing material.**
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
 |---|---:|---:|
 | Servos (12 pcs) | $240.72 | $240.72 |
 | Electronics, camera and power supplies | $50.50 | $50.50 |
-| Bearings, guide tubes and table clamps | $38.60 | $43.40 |
+| Bearings, steel guide rods and table clamps | $37.76 | $49.70 |
 | Fasteners | $11.24 | $28.60 |
-| **Components subtotal** | **$341.06** | **$362.52** |
+| **Components subtotal** | **$340.22** | **$368.82** |
 | Printing material: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **Total with printing material** | **$374.81** | **$428.52** |
+| **Total with printing material** | **$373.97** | **$434.82** |
 
-Totals use the existing carbon-tube reference price, not a new supplier quote. Included screws cost $0. Confirm variants, pack quantities and prices before ordering; shipping, taxes, tools and assembly are excluded.
+The **Total (USD)** column is the cost of the quantity needed for one kit,
+using the reference offer behind each existing line total (not the sum of supplier offers).
+Included screws cost $0; alternative carbon tubes are excluded from totals.
+Estimates use the reference prices listed below, with each line rounded to cents.
+They are not new supplier quotes: confirm the selected variants, minimum order
+quantities and prices before ordering. Shipping, taxes, tools, a computer, a printer,
+electricity and assembly labour are excluded.
 
-Full-pack totals include unused spares, a 0.5 kg PET-CF17 spool and a 1 kg PETG spool. Re-slice the supplied 3MF projects for your settings.
+The full-pack column includes unused spares, 0.5 kg PET-CF17 spool and
+1 kg PETG spool. Printing quantities are budget allowances; re-slice the supplied
+3MF projects for your settings. Rod costs use steel; carbon tubes are an alternative.
 
 ![Kit hardware](../../../../assets/images/assembly/hardware.jpg)
 
@@ -78,16 +88,14 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 <a id="mechanical-parts"></a>
 ## Mechanical parts
 
-Choose aluminium OR carbon fibre: two tubes per kit, not two pairs. Dimensions are outer diameter × inner diameter × length (1 mm wall). Confirm the actual tube fit before batch assembly. Aluminium pricing requires a quote.
-
 | Item | Size | Qty | Where | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Ball bearing 6812 | 60 × 78 × 10 mm | 2 | Base rotation, one per arm | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Flanged bearing MF106ZZ | 6 × 10 × 3 mm | 2 | Gripper main frame | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
 | Aluminium guide tube | Ø6 × 4 × 125 mm | 2 | Gripper guides | — | Quote required | — | Quote required | — | Quote required | — |
-| Carbon-fibre guide tube | Ø6 × 4 × 125 mm | 2 | Gripper guides | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
+| Carbon tube (Carbon tube, 6mm x 4mm x 125mm), alternative | Ø6 × 4 × 125 mm | 2 | Alternative to steel gripper guide rods | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternative) |
 | C-clamp | 3 inch, 0–75 mm opening | 4 | Two per arm, to fix the base to the table | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **Total** | | | | | | | | | | **$38.60** |
+| **Total** | | | | | | | | | | **$37.76** |
 
 <a id="fasteners"></a>
 ## Fasteners

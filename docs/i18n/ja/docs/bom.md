@@ -17,21 +17,23 @@
 <a id="estimated-kit-cost"></a>
 ## 予測キットコスト
 
-**１本のリーダーロボットアーム＋１本のフォローアーム： $341 コンポーネントにも $375 印刷材料も含めて
+> 以下の費用は、従来の鋼製ガイドロッドを使用した見積もりです。アルミ製ガイドチューブには新たな見積もりが必要であり、この合計はアルミ仕様キットの確定価格ではありません。
+
+**１本のリーダーロボットアーム＋１本のフォローアーム： $340 コンポーネントにも $374 印刷材料も含めて
 
 | 分類 | 使用量コスト（米ドル） | フルパック/スプールを購入 (USD) |
 |---|---:|---:|
 | サーバ (12 pcs) | $240.72 | $240.72 |
 | エレクトロニクス、カメラ、電源 | $50.50 | $50.50 |
-| ベアリング、ガイドチューブ、テーブルクランプ | $38.60 | $43.40 |
+| 軸受，鋼製ガイドロッド，テーブルクランプ | $37.76 | $49.70 |
 | 締結部品 | $11.24 | $28.60 |
-| **部品小計** | **$341.06** | **$362.52** |
+| **部品小計** | **$340.22** | **$368.82** |
 | 印刷材料: 0.4 kg PET-CF17 + 0.75 kg PETG | $33.75 | $66.0 |
-| **印刷材料込み合計** | **$374.81** | **$428.52** |
+| **印刷材料込み合計** | **$373.97** | **$434.82** |
 
-合計は既存のカーボンチューブ参考価格を使用しており、新しい見積もりではありません。付属ねじの価格は $0 です。注文前に仕様、パック数量、価格を確認してください。送料、税金、工具、組立費は含みません。
+**Total (USD)** 列はキット1つに必要な数量のコストであり、既存の各行総額の後ろにある参考オファーを使用しています。スクリューは含まれていますが、価格は $0です。代替カーボンチューブは合計から除外されます。推定値は下記の参考価格を使用しており、各行はセントに丸められています。これらは新しいサプライヤーの提案ではありません:選択したバリエーション、最小注文数量と価格を確認してください。輸送、税金、ツール、コンピュータ、プリンタ、電気、組立労働は除外されています。
 
-パック購入額には余剰部品、0.5 kg の PET-CF17 スプール、1 kg の PETG スプールを含みます。3MF プロジェクトを設定に合わせて再スライスしてください。
+フルパックコラムには未使用のスペア、0.5 kg PET-CF17 スプールと1 kg PETG スプールが含まれています。印刷量は予算許容量です。3D プリンタスライサーを使って提供された 3MF プロジェクトを設定に合わせて再スライスしてください。ロッドコストは鋼鉄を使用します。カーボンチューブは代替品です。
 
 ![キットハードウェア](../../../../assets/images/assembly/hardware.jpg)
 
@@ -76,16 +78,14 @@
 <a id="mechanical-parts"></a>
 ## 機械部品
 
-アルミまたはカーボンを選択してください。1キットに2本で、2組ではありません。寸法は外径 × 内径 × 長さ（肉厚 1 mm）です。量産組立前に実物のはめ合いを確認してください。アルミの価格は見積もりが必要です。
-
 | 品目 | 寸法 | 数量 | 使用箇所 | 米国で購入 | 単価（米国） | 米国で購入 | 単価（米国） | EUで購入 | 単価（EU） | 合計 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 玉軸受 6812 | 60 × 78 × 10 mm | 2 | ベース回転 ロボットアームごとに一つ | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | フランジ軸受 MF106ZZ | 6 × 10 × 3 mm | 2 | グリッパーのメインフレーム | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
 | アルミ製ガイドチューブ | Ø6 × 4 × 125 mm | 2 | グリッパーガイド | — | 要見積もり | — | 要見積もり | — | 要見積もり | — |
-| カーボン製ガイドチューブ | Ø6 × 4 × 125 mm | 2 | グリッパーガイド | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 |
+| カーボンチューブ (カーボンチューブ, 6mm x 4mm x 125mm), 代替 | Ø6 × 4 × 125 mm | 2 | 鋼製グリップガイドロッドの代替品 | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (代替) |
 | Cクランプ | 3インチ、0-75 mm開口 | 4 | ロボットアームごとに２つ テーブルの基礎を固定する | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
-| **合計** |  |  |  |  |  |  |  |  |  | **$38.60** |
+| **合計** |  |  |  |  |  |  |  |  |  | **$37.76** |
 
 <a id="fasteners"></a>
 ## 締結部品

@@ -74,52 +74,52 @@
       "translations": {
         "en": {
           "path": "docs/i18n/en/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "source-copy"
         },
         "ru": {
           "path": "docs/i18n/ru/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "es": {
           "path": "docs/i18n/es/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "fr": {
           "path": "docs/i18n/fr/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "de": {
           "path": "docs/i18n/de/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "pt-BR": {
           "path": "docs/i18n/pt-BR/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "zh-CN": {
           "path": "docs/i18n/zh-CN/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "ja": {
           "path": "docs/i18n/ja/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "hi": {
           "path": "docs/i18n/hi/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         },
         "ar": {
           "path": "docs/i18n/ar/docs/bom.md",
-          "source_sha256": "d974ed6a8ceff55a55790b8753758fab0de365478d6a05895c41784b21b10233",
+          "source_sha256": "3f2af458ef08a2286757be74cd9ff4bab57e70367e94735733717b73a66776d9",
           "review": "structural-checks-only"
         }
       }
