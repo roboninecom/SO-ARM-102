@@ -18,7 +18,11 @@
 
 **🎥 [Regardez la vidéo d'aperçu](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Achetez le kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Un kit de bras robotique open-source avec un bras robotique leader + un bras robotique suiveur avec 5 degrés de liberté plus une pince pour la téléopération et l'apprentissage par imitation, conçu par [Robonine](https://robonine.com) en tant que successeur plus rigide et plus rapide du SO-ARM 101.**
+**SO-ARM 102 est un kit de bras robotiques leader–suiveur open source pour la téléopération et l’apprentissage par imitation. Chaque bras possède cinq degrés de liberté et une pince.**
+
+<p align="left">
+Dans la continuité des SO-ARM 100 et 101, il associe une structure en PET-CF plus rigide à une pince parallèle.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | Bruit à 1 m | 70 dB | **60 dB** |
 
 ¹ Les deux bras robotisés ont été construits avec des mannequins de servomoteurs imprimés. Le cadre est donc comparé, pas les moteurs. Les résultats complets et les conditions d'essai sont disponibles dans [docs/specifications.md](docs/specifications.md).
-
-Le bras du robot conserve la disposition des SO-ARM 101 joints, il fonctionne donc avec [Hugging Face LeRobot](https://github.com/huggingface/lerobot) jeux de données et politiques.
 
 ---
 
@@ -212,6 +214,13 @@ Remarques issues de tests indépendants ; vérifiez-les au montage.
 6. **Les articulations du bras robot leader peuvent sembler lâches.** En ajoutant 8 × 2 mm joints toriques en caoutchouc entre chaque servomoteur et son claxon, le bras robot leader obtient un frottement doux et silencieux. Utilisez deux par servomoteur sur les articulations 1–4 et une sur les articulations 5–6.
 
 Vous avez trouvé quelque chose d'autre ? Veuillez [ouvrir un problème](https://github.com/roboninecom/SO-ARM-102/issues).
+
+---
+
+<a id="-star-history"></a>
+## ⭐ Historique des étoiles
+
+[![Historique des étoiles — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 

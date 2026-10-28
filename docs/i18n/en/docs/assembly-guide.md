@@ -24,6 +24,8 @@ Before you start:
 
 > ⚠️ **The leader runs on 5 V, the follower on 12 V.** Keep the power supplies apart.
 
+Use a removable threadlocker compatible with the printed plastic, e.g. [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Apply VC-3 to metal screw threads and let it dry fully before assembly (at least 30 minutes per its [technical data sheet](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); do not apply it wet to plastic. Confirm compatibility with your filament on a spare print first.
+
 ![Tools and voltage warning](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

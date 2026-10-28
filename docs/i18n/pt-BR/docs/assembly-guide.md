@@ -22,6 +22,8 @@ Antes de começar:
 
 > ⚠️ **O braço líder funciona com 5 V, e o braço seguidor com 12 V.** Mantenha as fontes de alimentação separadas.
 
+Use um trava-roscas removível compatível com o plástico impresso, como [Vibra-Tite VC-3](https://www.vibra-tite.com/faq/if-vc-3-has-mek-how-can-it-be-plastic-compatible/). Aplique VC-3 na rosca do parafuso metálico e deixe secar completamente antes da montagem (pelo menos 30 minutos conforme a [ficha técnica](https://www.vibra-tite.com/wp-content/uploads/213_tds.pdf)); não aplique o produto úmido no plástico. Teste primeiro a compatibilidade com seu filamento em uma peça de teste.
+
 ![Ferramentas e aviso de tensão](../../../../assets/images/assembly/tools-and-voltage.jpg)
 
 <a id="order-of-work"></a>

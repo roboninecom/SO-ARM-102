@@ -40,4 +40,6 @@ Para un brazo robot líder + un brazo robot seguidor, imprima los tres proyectos
 Los ajustes guardados y las vistas previas de diseño están en [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
 
 Los números de pieza, cantidades y ajustes de impresión están en [docs/printing.md](../docs/printing.md).
+
+Imprima la [placa de prueba de las varillas](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL) con el mismo material y ajustes que las mordazas. Pruebe los orificios de 6.0–6.3 mm de mayor a menor buscando un ajuste suave con juego mínimo. Solo se incluyen mordazas D6.1; otro resultado requiere una revisión compatible antes de imprimir. Es una herramienta de prueba, no una pieza del kit.
 <!-- /translated-content -->

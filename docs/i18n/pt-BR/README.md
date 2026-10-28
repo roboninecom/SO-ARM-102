@@ -18,7 +18,11 @@
 
 **🎥 [Veja o vídeo de pré-visualização](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [Compre o kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**Um kit de braço robótico líder + braço robótico seguidor de código aberto com 5 graus de liberdade mais uma garra para teleoperação e aprendizado por imitação, projetado por [Robonine](https://robonine.com) como um sucessor mais rígido e rápido do SO-ARM 101.**
+**SO-ARM 102 é um kit de braços robóticos líder–seguidor de código aberto para teleoperação e aprendizado por imitação. Cada braço tem cinco graus de liberdade e uma garra.**
+
+<p align="left">
+Com base no SO-ARM 100 e 101, combina uma estrutura de PET-CF mais rígida com uma garra paralela.
+</p>
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | Ruído a 1 m | 70 dB | **60 dB** |
 
 ¹ Ambos os braços do robô foram construídos com manequins de servomotores impressos, portanto a estrutura é comparada, não os motores.Os resultados completos e as condições de teste estão em [docs/specifications.md](docs/specifications.md).
-
-O braço do robô mantém o layout da junta SO-ARM 101, então ele funciona com [Hugging Face LeRobot](https://github.com/huggingface/lerobot) conjuntos de dados e políticas.
 
 ---
 
@@ -212,6 +214,13 @@ Notas de montagem de testes independentes; confira durante a montagem.
 6. **As articulações do braço do robô líder podem parecer soltas.** A adição de 8 × 2 mm anéis de borracha entre cada servomotor e sua buzina dá ao braço do robô líder um atrito suave e silencioso. Use dois por servomotor nas articulações 1–4 e um nas articulações 5–6.
 
 Por favor, [abra um problema](https://github.com/roboninecom/SO-ARM-102/issues).
+
+---
+
+<a id="-star-history"></a>
+## ⭐ Histórico de estrelas
+
+[![Histórico de estrelas — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 

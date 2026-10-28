@@ -18,7 +18,11 @@
 
 **🎥 [पूर्वावलोकन वीडियो देखें](../../../assets/video/so-arm-102-preview.mp4)**·**🛒 [किट खरीदें](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
-**यह ओपन-सोर्स लीडर और फॉलोअर रोबोट आर्म का एक किट है, जिसमें 5 स्वतंत्रता की डिग्रियाँ और एक ग्रिपर है। इसे टेलीऑपरेशन और अनुकरण से सीखने के लिए [Robonine](https://robonine.com) ने SO-ARM 101 के अधिक कठोर और तेज उत्तराधिकारी के रूप में बनाया है।**
+**SO-ARM 102 टेलीऑपरेशन और अनुकरण से सीखने के लिए एक ओपन-सोर्स लीडर–फॉलोअर रोबोट आर्म किट है। प्रत्येक आर्म में पाँच स्वतंत्रता की डिग्रियाँ और एक ग्रिपर है।**
+
+<p align="left">
+SO-ARM 100 और 101 पर आधारित यह किट अधिक कठोर PET-CF फ्रेम को समानांतर ग्रिपर के साथ जोड़ता है।
+</p>
 
 [![हार्डवेयर: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt) [![सॉफ्टवेयर: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt) [![डॉक्यूमेंट्स: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt) [![GitHub release](https://img.shields.io/github/v/release/roboninecom/SO-ARM-102)](https://github.com/roboninecom/SO-ARM-102/releases/latest)
 
@@ -47,8 +51,6 @@
 | 1 m पर शोर | 70 dB | **60 dB** |
 
 ¹ दोनों रोबोट हाथों को प्रिंटेड सर्वोमोटर डमी के साथ बनाया गया है, इसलिए फ्रेम की तुलना की जाती है, मोटर नहीं. पूर्ण परिणाम और परीक्षण स्थिति [docs/specifications.md](docs/specifications.md) में हैं.
-
-रोबोट आर्म SO-ARM 101 संयुक्त लेआउट रखता है, इसलिए यह [Hugging Face LeRobot](https://github.com/huggingface/lerobot) डाटासेट्स और नीतियों के साथ काम करता है.
 
 ---
 
@@ -212,6 +214,13 @@ SO-ARM 102 फॉलोअर प्लगइन का उपयोग मा�
 6.  ** लीडर रोबोट हाथ जोड़े लचीले महसूस कर सकते हैं.** प्रत्येक सर्वोमोटर और इसके हॉर्न के बीच 8 × 2 mm रबर ओ-रिंग्स जोड़ने से लीडर रोबोट हाथ को सुचारू, शांत घर्षण मिलता है. जोड़ों 1–4 पर प्रति सर्वोमोटर दो का उपयोग करें और जोड़ों 5–6 पर एक।
 
 कुछ और मिला? कृपया [एक मुद्दा खोलें](https://github.com/roboninecom/SO-ARM-102/issues).
+
+---
+
+<a id="-star-history"></a>
+## ⭐ स्टार का इतिहास
+
+[![स्टार का इतिहास — SO-ARM 102](https://api.star-history.com/svg?repos=roboninecom/so-arm-102&type=date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm-102&type=date&legend=top-left)
 
 ---
 

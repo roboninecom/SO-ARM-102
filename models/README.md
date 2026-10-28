@@ -35,3 +35,5 @@ the common parts for one arm; there is no need to print a separate common set.
 Saved settings and layout previews are in [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
 
 Part numbers, quantities and print settings are in [docs/printing.md](../docs/printing.md).
+
+Print the [rod-fit test plate](stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL) with the same material and settings as the clamps. Try the 6.0–6.3 mm holes from largest to smallest; choose a smooth fit with minimal play. This repository currently supplies D6.1 clamps only; a different test result requires a matching clamp revision before printing. This is a test tool, not a kit part.

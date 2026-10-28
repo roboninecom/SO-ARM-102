@@ -40,4 +40,6 @@ Para um braço de robô líder + um braço de robô seguidor, imprima todos os t
 Configurações salvas e visualizações de layout estão em [docs/printing.md](../docs/printing.md#3mf-slicer-projects).
 
 Os números de peça, quantidades e configurações de impressão estão em [docs/printing.md](../docs/printing.md).
+
+Imprima a [placa de teste das hastes](../../../../models/stl/test/Gripper%20test%20plate%20star%20holes%206.0-6.3.STL) com o mesmo material e configurações das garras. Teste os furos de 6.0–6.3 mm do maior para o menor, buscando movimento suave com folga mínima. Apenas garras D6.1 estão incluídas; outro resultado exige uma versão correspondente antes da impressão. A placa é uma ferramenta de teste, não uma peça do kit.
 <!-- /translated-content -->
