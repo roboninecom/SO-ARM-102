@@ -76,15 +76,13 @@ Totais: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 <a id="mechanical-parts"></a>
 ## Peças mecânicas
 
-Os tubos opcionais de alumínio Ø6 × 4 × 125 mm substituem as hastes maciças de aço Ø6 × 125 mm. Massa calculada por par: 10.6 g contra 55.8 g, aproximadamente 19% da massa do aço (81% menos), considerando densidades de 2.70 e 7.9 g/cm³, respectivamente. Esta opção não está incluída no custo total.
-
 | Item | Dimensões | Qtd. | Localização | Comprar nos EUA | Preço unitário (EUA) | Comprar nos EUA | Preço unitário (EUA) | Comprar na UE | Preço unitário (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rolamento de esferas 6812 | 60 × 78 × 10 mm | 2 | Rotação da base, uma por braço do robô | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Rolamento flangeado MF106ZZ | 6 × 10 × 3 mm | 2 | Estrutura principal da garra | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
 | Haste (Haste redonda de aço inoxidável, 6mm diâmetro, comprimento 125mm) | Ø 6 × 125 mm, carbono ou aço | 2 | Guias da garra | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
+| Tubo guia de alumínio, alternativa | Ø6 × 4 × 125 mm; cortar 1 × 300 mm em 2 × 125 mm; remover rebarbas | 2 | Alternativa às hastes de guia de aço do prendedor | [Walmart](https://www.walmart.com/ip/212960448) | $10.19 / 3 × 300 mm | — | — | — | — | $3.40 (alternativa) |
 | Tubo de carbono (Tubo de carbono, 6mm x 4mm x 125mm), alternativa | Ø6 × 4 × 125 mm | 2 | Alternativa às hastes de guia de aço do prendedor | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternativa) |
-| Tubo guia de alumínio | Ø6 × 4 × 125 mm | 2 | Guias da garra | — | — | — | — | — | — | — |
 | Grampo tipo C | 3 polegadas, abertura 0–75 mm | 4 | Dois por braço de robô, para fixar a base à mesa | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **Total** |  |  |  |  |  |  |  |  |  | **$37.76** |
 
