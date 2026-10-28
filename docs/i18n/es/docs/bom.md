@@ -17,8 +17,6 @@ Las cantidades son para un kit completo: un brazo robot seguidor y un brazo robo
 <a id="estimated-kit-cost"></a>
 ## Costo estimado del equipo
 
-> Las cifras siguientes conservan la estimación anterior con varillas de acero. Los tubos guía de aluminio requieren una nueva cotización; estos totales no son un precio confirmado del kit con aluminio.
-
 **Un brazo robot líder + un brazo robot seguidor: $340 en componentes, o $374 incluyendo material de impresión.**
 
 | Categoría | Costo de las cantidades utilizadas (USD) | Comprar paquetes completos / carretes (USD) |
@@ -78,12 +76,15 @@ Totales: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V
 <a id="mechanical-parts"></a>
 ## Piezas mecánicas
 
+Los tubos opcionales de aluminio Ø6 × 4 × 125 mm sustituyen las varillas macizas de acero Ø6 × 125 mm. Masa calculada por par: 10.6 g frente a 55.8 g, aproximadamente el 19% de la masa del acero (81% menos), suponiendo densidades de 2.70 y 7.9 g/cm³ respectivamente. Esta opción no se incluye en el coste total.
+
 | Artículo | Tamaño | Cant. | Ubicación | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en EE. UU. | Precio unitario (EE. UU.) | Comprar en la UE | Precio unitario (UE) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Rodamiento de bolas 6812 | 60 × 78 × 10 mm | 2 | Rotación de la base, una por brazo del robot | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Cojinete de brida MF106ZZ | 6 × 10 × 3 mm | 2 | Bastidor principal de la pinza | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Tubo guía de aluminio | Ø6 × 4 × 125 mm | 2 | Guías de la pinza | — | Solicitar cotización | — | Solicitar cotización | — | Solicitar cotización | — |
+| Varilla (Varilla redonda de acero inoxidable, 6mm diámetro, longitud 125mm) | Ø6 × 125 mm, carbono o acero | 2 | Guías de la pinza | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | Tubo de carbono (Tubo de carbono, 6mm x 4mm x 125mm), alternativa | Ø6 × 4 × 125 mm | 2 | Alternativa a las barras guía de acero | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternativa) |
+| Tubo guía de aluminio | Ø6 × 4 × 125 mm | 2 | Guías de la pinza | — | — | — | — | — | — | — |
 | Abrazadera en C | 3 pulgadas, 0–75 mm apertura | 4 | Dos por brazo robot, para fijar la base a la mesa | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **Total** |  |  |  |  |  |  |  |  |  | **$37.76** |
 

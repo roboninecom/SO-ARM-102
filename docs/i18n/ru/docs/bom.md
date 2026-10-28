@@ -17,8 +17,6 @@
 <a id="estimated-kit-cost"></a>
 ## Расчётная стоимость комплекта
 
-> Ниже сохранён прежний расчёт стоимости со стальными направляющими. Для алюминиевых трубок нужно новое предложение; эти итоги не являются подтверждённой ценой комплекта с алюминием.
-
 **Одна ведущая и одна ведомая рука: $340 на комплектующие или $374 с материалом для печати.**
 
 | Категория | Стоимость использованного количества (USD) | Закупка полных упаковок / катушек (USD) |
@@ -78,12 +76,15 @@
 <a id="mechanical-parts"></a>
 ## Механические детали
 
+Алюминиевые трубки Ø6 × 4 × 125 mm — опциональная замена сплошных стальных стержней Ø6 × 125 mm. Расчётная масса пары: 10.6 г против 55.8 г, около 19% массы стали (на 81% меньше), при плотностях 2.70 и 7.9 г/см³ соответственно. Эта опция не включена в итоговую стоимость.
+
 | Позиция | Размер | Кол-во | Расположение | Купить в США | Цена за единицу (США) | Купить в США | Цена за единицу (США) | Купить в ЕС | Цена за единицу (ЕС) | Итого (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Шарикоподшипник 6812 | 60 × 78 × 10 mm | 2 | Поворот основания, по одному на руку | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Фланцевый подшипник MF106ZZ | 6 × 10 × 3 mm | 2 | Основная рама захвата | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Алюминиевая направляющая трубка | Ø6 × 4 × 125 mm | 2 | Направляющие захвата | — | Запросить цену | — | Запросить цену | — | Запросить цену | — |
+| Направляющая (круглый стержень из нержавеющей стали, диаметр 6mm, длина 125mm) | Ø6 × 125 mm, карбон или сталь | 2 | Направляющие захвата | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | Карбоновая трубка (6mm x 4mm x 125mm), альтернатива | Ø6 × 4 × 125 mm | 2 | Альтернатива стальным направляющим захвата | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (альтернатива) |
+| Алюминиевая направляющая трубка | Ø6 × 4 × 125 mm | 2 | Направляющие захвата | — | — | — | — | — | — | — |
 | Струбцина | 3 дюйма, раскрытие 0–75 mm | 4 | По две на руку для крепления основания к столу | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **Итого** |  |  |  |  |  |  |  |  |  | **$37.76** |
 

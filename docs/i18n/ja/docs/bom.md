@@ -17,8 +17,6 @@
 <a id="estimated-kit-cost"></a>
 ## 予測キットコスト
 
-> 以下の費用は、従来の鋼製ガイドロッドを使用した見積もりです。アルミ製ガイドチューブには新たな見積もりが必要であり、この合計はアルミ仕様キットの確定価格ではありません。
-
 **１本のリーダーロボットアーム＋１本のフォローアーム： $340 コンポーネントにも $374 印刷材料も含めて
 
 | 分類 | 使用量コスト（米ドル） | フルパック/スプールを購入 (USD) |
@@ -78,12 +76,15 @@
 <a id="mechanical-parts"></a>
 ## 機械部品
 
+オプションのアルミチューブ Ø6 × 4 × 125 mm は、中実鋼製ロッド Ø6 × 125 mm の代替です。一組の計算質量は鋼の 55.8 g に対して 10.6 g で、約 19%（81% 軽量）です。密度はそれぞれアルミ 2.70、鋼 7.9 g/cm³ と仮定しています。このオプションは合計費用に含まれません。
+
 | 品目 | 寸法 | 数量 | 使用箇所 | 米国で購入 | 単価（米国） | 米国で購入 | 単価（米国） | EUで購入 | 単価（EU） | 合計 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 玉軸受 6812 | 60 × 78 × 10 mm | 2 | ベース回転 ロボットアームごとに一つ | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | フランジ軸受 MF106ZZ | 6 × 10 × 3 mm | 2 | グリッパーのメインフレーム | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| アルミ製ガイドチューブ | Ø6 × 4 × 125 mm | 2 | グリッパーガイド | — | 要見積もり | — | 要見積もり | — | 要見積もり | — |
+| ロッド (ステンレス鋼丸棒、直径 6mm、長さ 125mm) | Ø6×125 mm、炭素または鋼 | 2 | グリッパーのガイド | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | カーボンチューブ (カーボンチューブ, 6mm x 4mm x 125mm), 代替 | Ø6 × 4 × 125 mm | 2 | 鋼製グリップガイドロッドの代替品 | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (代替) |
+| アルミ製ガイドチューブ | Ø6 × 4 × 125 mm | 2 | グリッパーガイド | — | — | — | — | — | — | — |
 | Cクランプ | 3インチ、0-75 mm開口 | 4 | ロボットアームごとに２つ テーブルの基礎を固定する | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **合計** |  |  |  |  |  |  |  |  |  | **$37.76** |
 

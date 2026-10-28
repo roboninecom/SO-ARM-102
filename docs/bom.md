@@ -9,8 +9,6 @@ Printed parts are listed separately in [printing.md](printing.md).
 
 ## Estimated kit cost
 
-> Cost figures below retain the previous steel-rod estimate. Aluminium guide tubes require a new quote; these totals are not a confirmed aluminium-kit price.
-
 **One leader + one follower: $340 in components, or $374 including printing material.**
 
 | Category | Cost of quantities used (USD) | Buy full packs / spools (USD) |
@@ -76,12 +74,15 @@ Totals: 6 × STS3215 7.4V, 2 × STS3215 12V, 2 × STS3235 12V, 2 × STS3250 12V.
 
 ## Mechanical parts
 
+Optional aluminium tubes Ø6 × 4 × 125 mm replace the solid steel rods Ø6 × 125 mm. Calculated mass per pair: 10.6 g versus 55.8 g, approximately 19% of the steel mass (81% less), assuming densities of 2.70 and 7.9 g/cm³ respectively. This option is excluded from the cost totals.
+
 | Item | Size | Qty | Where | Buy US | Unit cost (US) | Buy US | Unit cost (US) | Buy EU | Unit cost (EU) | Total (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Ball bearing 6812 | 60 × 78 × 10 mm | 2 | Base rotation, one per arm | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | Flanged bearing MF106ZZ | 6 × 10 × 3 mm | 2 | Gripper main frame | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| Aluminium guide tube | Ø6 × 4 × 125 mm | 2 | Gripper guides | — | Quote required | — | Quote required | — | Quote required | — |
+| Rod (Stainless Steel Round Rod, 6mm Diameter, Length 125mm) | Ø6 × 125 mm, carbon or steel | 2 | Gripper guides | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | Carbon tube (Carbon tube, 6mm x 4mm x 125mm), alternative | Ø6 × 4 × 125 mm | 2 | Alternative to steel gripper guide rods | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60 (alternative) |
+| Aluminium guide tube | Ø6 × 4 × 125 mm | 2 | Gripper guides | — | — | — | — | — | — | — |
 | C-clamp | 3 inch, 0–75 mm opening | 4 | Two per arm, to fix the base to the table | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **Total** | | | | | | | | | | **$37.76** |
 

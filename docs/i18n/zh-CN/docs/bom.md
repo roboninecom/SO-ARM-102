@@ -17,8 +17,6 @@
 <a id="estimated-kit-cost"></a>
 ## 估计费用
 
-> 以下费用保留此前采用钢制导杆的估算。铝制导向管需要重新报价；这些总额并非铝制方案套件的已确认价格。
-
 ** 一个领导机器人臂 + 一个跟踪机器人臂: $340 组件,或 $374 包括印刷材料。
 
 | 类别 | 使用数量的成本(美元) | 购买完整包装/卷轴 (USD) |
@@ -78,12 +76,15 @@
 <a id="mechanical-parts"></a>
 ## 机械零件
 
+可选铝管 Ø6 × 4 × 125 mm 可替代实心钢杆 Ø6 × 125 mm。每对的计算质量为 10.6 g，而钢杆为 55.8 g，约为钢杆质量的 19%（减轻 81%），分别按密度 2.70 和 7.9 g/cm³ 计算。此选项不计入总成本。
+
 | 项目 | 尺寸 | 数量 | 位置 | 美国采购 | 单价（美国） | 美国采购 | 单价（美国） | 欧盟采购 | 单价（欧盟） | 总计 (USD) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 球轴承 6812 | 60 × 78 × 10 mm | 2 | 基座旋转,每个机器人臂一个 | [Amazon](https://www.amazon.com/Othmro-6812-2RS-60x78x10mm-Accuracy-Bearing/dp/B081W9QL2Z/) | $5.90 | [Aliexpress](https://www.aliexpress.us/item/3256812369319030.html) | $39.60 / 2 | [Amazon EU](https://www.amazon.fr/-/en/XYWHPGV-6812-2RS-Groove-Bearings-Chrome/dp/B0CQLT6J6D/) | €7.40 / 2 | $11.80 |
 | 法兰轴承 MF106ZZ | 6 × 10 × 3 mm | 2 | 夹爪主框架 | [Amazon](https://www.amazon.com/METERXITY-Shielded-Bearings-Wheelbarrow-Machines/dp/B0F4QXJSRQ/) | $6.60 / 4 | [Aliexpress](https://www.aliexpress.us/item/3256807821523719.html) | $6.00 / 10 | [Amazon EU](https://www.amazon.fr/-/en/PRECISCRY-DE-SGQ-FLZC-11-MF128ZZ-8x12x3-5-5Pcs/dp/B0GQK9BGWK/) | €11.60 / 5 | $1.20 |
-| 铝制导向管 | Ø6 × 4 × 125 mm | 2 | 夹爪导向管 | — | 需询价 | — | 需询价 | — | 需询价 | — |
+| 棒材(不锈钢圆棒,直径6mm,长度125mm) | Ø6×125 mm，碳或钢 | 2 | 夹爪导杆 | [Amazon](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9?th=1) | $11.90 / 5 | [Aliexpress](https://www.aliexpress.us/item/3256805290944526.html) | $2.80 | [Amazon EU](https://www.amazon.fr/-/en/SKYPRO-Stainless-Diameter-Industry-Metalworking/dp/B0CLCSWSJ9/) | €14.40 / 5 | $4.76 |
 | 碳管（碳管，6mm x4mm x125mm），替代品 | Ø6 × 4 × 125 mm | 2 | 钢制夹具导向杆的替代品 | [Amazon](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL/) | $5.60 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256812851232051.html) | $5.90 / 2 | [Amazon EU](https://www.amazon.fr/-/en/QUARKZMAN-Carbon-Fiber-Tubes-Aircraft/dp/B0CZQVN7JB/) | €8.10 / 2 | $5.60(备选) |
+| 铝制导向管 | Ø6 × 4 × 125 mm | 2 | 夹爪导向管 | — | — | — | — | — | — | — |
 | C型夹具 | 3英寸，0-75 mm开口 | 4 | 每个机器人手臂两个,用于将底座固定在桌子上 | [Amazon](https://www.amazon.com/Inch-Clamp-Woodworking-Precision-Carpentry/dp/B0FLHZVM7G/) | $10.00 / 2 | [Aliexpress](https://www.aliexpress.us/item/3256813098676278.html) | $9.70 | [Amazon EU](https://www.amazon.fr/Performance-75mm-Adjustable-Stainless-Metalworking/dp/B0GSQL9BCN/) | €17.40 / 2 | $20.00 |
 | **总计** |  |  |  |  |  |  |  |  |  | **$37.76** |
 
