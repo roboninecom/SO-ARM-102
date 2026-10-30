@@ -4,8 +4,6 @@
 [English](i18n/en/docs/printing.md) · [Русский](i18n/ru/docs/printing.md) · [Español](i18n/es/docs/printing.md) · [Français](i18n/fr/docs/printing.md) · [Deutsch](i18n/de/docs/printing.md) · [Português (Brasil)](i18n/pt-BR/docs/printing.md) · [简体中文](i18n/zh-CN/docs/printing.md) · [日本語](i18n/ja/docs/printing.md) · [हिन्दी](i18n/hi/docs/printing.md) · [العربية](i18n/ar/docs/printing.md)
 <!-- /documentation-languages -->
 
-> Revision check: the gripper 3MF labels its clamps `RB9.01.062.024`, while the current STEP/STL part list uses `RB9.01.062.025`. Verify the geometry revision before printing; the labels alone do not establish whether the meshes differ.
-
 Every printed part of the SO-ARM 102 kit is in [`../models/stl/`](../models/stl/).
 The editable CAD sources with the same names are in [`../models/step/`](../models/step/).
 
@@ -21,15 +19,14 @@ All parts fit a 180 × 180 mm bed. The largest part, the base, is 160 × 112.5 m
 
 | Where | Material | Why |
 |---|---|---|
-| Arm links and servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
-| Gripper clamps, covers, leader handle and trigger | PETG or PET-CF | Tougher against knocks |
+| Follower arm links and servo holders | PET-CF, annealed if possible | Stiffest and most heat-resistant option tested near warm servos |
+| Follower gripper and base | PETG-CF | Tougher against knocks |
+| Leader | PLA+ | Optimal cheap material |
 
 The prototype was printed in **Fiberon PET-CF17**. In our filament tests, annealing cut PET-CF17
 deflection after one hour at 65–70 °C from 3.4 mm to 0.3 mm. Annealing also makes the part more brittle,
 so do not anneal parts that take impacts. Details:
 [Choosing a filament for robotic arms](https://robonine.com/choosing-filament-for-robotic-arm-applications/).
-
-The leader arm carries no load, so PLA should be enough for it. This has not been tested yet.
 
 ## 3MF slicer projects
 
@@ -39,32 +36,18 @@ printer and filament, then slice and review the support preview.
 
 | Project | Saved filament profile | Layer height | Walls | Top / bottom layers | Infill | Weight | Time |
 |---|---|---|:-:|:-:|---|:-:|:-:|
-| [Leader](../models/3mf/SO102_leader.3mf) | Bambu PETG-CF | 0.20 mm | 3 | 5 / 4 | 15 % gyroid | 457 gr | 23 h |
-| [Follower arms](../models/3mf/SO102_follower_arms.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 394 gr | 15,5 h |
-| [Follower gripper and base](../models/3mf/SO102_follower_gripper_base.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 287 gr | 14 h |
-
-With these settings you will need: Fiberon PET-CF17 394 gr, Bambu PETG-CF 744 gr.
+| [Follower arm links](../models/3mf/SO102.1.01_Follower_table_arm_links_PET-CF.3mf.3mf) | Fiberon PET-CF17 | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 394 gr | 15,5 h |
+| [Follower gripper and base](../models/3mf/SO102.2.01_Follower_table_base_PETG-CF.3mf) | Bambu PETG-CF | 0.20 mm | 6 | 6 / 6 | 30 % cubic | 287 gr | 14 h |
+| [Leader](../models/3mf/SO102.3.01_Leader_table_PLA+.3mf) | Bambu PLA+ | 0.20 mm | 3 | 5 / 4 | 15 % gyroid | 457 gr | 23 h |
 
 All three save a **Bambu Lab A1, 0.4 mm nozzle** profile on a **256 × 256 mm** bed.
 Individual parts still fit a 180 × 180 mm bed, but the supplied layouts need to be split
 across more plates for that size. Automatic tree supports are the global default;
 some parts have support overrides, manual support settings or support blockers.
 
-| Leader layout | Follower arms | Follower gripper and base |
+| Leader layout | Follower arm links | Follower gripper and base |
 |:-:|:-:|:-:|
 | ![Leader slicer layout](../assets/images/3d%20print/leader_3dprint_layout.png) | ![Follower arms](../assets/images/3d%20print/follower_3dprint_layout.png) | ![Follower gripper and base](../assets/images/3d%20print/gripper_3dprint.png) |
-
-## Test-arm slicer settings
-
-These are the settings the test arms were printed with. The supplied 3MF projects above
-use different profiles; re-slice them to get filament and print-time estimates.
-
-| Setting | Value |
-|---|---|
-| Walls | 4 |
-| Top and bottom layers | 4 |
-| Infill | 25 % gyroid |
-| Supports | Yes, as needed |
 
 For the gripper gear and gear racks use 100 % infill.
 
@@ -95,9 +78,9 @@ Quantities are for one complete kit: one follower and one leader.
 | SO102.02.080 | Upper arm left | 2 |
 | SO102.02.080-01 | Upper arm right | 2 |
 | SO102.02.090 | Wrist holder | 2 |
-| SO102.02.110 | Board holder leader | 2 |
-| SO102.02.110-01 | Board cap leader | 2 |
-| SO102.02.130 | Cable snap | 4 |
+| SO102.02.101 | Board holder | 2 |
+| SO102.02.101-01 | Board cap | 2 |
+| SO102.02.130 | Cable snap | 2 |
 
 ### Follower only
 
@@ -120,6 +103,7 @@ Quantities are for one complete kit: one follower and one leader.
 |---|---|:-:|
 | — | SO102 Handle | 1 |
 | — | SO102 Trigger | 1 |
+| — | SO102 Washer | 1 |
 | — | SO102 Wrist roll | 1 |
 
 ## About the STL files
