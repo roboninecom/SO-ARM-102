@@ -23,7 +23,7 @@ Building on SO-ARM 100 and 101, it combines a stiffer PET-CF frame with a parall
 
 📩 [hello@robonine.com](mailto:hello@robonine.com)
 
-**DIY budget: ~$340 for components, or ~$374 including printing material.**
+**DIY budget: ~$342 for components, or ~$388 including printing material.**
 [BOM summary](#bill-of-materials) · [Itemised costs and purchase links](docs/bom.md#estimated-kit-cost)
 
 > Rather not source the parts and print them yourself? **[Buy the SO-ARM 102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
@@ -97,8 +97,8 @@ Individual parts fit a 180 × 180 mm bed. The largest part is 160 mm long.
 The supplied 3MF plate layouts use a 256 × 256 mm bed.
 
 - 3MF slicer projects with saved orientation and support settings: [`models/3mf/`](models/3mf/)
-  — [leader](models/3mf/SO102_leader.3mf), [follower arms](models/3mf/SO102_follower_arms.3mf),
-  [Follower gripper and base](models/3mf/SO102_follower_gripper_base.3mf)
+  — [leader](models/3mf/SO102.3.01_Leader_table_PLA+.3mf), [follower arm links](models/3mf/SO102.1.01_Follower_table_arm_links_PET-CF.3mf),
+  [follower gripper and base](models/3mf/SO102.2.01_Follower_table_base_PETG-CF.3mf)
 - Project contents and printer profiles: [models/README.md](models/README.md)
 - STL files, ready to slice: [`models/stl/`](models/stl/)
 - STEP sources: [`models/step/`](models/step/)
@@ -107,8 +107,8 @@ The supplied 3MF plate layouts use a 256 × 256 mm bed.
 ### 2. Buy the hardware
 
 Source the components from the [BOM summary](#bill-of-materials) and
-[full BOM with purchase links](docs/bom.md). Budget **$340.22** for components,
-or **$373.97** including printing material, before shipping and taxes.
+[full BOM with purchase links](docs/bom.md). Budget **$342.4** for components,
+or **$388.4** including printing material, before shipping and taxes.
 
 | Arm | Servos | Controller | Power |
 |---|---|---|---|
@@ -138,15 +138,15 @@ Quantities and reference costs for **one leader + one follower**:
 
 | Category / purchase links | Kit contents | Total (USD) |
 |---|---|---:|
-| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.72 |
-| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.50 |
-| [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $37.76 |
-| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.24 |
-| **Components subtotal** | | **$340.22** |
-| [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.75 kg PETG allowance | $33.75 |
-| **Total with printing material** | | **$373.97** |
+| [Servos](docs/bom.md#servos) | 6 × STS3215 7.4 V, 2 × STS3215 12 V, 2 × STS3235, 2 × STS3250 | $240.7 |
+| [Electronics](docs/bom.md#electronics) | 2 controllers, 2 power supplies, 2 USB cables, 1 wrist camera | $50.5 |
+| [Mechanical parts](docs/bom.md#mechanical-parts) | 4 bearings, 2 steel guide rods, 4 table clamps | $40.0 |
+| [Fasteners](docs/bom.md#fasteners) | Screws and nuts; specified servo-kit screws included | $11.2 |
+| **Components subtotal** | | **$342.4** |
+| [Printing material](docs/bom.md#printing-materials) | 0.4 kg PET-CF17 + 0.3 kg PETG-CF + 0.5 kg PLA+ | $46.0 |
+| **Total with printing material** | | **$388.4** |
 
-Buying the example full packs and filament spools from scratch costs about **$435**,
+Buying the example full packs and filament spools from scratch costs about **$430**,
 including unused spares. These are reference estimates, not new supplier quotes.
 Shipping, taxes, tools, a computer, a printer, electricity and assembly labour are excluded.
 Confirm supplier prices, variants and minimum order quantities before ordering;
@@ -164,7 +164,7 @@ Keep `meshes/` beside the description files; mesh paths are relative to this fol
 
 - **Visuals:** STL meshes. **Collisions:** fitted, independently rotated boxes on all eight links.
 - **Mass estimate:** PLA, 30% infill, 6 perimeters, 6 top/bottom layers,
-  0.2 mm layer height, and **0.40 mm extrusion width**. These are simulation
+  0.2 mm layer height, and **0.4 mm extrusion width**. These are simulation
   assumptions; use [the printing guide](docs/printing.md) for fabrication settings.
 - **Hardware masses:** six motors at 70 g each; base bearing at 105 g.
   Total estimated model mass: **0.889 kg**.
@@ -210,7 +210,7 @@ Build notes from independent testing; check these when assembling.
 3. **The gripper clamps run tight on carbon rods.** The clamp bores are sized for 6.1 mm. Rod diameters vary between suppliers, so check the fit before assembly.
 4. **Check the servo cable lengths** before closing each joint, especially from the base to the shoulder.
 5. **The assembly order is awkward in two places** of the booklet. Read two steps ahead before fastening.
-6. **Leader joints can feel loose.** Adding 8 × 2 mm rubber O-rings between each servo and its horn gives the leader smooth, silent friction. Use two per servo on joints 1–4 and one on joints 5–6.
+6. **Leader joints can feel loose.** Adding 8 × 2 mm rubber O-rings between each servo and its horn gives the leader smooth, silent friction. Use two per servo on joints 2–4 and one on joints 1, 5, 6.
 
 Found something else? Please [open an issue](https://github.com/roboninecom/SO-ARM-102/issues).
 
